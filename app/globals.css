@@ -1,26 +1,60 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
+@layer base {
   :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+    --font-plus-jakarta: "Plus Jakarta Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    --brand-primary: #0c3746;
+    --brand-orange: #f15b2a;
+    --brand-purple: #584a93;
+    --brand-cream: #f4f6e1;
+  }
+
+  html, body {
+    margin: 0;
+    padding: 0;
+    background-color: #f4f6e1;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    font-family: var(--font-plus-jakarta), system-ui, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-plus-jakarta), system-ui, sans-serif;
   }
 }
 
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+@keyframes float-slow {
+  0%, 100% {
+    transform: translateY(0px) rotate(-6deg);
+  }
+  50% {
+    transform: translateY(-12px) rotate(-3deg);
+  }
+}
+
+@keyframes crown-bob {
+  0%, 100% {
+    transform: translateY(0px) rotate(12deg);
+  }
+  50% {
+    transform: translateY(-5px) rotate(14deg);
+  }
+}
+
+.animate-float {
+  animation: float-slow 4.5s ease-in-out infinite;
+}
+
+.animate-crown {
+  animation: crown-bob 3.5s ease-in-out infinite;
+}
+
+.font-figma-heading {
+  font-family: var(--font-plus-jakarta), system-ui, sans-serif;
+}
+
+.font-figma-copy {
+  font-family: var(--font-plus-jakarta), system-ui, sans-serif;
 }
