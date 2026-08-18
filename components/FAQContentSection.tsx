@@ -15,97 +15,115 @@ export const faqList: FAQItem[] = [
     id: 1,
     question: "Does my child need a diagnosis before contacting Learning Lab?",
     answer:
-      "Our team provides practical consultation around individual children, classrooms and primary level learning environments. Support is tailored to the school's concern rather than delivered as a generic package.",
+      "No. Many parents contact us because they have noticed a concern but do not yet know what it means. We can begin with a free introductory call and guide you towards consultation, assessment or the most suitable service.",
   },
   {
     id: 2,
     question: "What age group does Learning Lab support?",
-    answer: "",
+    answer:
+      "Our child-focused therapies, assessments, learning support and enrichment programmes are available for children up to 15 years old.",
   },
   {
     id: 3,
     question: "What happens after I contact you?",
-    answer: "",
+    answer:
+      "Our team first speaks with you to understand the concern. A parent-only consultation is then arranged when appropriate. Consultation and assessment findings help us recommend the next step.",
   },
   {
     id: 4,
     question: "Is the introductory call free?",
-    answer: "",
+    answer:
+      "Yes. The introductory call is free and may take approximately 5 to 30 minutes, depending on the concern. It is intended to understand your enquiry and explain the next step.",
   },
   {
     id: 5,
     question: "Do you provide online therapy?",
-    answer: "",
+    answer:
+      "In-person therapy is currently provided at our Karachi centre. Online parent consultations, teacher training and school consultancy are available worldwide.",
   },
   {
     id: 6,
     question: "What is the difference between Behavioural Therapy and ABA Therapy?",
-    answer: "",
+    answer:
+      "Behavioural Therapy provides practical support for behaviour, routines, regulation and communication. ABA is a more structured, data-led programme using specific teaching goals. The team recommends the approach that best fits the child’s assessed needs.",
   },
   {
     id: 7,
     question: "How do I know which therapy my child needs?",
-    answer: "",
+    answer:
+      "Parents are not expected to decide alone. We begin with consultation and, where needed, assessment so the team can recommend an appropriate service or combination of services.",
   },
   {
     id: 8,
     question: "How long is a therapy session?",
-    answer: "",
+    answer:
+      "Most sessions are approximately 45 to 60 minutes. The recommended duration and frequency depend on the child’s plan.",
   },
   {
     id: 9,
     question: "How often are sessions available?",
-    answer: "",
+    answer:
+      "Sessions may be scheduled on weekdays according to the child’s plan, therapist availability and agreed frequency.",
   },
   {
     id: 10,
     question: "How are parents updated?",
-    answer: "",
+    answer:
+      "Parents receive communication through a dedicated WhatsApp group, photographs or short video updates after sessions, verbal summaries where appropriate and every two weeks progress discussions.",
   },
   {
     id: 11,
     question: "How often is progress formally reviewed?",
-    answer: "",
+    answer:
+      "Formal progress reviews and written reports are generally completed every three to six months. Parents can request an earlier review when a concern needs attention.",
   },
   {
     id: 12,
     question: "Can parents observe sessions?",
-    answer: "",
+    answer:
+      "Parents may observe from outside the therapy room. This helps the child participate with the therapist while maintaining transparency for the family.",
   },
   {
     id: 13,
     question: "Do you work with schools?",
-    answer: "",
+    answer:
+      "Yes. With parental consent, Learning Lab can coordinate with schools, support IEP planning, provide teacher guidance and arrange a school visit when required.",
   },
   {
     id: 14,
     question: "Do you provide assessment reports?",
-    answer: "",
+    answer:
+      "Formal assessments include a written report and a separate parent feedback meeting. Informal assessments guide planning but may not include a formal written report.",
   },
   {
     id: 15,
-    question: "Do you provide progress reports?",
-    answer: "",
+    question: "Do you guarantee therapy results?",
+    answer:
+      "No responsible professional can guarantee a particular result or fixed timeline. Every child responds differently. We commit to ethical practice, clear goals, regular communication and ongoing review.",
   },
   {
     id: 16,
     question: "Are enrichment programmes only for children in therapy?",
-    answer: "",
+    answer:
+      "No. Enrichment programmes are open to neurodiverse and neurotypical children, including those who are not enrolled in therapy.",
   },
   {
     id: 17,
     question: "Are teacher training programmes available internationally?",
-    answer: "",
+    answer:
+      "Yes. Live online training and school consultancy can be arranged worldwide. Scheduled courses follow fixed dates, while organised groups may request a separate arrangement.",
   },
   {
     id: 18,
     question: "What are your opening hours?",
-    answer: "",
+    answer:
+      "Learning Lab is open Monday to Friday from 10:00 AM to 6:00 PM.",
   },
   {
     id: 19,
     question: "Where are you located?",
-    answer: "",
+    answer:
+      "Learning Lab is located at 201, 2nd Floor, Prime Tower, 5 Zulfiqar Avenue, DHA Phase 8, Zulfiqar and Al Murtaza Commercial Area, Karachi 75500",
   },
 ];
 
