@@ -20,7 +20,7 @@ export default function FAQPage() {
         <div className="max-w-[1280px] mx-auto px-4 sm:px-6 lg:px-8 text-center relative z-10">
           
           {/* Main Hero Headline */}
-          <h1 className="text-[32px] sm:text-[42px] lg:text-[48px] xl:text-[54px] 2xl:text-[60px] font-extrabold text-white leading-[1.18] tracking-tight max-w-[960px] mx-auto">
+          <h1 className="text-[32px] sm:text-[42px] lg:text-[48px] font-extrabold text-white leading-[1.18] tracking-tight max-w-[880px] mx-auto">
             Frequently Asked Questions
           </h1>
 

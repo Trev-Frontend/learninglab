@@ -37,7 +37,7 @@ export default function KinderCrateContentSection() {
           <div className="lg:col-span-6 flex flex-col justify-center">
             
             {/* Headline */}
-            <h2 className="text-[24px] sm:text-[28px] lg:text-[34px] xl:text-[40px] 2xl:text-[46px] font-extrabold text-[#0c3746] leading-[1.25] tracking-tight">
+            <h2 className="text-[24px] sm:text-[28px] lg:text-[32px] font-extrabold text-[#0c3746] leading-[1.25] tracking-tight">
               Skills{" "}
               <span className="relative inline-block">
                 children
@@ -60,7 +60,7 @@ export default function KinderCrateContentSection() {
             </h2>
 
             {/* Checkmark Bullet Points */}
-            <ul className="mt-6 space-y-3.5 text-[13px] sm:text-[14px] lg:text-[15.5px] xl:text-[17px] 2xl:text-[18.5px] text-[#475b65] font-medium leading-[1.65]">
+            <ul className="mt-6 space-y-3.5 text-[13px] sm:text-[14px] text-[#566e7a] font-medium leading-[1.6]">
               <li className="flex items-start gap-3">
                 <span className="flex-shrink-0 w-4 h-4 bg-[#5b4bbb] text-white rounded-full flex items-center justify-center text-[10px] mt-0.5">
                   <Check className="w-2.5 h-2.5 stroke-[3]" />
@@ -83,19 +83,25 @@ export default function KinderCrateContentSection() {
                 <span className="flex-shrink-0 w-4 h-4 bg-[#5b4bbb] text-white rounded-full flex items-center justify-center text-[10px] mt-0.5">
                   <Check className="w-2.5 h-2.5 stroke-[3]" />
                 </span>
-                <span>Fine motor and hand-eye coordination</span>
+                <span>Art and creative expression</span>
               </li>
               <li className="flex items-start gap-3">
                 <span className="flex-shrink-0 w-4 h-4 bg-[#5b4bbb] text-white rounded-full flex items-center justify-center text-[10px] mt-0.5">
                   <Check className="w-2.5 h-2.5 stroke-[3]" />
                 </span>
-                <span>Sensory exploration and creative expression</span>
+                <span>Fine motor development</span>
               </li>
               <li className="flex items-start gap-3">
                 <span className="flex-shrink-0 w-4 h-4 bg-[#5b4bbb] text-white rounded-full flex items-center justify-center text-[10px] mt-0.5">
                   <Check className="w-2.5 h-2.5 stroke-[3]" />
                 </span>
-                <span>Observation and problem solving</span>
+                <span>Everyday learning and academic concepts</span>
+              </li>
+              <li className="flex items-start gap-3">
+                <span className="flex-shrink-0 w-4 h-4 bg-[#5b4bbb] text-white rounded-full flex items-center justify-center text-[10px] mt-0.5">
+                  <Check className="w-2.5 h-2.5 stroke-[3]" />
+                </span>
+                <span>Independent and shared activity</span>
               </li>
             </ul>
 
@@ -112,7 +118,7 @@ export default function KinderCrateContentSection() {
           <div className="lg:col-span-6 flex flex-col justify-center order-2 lg:order-1">
             
             {/* Headline */}
-            <h2 className="text-[24px] sm:text-[28px] lg:text-[34px] xl:text-[40px] 2xl:text-[46px] font-extrabold text-[#0c3746] leading-[1.25] tracking-tight">
+            <h2 className="text-[24px] sm:text-[28px] lg:text-[32px] font-extrabold text-[#0c3746] leading-[1.25] tracking-tight">
               Designed for different{" "}
               <span className="relative inline-block">
                 ages
@@ -135,7 +141,7 @@ export default function KinderCrateContentSection() {
             </h2>
 
             {/* Narrative Paragraph */}
-            <p className="mt-5 text-[13px] sm:text-[14px] lg:text-[15.5px] xl:text-[17.5px] 2xl:text-[19px] text-[#475b65] leading-[1.7] font-medium max-w-[620px]">
+            <p className="mt-5 text-[13px] sm:text-[14px] text-[#566e7a] leading-[1.7] font-medium max-w-[540px]">
               KinderCrate products cover a range of subjects and developmental skills for children aged 3 to 12. Packs may be used by parents, teachers and children as purposeful activities at home or in learning environments.
             </p>
 

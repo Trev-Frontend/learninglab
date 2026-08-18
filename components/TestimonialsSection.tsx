@@ -42,7 +42,7 @@ export default function TestimonialsSection() {
         </div>
 
         {/* Headline */}
-        <h2 className="text-[28px] sm:text-[36px] lg:text-[42px] xl:text-[48px] 2xl:text-[54px] font-extrabold text-[#0c3746] leading-[1.2] tracking-tight text-center mt-4">
+        <h2 className="text-[28px] sm:text-[36px] lg:text-[40px] font-extrabold text-[#0c3746] leading-[1.2] tracking-tight text-center mt-4">
           What parents say about their{" "}
           <span className="relative inline-block">
             experience
@@ -118,7 +118,7 @@ export default function TestimonialsSection() {
                   </div>
 
                   {/* Testimonial Quote Content */}
-                  <p className="mt-4 text-[13px] sm:text-[13.5px] lg:text-[14.5px] xl:text-[16px] 2xl:text-[17.5px] text-[#475b65] leading-[1.65] font-medium">
+                  <p className="mt-4 text-[13px] sm:text-[13.5px] text-[#566e7a] leading-[1.6] font-medium">
                     {card.text}
                   </p>
                 </div>
@@ -128,10 +128,10 @@ export default function TestimonialsSection() {
                   <div className="w-full border-b border-dashed border-[#e2e8f0] my-4" />
                   <div className="flex items-center justify-between">
                     <div>
-                      <h4 className="text-[13.5px] xl:text-[15px] 2xl:text-[16.5px] font-bold text-[#0c3746]">
+                      <h4 className="text-[13.5px] font-bold text-[#0c3746]">
                         {card.author}
                       </h4>
-                      <p className="text-[12px] xl:text-[13.5px] text-[#718096] font-medium mt-0.5">
+                      <p className="text-[12px] text-[#718096] font-medium mt-0.5">
                         {card.role}
                       </p>
                     </div>

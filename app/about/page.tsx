@@ -50,17 +50,17 @@ export default function AboutPage() {
         <div className="max-w-[1280px] mx-auto px-4 sm:px-6 lg:px-8 text-center relative z-10">
           
           {/* Main Hero Headline */}
-          <h1 className="text-[32px] sm:text-[42px] lg:text-[48px] xl:text-[54px] 2xl:text-[60px] font-extrabold text-white leading-[1.18] tracking-tight max-w-[960px] mx-auto">
+          <h1 className="text-[32px] sm:text-[42px] lg:text-[48px] font-extrabold text-white leading-[1.18] tracking-tight max-w-[900px] mx-auto">
             A place built around possibility, not exclusion.
           </h1>
 
           {/* Hero Sub-Paragraph 1 */}
-          <p className="mt-5 text-[13.5px] sm:text-[14.5px] lg:text-[15.5px] xl:text-[17.5px] 2xl:text-[19px] text-white/95 leading-[1.65] max-w-[880px] mx-auto font-medium">
+          <p className="mt-5 text-[13.5px] sm:text-[14.5px] text-white/90 leading-[1.65] max-w-[820px] mx-auto font-medium">
             Learning Lab is an inclusive therapy, learning and training centre where children are welcomed as individuals. We support children up to 15 years old through therapy, assessments, remedial support, school readiness, enrichment programmes and personalised learning experiences.
           </p>
 
           {/* Hero Sub-Paragraph 2 */}
-          <p className="mt-4 text-[13.5px] sm:text-[14.5px] lg:text-[15.5px] xl:text-[17.5px] 2xl:text-[19px] text-white/95 leading-[1.65] max-w-[880px] mx-auto font-medium">
+          <p className="mt-4 text-[13.5px] sm:text-[14.5px] text-white/90 leading-[1.65] max-w-[820px] mx-auto font-medium">
             Our work also extends to parents, teachers and schools through consultation, professional training, classroom support and educational programmes.
           </p>
 
@@ -76,7 +76,7 @@ export default function AboutPage() {
           
           {/* Section Headline */}
           <div className="text-center">
-            <h2 className="text-[28px] sm:text-[36px] lg:text-[40px] xl:text-[46px] 2xl:text-[52px] font-extrabold text-[#0c3746] leading-[1.2] tracking-tight">
+            <h2 className="text-[28px] sm:text-[36px] lg:text-[40px] font-extrabold text-[#0c3746] leading-[1.2] tracking-tight">
               Why{" "}
               <span className="relative inline-block">
                 Learning Lab
@@ -99,12 +99,12 @@ export default function AboutPage() {
             </h2>
 
             {/* Intro Paragraph 1 */}
-            <p className="mt-5 text-[13.5px] sm:text-[14.5px] lg:text-[15.5px] xl:text-[17.5px] 2xl:text-[19px] text-[#475b65] max-w-[840px] mx-auto leading-[1.65] font-medium">
+            <p className="mt-5 text-[13.5px] sm:text-[14px] text-[#566e7a] max-w-[780px] mx-auto leading-[1.65] font-medium">
               Learning Lab Global Facilitation Pvt. Ltd. was established in July 2024 with a clear purpose: to create a place where children with diverse needs can build skills, participate in meaningful activities and access opportunities that are too often closed to them.
             </p>
 
             {/* Intro Paragraph 2 */}
-            <p className="mt-3.5 text-[13.5px] sm:text-[14.5px] lg:text-[15.5px] xl:text-[17.5px] 2xl:text-[19px] text-[#475b65] max-w-[840px] mx-auto leading-[1.65] font-medium">
+            <p className="mt-3.5 text-[13.5px] sm:text-[14px] text-[#566e7a] max-w-[780px] mx-auto leading-[1.65] font-medium">
               Families are frequently told that a child is not ready, does not fit or cannot be accommodated. Learning Lab was created to begin from a different question: what does this child need in order to participate, learn and grow?
             </p>
           </div>
@@ -136,12 +136,12 @@ export default function AboutPage() {
                 </div>
 
                 {/* Title */}
-                <h3 className="text-[20px] sm:text-[22px] xl:text-[24px] 2xl:text-[26px] font-bold text-[#0c3746] mt-6 tracking-tight">
+                <h3 className="text-[20px] sm:text-[22px] font-bold text-[#0c3746] mt-6 tracking-tight">
                   {pillar.title}
                 </h3>
 
                 {/* Description */}
-                <p className="mt-2.5 text-[13px] sm:text-[13.5px] xl:text-[15.5px] 2xl:text-[17px] text-[#475b65] leading-[1.6] font-medium max-w-[360px]">
+                <p className="mt-2.5 text-[13px] sm:text-[13.5px] text-[#566e7a] leading-[1.6] font-medium max-w-[340px]">
                   {pillar.description}
                 </p>
 

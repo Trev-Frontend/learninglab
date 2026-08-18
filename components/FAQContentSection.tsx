@@ -135,7 +135,7 @@ export default function FAQContentSection() {
                 {/* Header Toggle Row */}
                 <button
                   onClick={() => toggleItem(faq.id)}
-                  className="w-full px-5 sm:px-6 py-4 flex items-center justify-between gap-4 text-left font-bold text-[#0c3746] text-[13.5px] sm:text-[14.5px] lg:text-[15.5px] xl:text-[17px] 2xl:text-[18.5px] leading-snug hover:text-[#f15b2a] transition-colors"
+                  className="w-full px-5 sm:px-6 py-4 flex items-center justify-between gap-4 text-left font-bold text-[#0c3746] text-[13.5px] sm:text-[14.5px] leading-snug hover:text-[#f15b2a] transition-colors"
                 >
                   <span>{faq.question}</span>
                   <span className="flex-shrink-0 w-6 h-6 bg-[#0c3746] text-white rounded-full flex items-center justify-center transition-transform duration-200">
@@ -149,7 +149,7 @@ export default function FAQContentSection() {
 
                 {/* Answer Content Body */}
                 {isOpen && (
-                  <div className="px-5 sm:px-6 pb-5 pt-1 text-[13px] sm:text-[13.5px] lg:text-[14.5px] xl:text-[16px] 2xl:text-[17.5px] text-[#475b65] font-medium leading-[1.65] border-t border-black/5">
+                  <div className="px-5 sm:px-6 pb-5 pt-1 text-[13px] sm:text-[13.5px] text-[#566e7a] font-medium leading-[1.65] border-t border-black/5">
                     {faq.answer ? (
                       <p>{faq.answer}</p>
                     ) : (
@@ -168,7 +168,7 @@ export default function FAQContentSection() {
         <div className="mt-12 sm:mt-14 flex justify-center">
           <Link
             href="/contact"
-            className="inline-flex items-center gap-2 bg-[#f15b2a] hover:bg-[#de4b1a] text-white px-7 xl:px-8 py-3 xl:py-3.5 rounded-full text-[13px] sm:text-[14px] xl:text-[15.5px] 2xl:text-[17px] font-bold shadow-xs hover:shadow-md hover:-translate-y-0.5 transition-all duration-200 group"
+            className="inline-flex items-center gap-2 bg-[#f15b2a] hover:bg-[#de4b1a] text-white px-7 py-3 rounded-full text-[13px] font-bold shadow-xs hover:shadow-md hover:-translate-y-0.5 transition-all duration-200 group"
           >
             <span>Have Question? Contact us</span>
             <ArrowRight className="w-4 h-4 stroke-[2.5] transition-transform group-hover:translate-x-0.5" />

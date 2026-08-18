@@ -110,7 +110,7 @@ export default function OurValuesSection() {
           <div className="lg:col-span-6 relative z-10">
             
             {/* Headline */}
-            <h2 className="text-[28px] sm:text-[34px] lg:text-[38px] xl:text-[44px] 2xl:text-[50px] font-extrabold text-[#0c3746] leading-[1.2] tracking-tight">
+            <h2 className="text-[28px] sm:text-[34px] lg:text-[38px] font-extrabold text-[#0c3746] leading-[1.2] tracking-tight">
               Our{" "}
               <span className="relative inline-block">
                 Values
@@ -139,10 +139,10 @@ export default function OurValuesSection() {
                     <Check className="w-3 h-3 stroke-[2.8]" />
                   </div>
                   <div>
-                    <h3 className="text-[14px] sm:text-[14.5px] xl:text-[16.5px] 2xl:text-[18px] font-bold text-[#0c3746] leading-snug">
+                    <h3 className="text-[14px] sm:text-[14.5px] font-bold text-[#0c3746] leading-snug">
                       {val.title}
                     </h3>
-                    <p className="mt-0.5 text-[12.5px] sm:text-[13px] xl:text-[15px] 2xl:text-[16.5px] text-[#475b65] leading-[1.5] font-medium">
+                    <p className="mt-0.5 text-[12.5px] sm:text-[13px] text-[#566e7a] leading-[1.45] font-medium">
                       {val.description}
                     </p>
                   </div>

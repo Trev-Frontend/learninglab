@@ -18,22 +18,22 @@ export default function Footer() {
         />
       </div>
 
+      {/* Decorative Easter Egg Floating on the Left */}
+      <div className="absolute left-[2%] sm:left-[4%] top-[14%] w-[44px] sm:w-[56px] pointer-events-none z-20 animate-pulse-subtle">
+        <Image
+          src="/images/e4aa90196b314bd7a3aaf5078154670bd04a3aba.png"
+          alt="Easter Egg Illustration"
+          width={70}
+          height={80}
+          className="w-full h-auto object-contain"
+        />
+      </div>
+
       <div className="max-w-[1240px] mx-auto px-4 sm:px-6 lg:px-8 relative z-20">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-12 gap-8 lg:gap-6">
           
           {/* Column 1: Brand Info & Socials (4 cols) */}
-          <div className="lg:col-span-4 relative sm:pl-14 lg:pl-16">
-            
-            {/* Decorative Easter Egg Floating on the Left (with generous spacing from logo & text) */}
-            <div className="hidden sm:block absolute left-0 top-0.5 w-[40px] sm:w-[46px] pointer-events-none z-10 animate-pulse-subtle">
-              <Image
-                src="/images/e4aa90196b314bd7a3aaf5078154670bd04a3aba.png"
-                alt="Easter Egg Illustration"
-                width={70}
-                height={80}
-                className="w-full h-auto object-contain"
-              />
-            </div>
+          <div className="lg:col-span-4">
             {/* Logo */}
             <div className="flex items-center gap-3">
               <div className="relative w-9 h-9 flex-shrink-0">
@@ -55,7 +55,7 @@ export default function Footer() {
             </div>
 
             {/* Description */}
-            <p className="mt-3 text-[12px] sm:text-[13px] xl:text-[14px] text-[#4b5563] leading-[1.6] font-normal max-w-[280px]">
+            <p className="mt-3 text-[10px] sm:text-[11px] text-[#4b5563] leading-[1.5] font-normal max-w-[250px]">
               Learning Lab supports children under 16 with developmental, learning, communication, sensory, behavioral, and school-readiness needs in Karachi.
             </p>
 
@@ -109,10 +109,10 @@ export default function Footer() {
 
           {/* Column 2: Quick Links (3 cols) */}
           <div className="lg:col-span-3">
-            <h4 className="font-bold text-[#070713] text-[13px] sm:text-[14px] xl:text-[15px] mb-2.5">
+            <h4 className="font-bold text-[#070713] text-[12px] mb-2.5">
               Quick Links
             </h4>
-            <div className="grid grid-cols-2 gap-x-4 gap-y-2 text-[12px] sm:text-[13px] xl:text-[14px] text-[#4b5563] font-normal">
+            <div className="grid grid-cols-2 gap-x-4 gap-y-1.5 text-[10px] sm:text-[11px] text-[#4b5563] font-normal">
               <Link href="/" className="hover:text-[#f15b2a] transition-colors">Home</Link>
               <Link href="/schools-training" className="hover:text-[#f15b2a] transition-colors">Schools</Link>
               <Link href="/about" className="hover:text-[#f15b2a] transition-colors">About</Link>
@@ -126,10 +126,10 @@ export default function Footer() {
 
           {/* Column 3: Services (3 cols) */}
           <div className="lg:col-span-3">
-            <h4 className="font-bold text-[#070713] text-[13px] sm:text-[14px] xl:text-[15px] mb-2.5">
+            <h4 className="font-bold text-[#070713] text-[12px] mb-2.5">
               Services
             </h4>
-            <ul className="space-y-1.5 text-[12px] sm:text-[13px] xl:text-[14px] text-[#4b5563] font-normal">
+            <ul className="space-y-1 text-[10px] sm:text-[11px] text-[#4b5563] font-normal">
               <li><Link href="/services/behavioural-therapy" className="hover:text-[#f15b2a] transition-colors">Behavioral Therapy</Link></li>
               <li><Link href="/services/speech-therapy" className="hover:text-[#f15b2a] transition-colors">Speech Therapy</Link></li>
               <li><Link href="/services/occupational-therapy" className="hover:text-[#f15b2a] transition-colors">Occupational Therapy</Link></li>
@@ -145,11 +145,11 @@ export default function Footer() {
             <div className="flex items-start gap-2.5">
               <Mail className="w-4 h-4 text-[#f15b2a] mt-0.5 flex-shrink-0" />
               <div>
-                <h5 className="font-bold text-[#070713] text-[12px] sm:text-[13px] xl:text-[14px] leading-tight">
+                <h5 className="font-bold text-[#070713] text-[11px] leading-tight">
                   Email us
                 </h5>
-                <p className="text-[11px] sm:text-[12px] xl:text-[13px] text-[#4b5563] font-normal mt-0.5">
-                  info@learninglabpk.com
+                <p className="text-[10px] text-[#4b5563] font-normal mt-0.5">
+                  info@gmail.com
                 </p>
               </div>
             </div>
@@ -158,10 +158,10 @@ export default function Footer() {
             <div className="flex items-start gap-2.5">
               <MapPin className="w-4 h-4 text-[#f15b2a] mt-0.5 flex-shrink-0" />
               <div>
-                <h5 className="font-bold text-[#070713] text-[12px] sm:text-[13px] xl:text-[14px] leading-tight">
+                <h5 className="font-bold text-[#070713] text-[11px] leading-tight">
                   Location
                 </h5>
-                <p className="text-[11px] sm:text-[12px] xl:text-[13px] text-[#4b5563] font-normal mt-0.5">
+                <p className="text-[10px] text-[#4b5563] font-normal mt-0.5">
                   DHA Phase 8, Karachi
                 </p>
               </div>
@@ -171,7 +171,7 @@ export default function Footer() {
         </div>
 
         {/* Copyright & Legal Links Bar */}
-        <div className="mt-8 pt-4 border-t border-[#e3e7c8]/80 flex flex-wrap justify-between items-center text-[11px] sm:text-[12px] xl:text-[13px] text-[#718096] font-normal gap-4 pr-16 sm:pr-28">
+        <div className="mt-8 pt-4 border-t border-[#e3e7c8]/80 flex flex-wrap justify-between items-center text-[9px] sm:text-[10px] text-[#718096] font-normal gap-4 pr-16 sm:pr-28">
           <p>© 2026 Learning Lab Global Facilitation Pvt Ltd. All rights reserved.</p>
           <div className="flex items-center gap-2">
             <Link href="#" className="hover:text-[#0c3746] transition-colors">Privacy policy</Link>
