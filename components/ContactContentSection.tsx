@@ -57,7 +57,7 @@ export default function ContactContentSection() {
           <div className="lg:col-span-5 flex flex-col justify-start">
             
             {/* Headline */}
-            <h2 className="text-[26px] sm:text-[30px] lg:text-[36px] xl:text-[42px] 2xl:text-[48px] font-extrabold text-[#0c3746] leading-[1.25] tracking-tight">
+            <h2 className="text-[26px] sm:text-[30px] lg:text-[34px] font-extrabold text-[#0c3746] leading-[1.25] tracking-tight">
               Contact Us For{" "}
               <span className="relative inline-block">
                 Help
@@ -79,7 +79,7 @@ export default function ContactContentSection() {
             </h2>
 
             {/* Info List */}
-            <div className="mt-8 space-y-5 text-[13.5px] sm:text-[14.5px] lg:text-[15.5px] xl:text-[17px] 2xl:text-[18.5px] text-[#475b65] font-medium leading-[1.65]">
+            <div className="mt-8 space-y-5 text-[13px] sm:text-[13.5px] text-[#566e7a] font-medium leading-[1.6]">
               
               {/* Phone */}
               <div className="flex items-start gap-4">
@@ -114,7 +114,7 @@ export default function ContactContentSection() {
                   <Clock className="w-4 h-4 stroke-[2.2]" />
                 </span>
                 <div className="pt-2">
-                  <p className="font-medium text-[#475b65]">
+                  <p className="font-medium text-[#566e7a]">
                     Monday to Friday, 10:00 AM to 6:00 PM
                   </p>
                 </div>
@@ -126,7 +126,7 @@ export default function ContactContentSection() {
                   <MapPin className="w-4 h-4 stroke-[2.2]" />
                 </span>
                 <div className="pt-1">
-                  <p className="font-medium text-[#475b65] leading-relaxed">
+                  <p className="font-medium text-[#566e7a] leading-relaxed">
                     201, 2nd Floor, Prime Tower, 5 Zulfiqar Avenue, DHA Phase 8, Zulfiqar and Al Murtaza Commercial Area, Karachi 75500
                   </p>
                 </div>
@@ -138,7 +138,7 @@ export default function ContactContentSection() {
                   <Globe className="w-4 h-4 stroke-[2.2]" />
                 </span>
                 <div className="pt-1">
-                  <p className="font-medium text-[#475b65] leading-relaxed">
+                  <p className="font-medium text-[#566e7a] leading-relaxed">
                     Parent consultations, teacher training and school consultancy available worldwide
                   </p>
                 </div>
@@ -151,7 +151,7 @@ export default function ContactContentSection() {
           {/* Right Column: Send Your Message Form */}
           <div className="lg:col-span-7">
             <div className="bg-[#f4f5f0] border border-black/5 rounded-3xl p-6 sm:p-8 lg:p-10 shadow-xs">
-              <h3 className="text-[20px] sm:text-[22px] xl:text-[25px] 2xl:text-[27px] font-extrabold text-[#0c3746] tracking-tight mb-6">
+              <h3 className="text-[20px] sm:text-[22px] font-extrabold text-[#0c3746] tracking-tight mb-6">
                 Send Your Message
               </h3>
 

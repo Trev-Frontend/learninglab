@@ -102,10 +102,10 @@ export default function ServicesGridSection() {
               </div>
 
               {/* Title & Description */}
-              <h3 className="text-[18px] sm:text-[20px] xl:text-[22px] 2xl:text-[24px] font-bold text-[#0c3746] tracking-tight group-hover:text-[#f15b2a] transition-colors">
+              <h3 className="text-[18px] sm:text-[20px] font-bold text-[#0c3746] tracking-tight group-hover:text-[#f15b2a] transition-colors">
                 {service.title}
               </h3>
-              <p className="mt-2 text-[12.5px] sm:text-[13px] xl:text-[15px] 2xl:text-[16.5px] text-[#475b65] leading-[1.6] font-medium">
+              <p className="mt-2 text-[12.5px] sm:text-[13px] text-[#566e7a] leading-[1.55] font-medium">
                 {service.description}
               </p>
             </Link>

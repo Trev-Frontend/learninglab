@@ -47,37 +47,35 @@ export default function ServicesSection() {
   ];
 
   return (
-    <section id="services" className="relative w-full bg-[#5b4bbb] text-white pt-0 pb-14 sm:pb-16 lg:pb-20 overflow-hidden">
+    <section id="services" className="relative w-full bg-[#5b4bbb] text-white pt-6 pb-14 sm:pb-16 lg:pb-20 overflow-hidden">
       
       {/* Top Scallop Wave from White Section to Purple Section */}
-      <div className="w-full overflow-hidden leading-none z-20 block pointer-events-none select-none -mt-4 sm:-mt-6 md:-mt-7 mb-6 sm:mb-8">
+      <div className="w-full overflow-hidden leading-none z-10 block -mt-7 sm:-mt-8 mb-6 sm:mb-8 pointer-events-none select-none">
         <svg
-          viewBox="-10 -10 1460 40"
+          viewBox="0 0 1440 32"
           fill="none"
           xmlns="http://www.w3.org/2000/svg"
           preserveAspectRatio="none"
-          className="w-[101%] -ml-[0.5%] h-5 sm:h-7 md:h-8 fill-white block"
+          className="w-full h-5 sm:h-7 md:h-8 fill-white"
         >
-          <path d="M-10,-10 
-            L-10,0 
-            C 50,28 110,28 170,0 
-            C 230,28 290,28 350,0 
-            C 410,28 470,28 530,0 
-            C 590,28 650,28 710,0 
-            C 770,28 830,28 890,0 
-            C 950,28 1010,28 1070,0 
-            C 1130,28 1190,28 1250,0 
-            C 1310,28 1370,28 1430,0 
-            C 1445,14 1455,0 1470,0
-            L1470,-10 Z" />
+          <path d="M0,0 
+            C 60,30 120,30 180,0 
+            C 240,30 300,30 360,0 
+            C 420,30 480,30 540,0 
+            C 600,30 660,30 720,0 
+            C 780,30 840,30 900,0 
+            C 960,30 1020,30 1080,0 
+            C 1140,30 1200,30 1260,0 
+            C 1320,30 1380,30 1440,0 
+            L1440,0 L0,0 Z" />
         </svg>
       </div>
 
-      <div className="max-w-[1240px] mx-auto px-4 sm:px-6 lg:px-8 relative pt-2 sm:pt-4">
+      <div className="max-w-[1240px] mx-auto px-4 sm:px-6 lg:px-8 relative">
         
         {/* Background Doodles */}
         {/* Hot Air Balloon (Top Left) */}
-        <div className="absolute left-[2%] sm:left-[5%] top-[0%] w-[36px] sm:w-[54px] pointer-events-none opacity-60 z-10">
+        <div className="absolute left-[2%] sm:left-[5%] top-[0%] w-[44px] sm:w-[54px] pointer-events-none opacity-60 z-10">
           <Image
             src="/images/1241e545d4b20e3352d0671e66397a6616db0500.png"
             alt="Hot Air Balloon Doodle"
@@ -87,8 +85,8 @@ export default function ServicesSection() {
           />
         </div>
 
-        {/* Crown (Top Right - positioned in top corner so it never overlaps text) */}
-        <div className="absolute right-[1%] sm:right-[6%] -top-[2%] sm:top-[0%] w-[32px] sm:w-[48px] pointer-events-none z-10 rotate-6">
+        {/* Crown (Top Right) */}
+        <div className="absolute right-[5%] sm:right-[9%] top-[3%] w-[44px] sm:w-[52px] pointer-events-none z-10 rotate-6">
           <Image
             src="/images/9f341c555c650e166e0887ba08b7c129a313678d.png"
             alt="Crown Doodle"
@@ -121,8 +119,8 @@ export default function ServicesSection() {
         </div>
 
         {/* Header Title & Subtitle */}
-        <div className="text-center max-w-[840px] mx-auto relative z-20">
-          <h2 className="text-[26px] sm:text-[32px] lg:text-[38px] xl:text-[44px] 2xl:text-[50px] font-extrabold text-white leading-[1.18] tracking-tight">
+        <div className="text-center max-w-[820px] mx-auto relative z-20">
+          <h2 className="text-[26px] sm:text-[32px] lg:text-[36px] font-extrabold text-white leading-[1.18] tracking-tight">
             Support designed around the child,<br className="hidden sm:inline" />{" "}
             not only the{" "}
             <span className="relative inline-block">
@@ -144,7 +142,7 @@ export default function ServicesSection() {
             </span>
           </h2>
 
-          <div className="mt-4 space-y-1.5 text-[13.5px] sm:text-[14.5px] lg:text-[15.5px] xl:text-[17.5px] 2xl:text-[19px] text-white/90 leading-[1.65] max-w-[780px] mx-auto font-medium">
+          <div className="mt-4 space-y-1 text-[13px] sm:text-[14px] text-white/85 leading-[1.6] max-w-[700px] mx-auto font-medium">
             <p>
               Some children need therapy. Some need help with learning, school participation, communication, regulation or confidence.
             </p>
@@ -192,12 +190,12 @@ export default function ServicesSection() {
                   </div>
 
                   {/* Title */}
-                  <h3 className={`text-[18px] sm:text-[20px] xl:text-[22px] 2xl:text-[24px] font-extrabold ${service.textColor} mb-2.5 tracking-tight leading-snug`}>
+                  <h3 className={`text-[18px] sm:text-[20px] font-extrabold ${service.textColor} mb-2.5 tracking-tight leading-snug`}>
                     {service.title}
                   </h3>
 
                   {/* Description */}
-                  <p className={`text-[13px] sm:text-[13.5px] xl:text-[15px] 2xl:text-[16.5px] ${service.descColor} leading-[1.6] font-medium`}>
+                  <p className={`text-[13px] sm:text-[13.5px] ${service.descColor} leading-[1.55] font-medium`}>
                     {service.description}
                   </p>
                 </div>
@@ -208,7 +206,7 @@ export default function ServicesSection() {
                     {service.tags.map((tag, tIdx) => (
                       <span
                         key={tIdx}
-                        className={`${service.tagBg} px-2.5 sm:px-3 py-1 rounded-full text-[10.5px] sm:text-[11.5px] xl:text-[13px] 2xl:text-[14px] font-bold tracking-tight whitespace-nowrap`}
+                        className={`${service.tagBg} px-2.5 sm:px-3 py-1 rounded-full text-[10.5px] sm:text-[11.5px] font-bold tracking-tight whitespace-nowrap`}
                       >
                         {tag}
                       </span>

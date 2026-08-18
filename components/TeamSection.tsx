@@ -111,13 +111,13 @@ export default function TeamSection() {
               </div>
 
               {/* Details */}
-              <h3 className="text-[15px] sm:text-[16px] xl:text-[17.5px] 2xl:text-[19px] font-bold text-[#0c3746] mt-4 tracking-tight">
+              <h3 className="text-[15px] sm:text-[16px] font-bold text-[#0c3746] mt-4 tracking-tight">
                 {member.name}
               </h3>
-              <p className="text-[11.5px] sm:text-[12px] xl:text-[13.5px] 2xl:text-[14.5px] font-bold text-[#f15b2a] mt-0.5">
+              <p className="text-[11.5px] sm:text-[12px] font-bold text-[#f15b2a] mt-0.5">
                 {member.role}
               </p>
-              <p className="mt-2 text-[11.5px] sm:text-[12px] xl:text-[13.5px] 2xl:text-[14.5px] text-[#475b65] leading-[1.55] font-medium max-w-[270px]">
+              <p className="mt-2 text-[11.5px] sm:text-[12px] text-[#566e7a] leading-[1.5] font-medium max-w-[250px]">
                 {member.bio}
               </p>
             </div>
@@ -138,7 +138,7 @@ export default function TeamSection() {
             />
           </div>
 
-          <h2 className="text-[28px] sm:text-[34px] lg:text-[38px] xl:text-[44px] 2xl:text-[50px] font-extrabold text-[#0c3746] leading-[1.2] tracking-tight">
+          <h2 className="text-[28px] sm:text-[34px] lg:text-[38px] font-extrabold text-[#0c3746] leading-[1.2] tracking-tight">
             Therapy and{" "}
             <span className="relative inline-block">
               Academic Team
@@ -180,13 +180,13 @@ export default function TeamSection() {
               </div>
 
               {/* Details */}
-              <h3 className="text-[15px] sm:text-[16px] xl:text-[17.5px] 2xl:text-[19px] font-bold text-[#0c3746] mt-4 tracking-tight">
+              <h3 className="text-[15px] sm:text-[16px] font-bold text-[#0c3746] mt-4 tracking-tight">
                 {member.name}
               </h3>
-              <p className="text-[11.5px] sm:text-[12px] xl:text-[13.5px] 2xl:text-[14.5px] font-bold text-[#f15b2a] mt-0.5">
+              <p className="text-[11.5px] sm:text-[12px] font-bold text-[#f15b2a] mt-0.5">
                 {member.role}
               </p>
-              <p className="mt-2 text-[11.5px] sm:text-[12px] xl:text-[13.5px] 2xl:text-[14.5px] text-[#475b65] leading-[1.55] font-medium max-w-[270px]">
+              <p className="mt-2 text-[11.5px] sm:text-[12px] text-[#566e7a] leading-[1.5] font-medium max-w-[250px]">
                 {member.bio}
               </p>
             </div>

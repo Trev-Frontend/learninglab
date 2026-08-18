@@ -90,7 +90,7 @@ export default function FiguredOutSection() {
           <div className="relative z-10">
             
             {/* Main Headline with curved brush underline */}
-            <h2 className="text-[26px] sm:text-[32px] lg:text-[38px] xl:text-[42px] 2xl:text-[46px] font-extrabold text-[#0c3746] leading-[1.18] tracking-tight">
+            <h2 className="text-[26px] sm:text-[32px] lg:text-[36px] font-extrabold text-[#0c3746] leading-[1.18] tracking-tight">
               You do not need to have everything<br className="hidden sm:inline" />{" "}
               <span className="relative inline-block">
                 figured out.
@@ -112,7 +112,7 @@ export default function FiguredOutSection() {
             </h2>
 
             {/* Introductory copy */}
-            <div className="font-figma-copy mt-4 space-y-3 text-[13px] sm:text-[14px] lg:text-[14.5px] xl:text-[15.5px] 2xl:text-[16.5px] text-[#4b5563] leading-[1.6] font-normal max-w-[640px]">
+            <div className="font-figma-copy mt-4 space-y-2 text-[11px] sm:text-[12px] lg:text-[12px] text-[#4b5563] leading-[1.5] font-normal max-w-[590px]">
               <p>
                 Parents often contact us after receiving different opinions from relatives,
                 schools, professionals or the internet. You may have been told to wait,
@@ -127,21 +127,21 @@ export default function FiguredOutSection() {
 
             {/* Checklist Section */}
             <div className="mt-5 relative">
-              <h3 className="font-figma-heading text-[13px] sm:text-[14px] xl:text-[15px] font-bold text-[#070713] mb-3 tracking-tight">
+              <h3 className="font-figma-heading text-[11px] sm:text-[12px] font-bold text-[#070713] mb-3 tracking-tight">
                 You may be here because your child is experiencing:
               </h3>
 
               {/* 2-Column Grid of Checkpoints */}
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-x-5 lg:gap-x-6 gap-y-2.5">
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-x-5 lg:gap-x-6 gap-y-2">
                 
                 {/* Column 1 */}
-                <div className="space-y-2.5">
+                <div className="space-y-2">
                   {leftColumnPoints.map((item, idx) => (
-                    <div key={idx} className="flex items-start gap-2.5 group">
+                    <div key={idx} className="flex items-start gap-2 group">
                       <div className="flex-shrink-0 w-4.5 h-4.5 rounded-full bg-[#584a93] text-white flex items-center justify-center mt-0.5">
                         <Check className="w-3 h-3 stroke-[2.8]" />
                       </div>
-                      <span className="font-figma-copy text-[12px] sm:text-[12.5px] xl:text-[13.5px] 2xl:text-[14.5px] text-[#4b5563] font-semibold leading-[1.4]">
+                      <span className="font-figma-copy text-[10px] sm:text-[11px] text-[#4b5563] font-semibold leading-[1.35]">
                         {item}
                       </span>
                     </div>
@@ -149,13 +149,13 @@ export default function FiguredOutSection() {
                 </div>
 
                 {/* Column 2 */}
-                <div className="space-y-2.5">
+                <div className="space-y-2">
                   {rightColumnPoints.map((item, idx) => (
-                    <div key={idx} className="flex items-start gap-2.5 group">
+                    <div key={idx} className="flex items-start gap-2 group">
                       <div className="flex-shrink-0 w-4.5 h-4.5 rounded-full bg-[#584a93] text-white flex items-center justify-center mt-0.5">
                         <Check className="w-3 h-3 stroke-[2.8]" />
                       </div>
-                      <span className="font-figma-copy text-[12px] sm:text-[12.5px] xl:text-[13.5px] 2xl:text-[14.5px] text-[#4b5563] font-semibold leading-[1.4]">
+                      <span className="font-figma-copy text-[10px] sm:text-[11px] text-[#4b5563] font-semibold leading-[1.35]">
                         {item}
                       </span>
                     </div>
