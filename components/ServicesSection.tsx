@@ -47,35 +47,37 @@ export default function ServicesSection() {
   ];
 
   return (
-    <section id="services" className="relative w-full bg-[#5b4bbb] text-white pt-6 pb-14 sm:pb-16 lg:pb-20 overflow-hidden">
+    <section id="services" className="relative w-full bg-[#5b4bbb] text-white pt-0 pb-14 sm:pb-16 lg:pb-20 overflow-hidden">
       
       {/* Top Scallop Wave from White Section to Purple Section */}
-      <div className="w-full overflow-hidden leading-none z-10 block -mt-7 sm:-mt-8 mb-6 sm:mb-8 pointer-events-none select-none">
+      <div className="w-full overflow-hidden leading-none z-20 block pointer-events-none select-none -mt-4 sm:-mt-6 md:-mt-7 mb-6 sm:mb-8">
         <svg
-          viewBox="0 0 1440 32"
+          viewBox="-10 -10 1460 40"
           fill="none"
           xmlns="http://www.w3.org/2000/svg"
           preserveAspectRatio="none"
-          className="w-full h-5 sm:h-7 md:h-8 fill-white"
+          className="w-[101%] -ml-[0.5%] h-5 sm:h-7 md:h-8 fill-white block"
         >
-          <path d="M0,0 
-            C 60,30 120,30 180,0 
-            C 240,30 300,30 360,0 
-            C 420,30 480,30 540,0 
-            C 600,30 660,30 720,0 
-            C 780,30 840,30 900,0 
-            C 960,30 1020,30 1080,0 
-            C 1140,30 1200,30 1260,0 
-            C 1320,30 1380,30 1440,0 
-            L1440,0 L0,0 Z" />
+          <path d="M-10,-10 
+            L-10,0 
+            C 50,28 110,28 170,0 
+            C 230,28 290,28 350,0 
+            C 410,28 470,28 530,0 
+            C 590,28 650,28 710,0 
+            C 770,28 830,28 890,0 
+            C 950,28 1010,28 1070,0 
+            C 1130,28 1190,28 1250,0 
+            C 1310,28 1370,28 1430,0 
+            C 1445,14 1455,0 1470,0
+            L1470,-10 Z" />
         </svg>
       </div>
 
-      <div className="max-w-[1240px] mx-auto px-4 sm:px-6 lg:px-8 relative">
+      <div className="max-w-[1240px] mx-auto px-4 sm:px-6 lg:px-8 relative pt-2 sm:pt-4">
         
         {/* Background Doodles */}
         {/* Hot Air Balloon (Top Left) */}
-        <div className="absolute left-[2%] sm:left-[5%] top-[0%] w-[44px] sm:w-[54px] pointer-events-none opacity-60 z-10">
+        <div className="absolute left-[2%] sm:left-[5%] top-[0%] w-[36px] sm:w-[54px] pointer-events-none opacity-60 z-10">
           <Image
             src="/images/1241e545d4b20e3352d0671e66397a6616db0500.png"
             alt="Hot Air Balloon Doodle"
@@ -85,8 +87,8 @@ export default function ServicesSection() {
           />
         </div>
 
-        {/* Crown (Top Right) */}
-        <div className="absolute right-[5%] sm:right-[9%] top-[3%] w-[44px] sm:w-[52px] pointer-events-none z-10 rotate-6">
+        {/* Crown (Top Right - positioned in top corner so it never overlaps text) */}
+        <div className="absolute right-[1%] sm:right-[6%] -top-[2%] sm:top-[0%] w-[32px] sm:w-[48px] pointer-events-none z-10 rotate-6">
           <Image
             src="/images/9f341c555c650e166e0887ba08b7c129a313678d.png"
             alt="Crown Doodle"

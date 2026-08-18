@@ -18,22 +18,22 @@ export default function Footer() {
         />
       </div>
 
-      {/* Decorative Easter Egg Floating on the Left */}
-      <div className="absolute left-[2%] sm:left-[4%] top-[14%] w-[44px] sm:w-[56px] pointer-events-none z-20 animate-pulse-subtle">
-        <Image
-          src="/images/e4aa90196b314bd7a3aaf5078154670bd04a3aba.png"
-          alt="Easter Egg Illustration"
-          width={70}
-          height={80}
-          className="w-full h-auto object-contain"
-        />
-      </div>
-
       <div className="max-w-[1240px] mx-auto px-4 sm:px-6 lg:px-8 relative z-20">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-12 gap-8 lg:gap-6">
           
           {/* Column 1: Brand Info & Socials (4 cols) */}
-          <div className="lg:col-span-4">
+          <div className="lg:col-span-4 relative sm:pl-14 lg:pl-16">
+            
+            {/* Decorative Easter Egg Floating on the Left (with generous spacing from logo & text) */}
+            <div className="hidden sm:block absolute left-0 top-0.5 w-[40px] sm:w-[46px] pointer-events-none z-10 animate-pulse-subtle">
+              <Image
+                src="/images/e4aa90196b314bd7a3aaf5078154670bd04a3aba.png"
+                alt="Easter Egg Illustration"
+                width={70}
+                height={80}
+                className="w-full h-auto object-contain"
+              />
+            </div>
             {/* Logo */}
             <div className="flex items-center gap-3">
               <div className="relative w-9 h-9 flex-shrink-0">
