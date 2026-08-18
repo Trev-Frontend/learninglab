@@ -55,8 +55,8 @@ export default function ProcessSection() {
         
         {/* Header Title & Subtitle */}
         <div className="text-center max-w-[800px] mx-auto">
-          <h2 className="text-[26px] sm:text-[32px] lg:text-[36px] font-extrabold text-[#0c3746] leading-[1.18] tracking-tight">
-            A clear{" "}
+          <h2 className="text-[26px] sm:text-[32px] lg:text-[38px] xl:text-[44px] 2xl:text-[50px] font-extrabold text-[#0c3746] leading-[1.18] tracking-tight">
+            A clear, thoughtful{" "}
             <span className="relative inline-block">
               process, so families do not
               {/* Hand-drawn Orange underline brush */}
@@ -78,7 +78,7 @@ export default function ProcessSection() {
             feel lost.
           </h2>
 
-          <p className="mt-4 text-[13.5px] sm:text-[14.5px] text-[#566e7a] leading-[1.6] max-w-[660px] mx-auto font-normal">
+          <p className="mt-4 text-[13.5px] sm:text-[14.5px] lg:text-[15.5px] xl:text-[17.5px] 2xl:text-[19px] text-[#475b65] leading-[1.65] max-w-[760px] mx-auto font-medium">
             Our work begins with listening. We then use consultation, observation and assessment to understand the child&apos;s current strengths and needs before recommending a personalised plan.
           </p>
         </div>
@@ -92,18 +92,18 @@ export default function ProcessSection() {
             >
               {/* Top Step Number Badge */}
               <div className="w-11 h-7 rounded-full bg-white shadow-2xs flex items-center justify-center mb-6 sm:mb-8 transition-transform group-hover:scale-105">
-                <span className="text-[12.5px] sm:text-[13px] font-bold text-[#0c3746] tracking-wide">
+                <span className="text-[12.5px] sm:text-[13px] xl:text-[14px] font-bold text-[#0c3746] tracking-wide">
                   {step.number}
                 </span>
               </div>
 
               {/* Step Title */}
-              <h3 className="text-[18px] sm:text-[19px] font-extrabold text-[#0c3746] mb-3 tracking-tight leading-snug">
+              <h3 className="text-[18px] sm:text-[19px] xl:text-[21px] 2xl:text-[23px] font-extrabold text-[#0c3746] mb-3 tracking-tight leading-snug">
                 {step.title}
               </h3>
 
               {/* Step Description */}
-              <p className="text-[13px] sm:text-[13.5px] text-[#475569] leading-[1.55] font-medium">
+              <p className="text-[13px] sm:text-[13.5px] xl:text-[15.5px] 2xl:text-[17px] text-[#334155] leading-[1.6] font-medium">
                 {step.description}
               </p>
             </div>

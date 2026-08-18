@@ -11,7 +11,7 @@ export default function ParentsProcessSection() {
           <div className="relative z-10 flex flex-col justify-center max-w-[400px] lg:ml-7">
 
             {/* Headline with Orange Underline under "the process." */}
-            <h2 className="text-[26px] sm:text-[32px] lg:text-[36px] font-extrabold text-[#0c3746] leading-[1.18] tracking-tight">
+            <h2 className="text-[26px] sm:text-[32px] lg:text-[38px] xl:text-[44px] 2xl:text-[50px] font-extrabold text-[#0c3746] leading-[1.18] tracking-tight">
               Parents remain part of<br />
               <span className="relative inline-block">
                 the process.
@@ -33,7 +33,7 @@ export default function ParentsProcessSection() {
             </h2>
 
             {/* Paragraph 1 */}
-            <p className="font-figma-copy mt-4 text-[10px] sm:text-[11px] text-[#4b5563] leading-[1.5] font-normal">
+            <p className="font-figma-copy mt-4 text-[13px] sm:text-[14px] lg:text-[15px] xl:text-[16.5px] 2xl:text-[18px] text-[#3b4b54] leading-[1.65] font-medium">
               Support does not end when the session finishes. Parents receive photographs or short
               videos through a dedicated WhatsApp group after each session, along with a verbal
               summary where appropriate. Progress is discussed every two weeks, and formal reviews
@@ -41,7 +41,7 @@ export default function ParentsProcessSection() {
             </p>
 
             {/* Paragraph 2 */}
-            <p className="font-figma-copy mt-3 text-[10px] sm:text-[11px] text-[#4b5563] leading-[1.5] font-normal">
+            <p className="font-figma-copy mt-3 text-[13px] sm:text-[14px] lg:text-[15px] xl:text-[16.5px] 2xl:text-[18px] text-[#3b4b54] leading-[1.65] font-medium">
               Parents may observe from outside the therapy room and can request an earlier review
               whenever a concern needs attention.
             </p>

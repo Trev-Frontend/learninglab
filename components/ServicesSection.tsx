@@ -121,8 +121,8 @@ export default function ServicesSection() {
         </div>
 
         {/* Header Title & Subtitle */}
-        <div className="text-center max-w-[820px] mx-auto relative z-20">
-          <h2 className="text-[26px] sm:text-[32px] lg:text-[36px] font-extrabold text-white leading-[1.18] tracking-tight">
+        <div className="text-center max-w-[840px] mx-auto relative z-20">
+          <h2 className="text-[26px] sm:text-[32px] lg:text-[38px] xl:text-[44px] 2xl:text-[50px] font-extrabold text-white leading-[1.18] tracking-tight">
             Support designed around the child,<br className="hidden sm:inline" />{" "}
             not only the{" "}
             <span className="relative inline-block">
@@ -144,7 +144,7 @@ export default function ServicesSection() {
             </span>
           </h2>
 
-          <div className="mt-4 space-y-1 text-[13px] sm:text-[14px] text-white/85 leading-[1.6] max-w-[700px] mx-auto font-medium">
+          <div className="mt-4 space-y-1.5 text-[13.5px] sm:text-[14.5px] lg:text-[15.5px] xl:text-[17.5px] 2xl:text-[19px] text-white/90 leading-[1.65] max-w-[780px] mx-auto font-medium">
             <p>
               Some children need therapy. Some need help with learning, school participation, communication, regulation or confidence.
             </p>
@@ -192,12 +192,12 @@ export default function ServicesSection() {
                   </div>
 
                   {/* Title */}
-                  <h3 className={`text-[18px] sm:text-[20px] font-extrabold ${service.textColor} mb-2.5 tracking-tight leading-snug`}>
+                  <h3 className={`text-[18px] sm:text-[20px] xl:text-[22px] 2xl:text-[24px] font-extrabold ${service.textColor} mb-2.5 tracking-tight leading-snug`}>
                     {service.title}
                   </h3>
 
                   {/* Description */}
-                  <p className={`text-[13px] sm:text-[13.5px] ${service.descColor} leading-[1.55] font-medium`}>
+                  <p className={`text-[13px] sm:text-[13.5px] xl:text-[15px] 2xl:text-[16.5px] ${service.descColor} leading-[1.6] font-medium`}>
                     {service.description}
                   </p>
                 </div>
@@ -208,7 +208,7 @@ export default function ServicesSection() {
                     {service.tags.map((tag, tIdx) => (
                       <span
                         key={tIdx}
-                        className={`${service.tagBg} px-2.5 sm:px-3 py-1 rounded-full text-[10.5px] sm:text-[11.5px] font-bold tracking-tight whitespace-nowrap`}
+                        className={`${service.tagBg} px-2.5 sm:px-3 py-1 rounded-full text-[10.5px] sm:text-[11.5px] xl:text-[13px] 2xl:text-[14px] font-bold tracking-tight whitespace-nowrap`}
                       >
                         {tag}
                       </span>

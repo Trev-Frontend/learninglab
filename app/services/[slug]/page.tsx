@@ -161,12 +161,12 @@ export default async function ServiceDetailPage({
         <div className="max-w-[1280px] mx-auto px-4 sm:px-6 lg:px-8 text-center relative z-10">
           
           {/* Headline */}
-          <h1 className="text-[32px] sm:text-[42px] lg:text-[48px] font-extrabold text-white leading-[1.18] tracking-tight max-w-[920px] mx-auto">
+          <h1 className="text-[32px] sm:text-[42px] lg:text-[48px] xl:text-[54px] 2xl:text-[60px] font-extrabold text-white leading-[1.18] tracking-tight max-w-[980px] mx-auto">
             {service.headline}
           </h1>
 
           {/* Paragraph */}
-          <p className="mt-5 text-[13.5px] sm:text-[14.5px] text-white/90 leading-[1.65] max-w-[840px] mx-auto font-medium">
+          <p className="mt-5 text-[13.5px] sm:text-[14.5px] lg:text-[15.5px] xl:text-[17.5px] 2xl:text-[19px] text-white/95 leading-[1.65] max-w-[900px] mx-auto font-medium">
             {service.description}
           </p>
 

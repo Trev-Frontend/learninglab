@@ -47,17 +47,17 @@ export default function Navbar({ variant = "cream", activeNav }: NavbarProps) {
             />
           </div>
           <div className="flex flex-col">
-            <span className={`text-[17px] sm:text-[18px] font-extrabold tracking-tight leading-none ${isPurple ? "text-white" : "text-[#0c3746]"}`}>
+            <span className={`text-[17px] sm:text-[18px] lg:text-[19px] xl:text-[21px] 2xl:text-[23px] font-extrabold tracking-tight leading-none ${isPurple ? "text-white" : "text-[#0c3746]"}`}>
               Learning Lab
             </span>
-            <span className={`text-[8px] sm:text-[8.5px] font-medium leading-tight mt-0.5 ${isPurple ? "text-white/80" : "text-[#566e7a]"}`}>
+            <span className={`text-[8.5px] sm:text-[9.5px] xl:text-[10.5px] font-medium leading-tight mt-0.5 ${isPurple ? "text-white/80" : "text-[#566e7a]"}`}>
               Global Facilitation Pvt Ltd
             </span>
           </div>
         </Link>
 
         {/* Desktop Navigation Links */}
-        <nav className="hidden lg:flex items-center gap-5 xl:gap-7 text-[11px] xl:text-[12px] font-medium">
+        <nav className="hidden lg:flex items-center gap-5 xl:gap-7 text-[13.5px] xl:text-[15px] 2xl:text-[16.5px] font-semibold">
           <Link
             href="/"
             className={`transition-colors ${activeNav === "Home" ? (isPurple ? "text-white font-bold" : "text-[#0c3746] font-bold") : (isPurple ? "text-white/90 hover:text-white" : "text-[#324f5e] hover:text-[#f15b2a]")}`}
@@ -78,16 +78,16 @@ export default function Navbar({ variant = "cream", activeNav }: NavbarProps) {
               className={`flex items-center gap-1 transition-colors ${activeNav === "Services" ? (isPurple ? "text-white font-bold" : "text-[#0c3746] font-bold") : (isPurple ? "text-white/90 hover:text-white" : "text-[#324f5e] hover:text-[#f15b2a]")}`}
             >
               <span>Services</span>
-              <ChevronDown className="w-3 h-3 opacity-80 group-hover:rotate-180 transition-transform duration-200 stroke-[2.2]" />
+              <ChevronDown className="w-3.5 h-3.5 opacity-80 group-hover:rotate-180 transition-transform duration-200 stroke-[2.2]" />
             </Link>
 
             {/* Dropdown Menu Container */}
-            <div className="absolute top-full left-1/2 -translate-x-1/2 mt-1 w-[230px] bg-white rounded-2xl shadow-xl border border-black/5 py-2.5 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 z-50">
+            <div className="absolute top-full left-1/2 -translate-x-1/2 mt-1 w-[250px] bg-white rounded-2xl shadow-xl border border-black/5 py-2.5 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 z-50">
               {servicesList.map((service, idx) => (
                 <Link
                   key={idx}
                   href={service.href}
-                  className="block px-4 py-2 text-[11.5px] font-semibold text-[#0c3746] hover:bg-[#f5f8df] hover:text-[#f15b2a] transition-colors"
+                  className="block px-4 py-2.5 text-[13px] xl:text-[14px] font-semibold text-[#0c3746] hover:bg-[#f5f8df] hover:text-[#f15b2a] transition-colors"
                 >
                   {service.name}
                 </Link>
@@ -119,10 +119,10 @@ export default function Navbar({ variant = "cream", activeNav }: NavbarProps) {
         <div className="hidden sm:flex items-center">
           <Link
             href="/contact"
-            className="inline-flex items-center gap-1.5 bg-[#f15b2a] hover:bg-[#de4b1a] text-white px-5 py-2 rounded-full text-[10px] font-bold shadow-xs hover:shadow-md hover:-translate-y-0.5 active:translate-y-0 transition-all duration-200 group"
+            className="inline-flex items-center gap-1.5 bg-[#f15b2a] hover:bg-[#de4b1a] text-white px-5 xl:px-7 py-2.5 xl:py-3 rounded-full text-[12.5px] xl:text-[14.5px] 2xl:text-[16px] font-bold shadow-xs hover:shadow-md hover:-translate-y-0.5 active:translate-y-0 transition-all duration-200 group"
           >
             <span>Contact Us</span>
-            <ArrowRight className="w-3 h-3 stroke-[2.5] transition-transform group-hover:translate-x-0.5" />
+            <ArrowRight className="w-3.5 h-3.5 stroke-[2.5] transition-transform group-hover:translate-x-0.5" />
           </Link>
         </div>
 

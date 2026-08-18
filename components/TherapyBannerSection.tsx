@@ -13,7 +13,7 @@ export default function TherapyBannerSection() {
         </div>
 
         {/* Main Headline */}
-        <h2 className="text-[28px] sm:text-[36px] lg:text-[40px] font-extrabold text-[#0c3746] leading-[1.2] tracking-tight max-w-[800px] mx-auto">
+        <h2 className="text-[28px] sm:text-[36px] lg:text-[42px] xl:text-[48px] 2xl:text-[54px] font-extrabold text-[#0c3746] leading-[1.2] tracking-tight max-w-[900px] mx-auto">
           Therapy in Karachi. Guidance and<br className="hidden sm:inline" />{" "}
           <span className="relative inline-block">
             training worldwide.
@@ -35,7 +35,7 @@ export default function TherapyBannerSection() {
         </h2>
 
         {/* Description Paragraph */}
-        <p className="mt-5 text-[13px] sm:text-[14px] text-[#566e7a] max-w-[680px] mx-auto leading-[1.6] font-medium">
+        <p className="mt-5 text-[13.5px] sm:text-[14.5px] lg:text-[15.5px] xl:text-[17.5px] 2xl:text-[19px] text-[#475b65] max-w-[780px] mx-auto leading-[1.65] font-medium">
           In-person therapy, assessments and learning support are available at our DHA Phase 8 centre in Karachi. Online parent consultations, teacher training and school consultancy are available to families and educators worldwide.
         </p>
 
@@ -43,7 +43,7 @@ export default function TherapyBannerSection() {
         <div className="mt-7 sm:mt-8 flex flex-wrap justify-center items-center gap-3 sm:gap-4">
           <Link
             href="/contact"
-            className="inline-flex items-center gap-2 px-6 py-2.5 rounded-full bg-[#f15b2a] hover:bg-[#e04f1e] text-white text-[13.5px] font-bold transition-all shadow-xs"
+            className="inline-flex items-center gap-2 px-6 xl:px-8 py-2.5 xl:py-3.5 rounded-full bg-[#f15b2a] hover:bg-[#e04f1e] text-white text-[13.5px] xl:text-[15px] 2xl:text-[16.5px] font-bold transition-all shadow-xs"
           >
             <span>Contact Us</span>
             <ArrowRight className="w-4 h-4 stroke-[2.5]" />
@@ -51,7 +51,7 @@ export default function TherapyBannerSection() {
 
           <a
             href="tel:+923253276464"
-            className="inline-flex items-center gap-2 px-6 py-2.5 rounded-full border-2 border-[#0c3746] text-[#0c3746] hover:bg-[#0c3746]/5 text-[13.5px] font-bold transition-all"
+            className="inline-flex items-center gap-2 px-6 xl:px-8 py-2.5 xl:py-3.5 rounded-full border-2 border-[#0c3746] text-[#0c3746] hover:bg-[#0c3746]/5 text-[13.5px] xl:text-[15px] 2xl:text-[16.5px] font-bold transition-all"
           >
             <span>Call Us</span>
             <ArrowRight className="w-4 h-4 stroke-[2.5]" />

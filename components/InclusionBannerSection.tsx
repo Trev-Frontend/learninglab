@@ -17,13 +17,13 @@ export default function InclusionBannerSection() {
             <div className="lg:col-span-6 relative z-10 flex flex-col justify-between h-full min-h-[280px]">
               <div>
                 {/* Headline */}
-                <h2 className="text-[26px] sm:text-[32px] lg:text-[36px] font-extrabold text-white leading-[1.2] tracking-tight">
+                <h2 className="text-[26px] sm:text-[32px] lg:text-[38px] xl:text-[44px] 2xl:text-[50px] font-extrabold text-white leading-[1.2] tracking-tight">
                   A wider conversation about<br />
                   inclusion
                 </h2>
 
                 {/* Paragraph Description */}
-                <p className="mt-4 text-[13px] sm:text-[14px] text-white/95 leading-[1.65] font-medium max-w-[460px]">
+                <p className="mt-4 text-[13px] sm:text-[14px] lg:text-[15.5px] xl:text-[17.5px] 2xl:text-[19px] text-white/95 leading-[1.65] font-medium max-w-[540px]">
                   Watch Rutba Damani join the OTS Educational Podcast for a discussion on autism, parenting, the education system, child psychology and the social barriers that can leave children and families feeling excluded.
                 </p>
               </div>
@@ -32,7 +32,7 @@ export default function InclusionBannerSection() {
               <div className="mt-7 sm:mt-8 flex items-center justify-between">
                 <Link
                   href="/schools-training"
-                  className="inline-flex items-center gap-2 px-6 py-2.5 rounded-full bg-white hover:bg-white/90 text-[#f15b2a] text-[13.5px] font-bold shadow-xs transition-all"
+                  className="inline-flex items-center gap-2 px-6 xl:px-8 py-2.5 xl:py-3.5 rounded-full bg-white hover:bg-white/90 text-[#f15b2a] text-[13.5px] xl:text-[15px] 2xl:text-[16.5px] font-bold shadow-xs transition-all"
                 >
                   <span>View All Services</span>
                   <ArrowRight className="w-4 h-4 stroke-[2.5]" />
