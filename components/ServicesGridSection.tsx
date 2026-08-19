@@ -80,7 +80,7 @@ export default function ServicesGridSection() {
 
   return (
     <section className="relative w-full bg-white py-16 sm:py-20 overflow-hidden">
-      <div className="max-w-[1240px] mx-auto px-4 sm:px-6 lg:px-8">
+      <div className="max-w-[1240px] xl:max-w-[1360px] 2xl:max-w-[1480px] mx-auto px-4 sm:px-6 lg:px-8">
         
         {/* 3x3 Service Cards Grid */}
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6 sm:gap-8 lg:gap-8">
@@ -88,7 +88,7 @@ export default function ServicesGridSection() {
             <Link
               key={service.id}
               href={`/services/${service.slug}`}
-              className="bg-[#f7fae2] rounded-[28px] sm:rounded-[32px] p-5 sm:p-6 flex flex-col transition-transform duration-300 hover:-translate-y-1 hover:shadow-md group cursor-pointer"
+              className="bg-[#f7fae2] rounded-[28px] sm:rounded-[32px] p-5 sm:p-6 lg:p-7 flex flex-col transition-transform duration-300 hover:-translate-y-1 hover:shadow-md group cursor-pointer"
             >
               {/* Card Image Frame */}
               <div className="relative w-full aspect-[4/2.7] rounded-[20px] overflow-hidden shadow-xs mb-5">
@@ -102,10 +102,10 @@ export default function ServicesGridSection() {
               </div>
 
               {/* Title & Description */}
-              <h3 className="text-[18px] sm:text-[20px] font-bold text-[#0c3746] tracking-tight group-hover:text-[#f15b2a] transition-colors">
+              <h3 className="text-[18px] sm:text-[20px] lg:text-[22px] xl:text-[24px] 2xl:text-[26px] font-extrabold text-[#0c3746] tracking-tight group-hover:text-[#f15b2a] transition-colors">
                 {service.title}
               </h3>
-              <p className="mt-2 text-[12.5px] sm:text-[13px] text-[#566e7a] leading-[1.55] font-medium">
+              <p className="mt-2 text-[13px] sm:text-[14px] lg:text-[15px] xl:text-[16.5px] 2xl:text-[18px] text-[#334650] leading-[1.6] font-medium">
                 {service.description}
               </p>
             </Link>

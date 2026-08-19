@@ -5,7 +5,7 @@ import { Check } from "lucide-react";
 export default function AssessmentsContentSection() {
   return (
     <section className="relative w-full bg-white py-16 sm:py-24 overflow-hidden">
-      <div className="max-w-[1240px] mx-auto px-4 sm:px-6 lg:px-8 space-y-20 sm:space-y-28">
+      <div className="max-w-[1240px] xl:max-w-[1360px] 2xl:max-w-[1480px] mx-auto px-4 sm:px-6 lg:px-8 space-y-20 sm:space-y-28">
         
         {/* ========================================================================= */}
         {/* ROW 1: Left Organic Photo + Right "Assessments available" */}
@@ -14,7 +14,7 @@ export default function AssessmentsContentSection() {
           
           {/* Organic Blob Photo (Left) */}
           <div className="lg:col-span-6 flex justify-center relative">
-            <div className="relative w-full max-w-[460px] aspect-[1/0.95]">
+            <div className="relative w-full max-w-[460px] xl:max-w-[520px] aspect-[1/0.95]">
               
               {/* Orange Accent Backdrop Blob */}
               <div className="absolute inset-0 bg-[#f15b2a] rounded-[52%_48%_68%_32%/45%_55%_45%_55%] transform rotate-[-6deg] translate-x-2 translate-y-2 opacity-95 scale-105" />
@@ -25,7 +25,7 @@ export default function AssessmentsContentSection() {
                   src="/images/46b49e1b30a0b2ce04e8a9a94e20689fe18d8696.jpg"
                   alt="Boy pointing to mouth during speech assessment with therapist holding clipboard"
                   fill
-                  sizes="(max-width: 1024px) 100vw, 460px"
+                  sizes="(max-width: 1024px) 100vw, 520px"
                   className="object-cover"
                 />
               </div>
@@ -37,7 +37,7 @@ export default function AssessmentsContentSection() {
           <div className="lg:col-span-6 flex flex-col justify-center">
             
             {/* Headline */}
-            <h2 className="text-[24px] sm:text-[28px] lg:text-[32px] font-extrabold text-[#0c3746] leading-[1.25] tracking-tight">
+            <h2 className="text-[26px] sm:text-[30px] lg:text-[42px] xl:text-[50px] 2xl:text-[56px] font-extrabold text-[#0c3746] leading-[1.25] tracking-tight">
               Assessments{" "}
               <span className="relative inline-block">
                 available
@@ -59,42 +59,42 @@ export default function AssessmentsContentSection() {
             </h2>
 
             {/* Checkmark Bullet Points */}
-            <ul className="mt-6 space-y-3 text-[12.5px] sm:text-[13.5px] text-[#566e7a] font-medium leading-[1.6]">
+            <ul className="mt-6 space-y-3.5 text-[13.5px] sm:text-[14.5px] lg:text-[16px] xl:text-[18px] 2xl:text-[19.5px] text-[#334650] font-medium leading-[1.65]">
               <li className="flex items-start gap-3">
-                <span className="flex-shrink-0 w-4 h-4 bg-[#5b4bbb] text-white rounded-full flex items-center justify-center text-[10px] mt-0.5">
-                  <Check className="w-2.5 h-2.5 stroke-[3]" />
+                <span className="flex-shrink-0 w-4.5 h-4.5 bg-[#5b4bbb] text-white rounded-full flex items-center justify-center text-[10px] mt-0.5">
+                  <Check className="w-3 h-3 stroke-[3]" />
                 </span>
-                <span>Psychological Assessment</span>
+                <span>Speech & Language Assessment</span>
               </li>
               <li className="flex items-start gap-3">
-                <span className="flex-shrink-0 w-4 h-4 bg-[#5b4bbb] text-white rounded-full flex items-center justify-center text-[10px] mt-0.5">
-                  <Check className="w-2.5 h-2.5 stroke-[3]" />
+                <span className="flex-shrink-0 w-4.5 h-4.5 bg-[#5b4bbb] text-white rounded-full flex items-center justify-center text-[10px] mt-0.5">
+                  <Check className="w-3 h-3 stroke-[3]" />
                 </span>
-                <span>Developmental Assessment</span>
+                <span>Occupational Therapy & Sensory Profile Assessment</span>
               </li>
               <li className="flex items-start gap-3">
-                <span className="flex-shrink-0 w-4 h-4 bg-[#5b4bbb] text-white rounded-full flex items-center justify-center text-[10px] mt-0.5">
-                  <Check className="w-2.5 h-2.5 stroke-[3]" />
+                <span className="flex-shrink-0 w-4.5 h-4.5 bg-[#5b4bbb] text-white rounded-full flex items-center justify-center text-[10px] mt-0.5">
+                  <Check className="w-3 h-3 stroke-[3]" />
                 </span>
-                <span>Speech Assessment</span>
+                <span>ABA & Behavioural Functional Assessment (FBA)</span>
               </li>
               <li className="flex items-start gap-3">
-                <span className="flex-shrink-0 w-4 h-4 bg-[#5b4bbb] text-white rounded-full flex items-center justify-center text-[10px] mt-0.5">
-                  <Check className="w-2.5 h-2.5 stroke-[3]" />
+                <span className="flex-shrink-0 w-4.5 h-4.5 bg-[#5b4bbb] text-white rounded-full flex items-center justify-center text-[10px] mt-0.5">
+                  <Check className="w-3 h-3 stroke-[3]" />
                 </span>
-                <span>Sensory Profiling</span>
+                <span>Psycho-educational & Academic Learning Assessment</span>
               </li>
               <li className="flex items-start gap-3">
-                <span className="flex-shrink-0 w-4 h-4 bg-[#5b4bbb] text-white rounded-full flex items-center justify-center text-[10px] mt-0.5">
-                  <Check className="w-2.5 h-2.5 stroke-[3]" />
+                <span className="flex-shrink-0 w-4.5 h-4.5 bg-[#5b4bbb] text-white rounded-full flex items-center justify-center text-[10px] mt-0.5">
+                  <Check className="w-3 h-3 stroke-[3]" />
                 </span>
-                <span>Academic Assessment</span>
+                <span>School Readiness & Early Developmental Assessment</span>
               </li>
               <li className="flex items-start gap-3">
-                <span className="flex-shrink-0 w-4 h-4 bg-[#5b4bbb] text-white rounded-full flex items-center justify-center text-[10px] mt-0.5">
-                  <Check className="w-2.5 h-2.5 stroke-[3]" />
+                <span className="flex-shrink-0 w-4.5 h-4.5 bg-[#5b4bbb] text-white rounded-full flex items-center justify-center text-[10px] mt-0.5">
+                  <Check className="w-3 h-3 stroke-[3]" />
                 </span>
-                <span>IQ Assessment</span>
+                <span>Diagnostic & Neurodevelopmental Assessment (Autism, ADHD, Learning Profiles)</span>
               </li>
             </ul>
 
@@ -103,7 +103,7 @@ export default function AssessmentsContentSection() {
         </div>
 
         {/* ========================================================================= */}
-        {/* ROW 2: Left "How the assessment process works" + Right Organic Photo */}
+        {/* ROW 2: Left "Why request an assessment" + Right Organic Photo */}
         {/* ========================================================================= */}
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-10 lg:gap-14 items-center">
           
@@ -111,19 +111,19 @@ export default function AssessmentsContentSection() {
           <div className="lg:col-span-6 flex flex-col justify-center order-2 lg:order-1">
             
             {/* Headline */}
-            <h2 className="text-[24px] sm:text-[28px] lg:text-[32px] font-extrabold text-[#0c3746] leading-[1.25] tracking-tight">
-              How the assessment process{" "}
+            <h2 className="text-[26px] sm:text-[30px] lg:text-[42px] xl:text-[50px] 2xl:text-[56px] font-extrabold text-[#0c3746] leading-[1.25] tracking-tight">
+              Why request an{" "}
               <span className="relative inline-block">
-                works
+                assessment
                 {/* Hand-drawn Orange Underline */}
                 <svg
                   className="absolute left-0 -bottom-1.5 w-full h-[8px] overflow-visible pointer-events-none"
-                  viewBox="0 0 90 10"
+                  viewBox="0 0 140 10"
                   fill="none"
                   xmlns="http://www.w3.org/2000/svg"
                 >
                   <path
-                    d="M 2 5 C 30 9, 60 9, 88 3"
+                    d="M 2 5 C 45 9, 95 9, 138 3"
                     stroke="#f15b2a"
                     strokeWidth="4"
                     strokeLinecap="round"
@@ -132,66 +132,37 @@ export default function AssessmentsContentSection() {
               </span>
             </h2>
 
-            {/* Step-by-step Purple Circle List */}
-            <ul className="mt-6 space-y-4 text-[12.5px] sm:text-[13.5px] text-[#566e7a] font-medium leading-[1.6]">
+            {/* Checkmark Bullet Points */}
+            <ul className="mt-6 space-y-3.5 text-[13.5px] sm:text-[14.5px] lg:text-[16px] xl:text-[18px] 2xl:text-[19.5px] text-[#334650] font-medium leading-[1.65]">
               <li className="flex items-start gap-3">
-                <span className="flex-shrink-0 w-4 h-4 bg-[#5b4bbb] text-white rounded-full flex items-center justify-center text-[10px] mt-1">
-                  <Check className="w-2.5 h-2.5 stroke-[3]" />
+                <span className="flex-shrink-0 w-4.5 h-4.5 bg-[#5b4bbb] text-white rounded-full flex items-center justify-center text-[10px] mt-0.5">
+                  <Check className="w-3 h-3 stroke-[3]" />
                 </span>
-                <div>
-                  <strong className="text-[#0c3746] font-bold">Parent consultation:</strong>{" "}
-                  Initial intake meeting to understand background, concerns, history and the reason for seeking assessment.
-                </div>
+                <span>To gain clear understanding of your child's strengths and challenges</span>
               </li>
-
               <li className="flex items-start gap-3">
-                <span className="flex-shrink-0 w-4 h-4 bg-[#5b4bbb] text-white rounded-full flex items-center justify-center text-[10px] mt-1">
-                  <Check className="w-2.5 h-2.5 stroke-[3]" />
+                <span className="flex-shrink-0 w-4.5 h-4.5 bg-[#5b4bbb] text-white rounded-full flex items-center justify-center text-[10px] mt-0.5">
+                  <Check className="w-3 h-3 stroke-[3]" />
                 </span>
-                <div>
-                  <strong className="text-[#0c3746] font-bold">Assessment planning:</strong>{" "}
-                  Selection of appropriate, standardized or informal tools matching the child's age and profile.
-                </div>
+                <span>To guide target selection for therapy and educational plans</span>
               </li>
-
               <li className="flex items-start gap-3">
-                <span className="flex-shrink-0 w-4 h-4 bg-[#5b4bbb] text-white rounded-full flex items-center justify-center text-[10px] mt-1">
-                  <Check className="w-2.5 h-2.5 stroke-[3]" />
+                <span className="flex-shrink-0 w-4.5 h-4.5 bg-[#5b4bbb] text-white rounded-full flex items-center justify-center text-[10px] mt-0.5">
+                  <Check className="w-3 h-3 stroke-[3]" />
                 </span>
-                <div>
-                  <strong className="text-[#0c3746] font-bold">Assessment sessions:</strong>{" "}
-                  Direct observation, structured tasks and interactive activities with the child in a supportive setting.
-                </div>
+                <span>To support school admissions, accommodations or SEN placement</span>
               </li>
-
               <li className="flex items-start gap-3">
-                <span className="flex-shrink-0 w-4 h-4 bg-[#5b4bbb] text-white rounded-full flex items-center justify-center text-[10px] mt-1">
-                  <Check className="w-2.5 h-2.5 stroke-[3]" />
+                <span className="flex-shrink-0 w-4.5 h-4.5 bg-[#5b4bbb] text-white rounded-full flex items-center justify-center text-[10px] mt-0.5">
+                  <Check className="w-3 h-3 stroke-[3]" />
                 </span>
-                <div>
-                  <strong className="text-[#0c3746] font-bold">Clinical interpretation:</strong>{" "}
-                  Information gathering, scoring and clinical analysis by qualified clinicians.
-                </div>
+                <span>To monitor progress over time and update intervention goals</span>
               </li>
-
               <li className="flex items-start gap-3">
-                <span className="flex-shrink-0 w-4 h-4 bg-[#5b4bbb] text-white rounded-full flex items-center justify-center text-[10px] mt-1">
-                  <Check className="w-2.5 h-2.5 stroke-[3]" />
+                <span className="flex-shrink-0 w-4.5 h-4.5 bg-[#5b4bbb] text-white rounded-full flex items-center justify-center text-[10px] mt-0.5">
+                  <Check className="w-3 h-3 stroke-[3]" />
                 </span>
-                <div>
-                  <strong className="text-[#0c3746] font-bold">Written report and feedback:</strong>{" "}
-                  Detailed summary report provided with a dedicated parent feedback meeting.
-                </div>
-              </li>
-
-              <li className="flex items-start gap-3">
-                <span className="flex-shrink-0 w-4 h-4 bg-[#5b4bbb] text-white rounded-full flex items-center justify-center text-[10px] mt-1">
-                  <Check className="w-2.5 h-2.5 stroke-[3]" />
-                </span>
-                <div>
-                  <strong className="text-[#0c3746] font-bold">Recommendations:</strong>{" "}
-                  Practical, actionable guidance outlining the child's learning profile and recommendations for therapy or school support where appropriate.
-                </div>
+                <span>To receive formal clinical reports accepted by schools and healthcare partners</span>
               </li>
             </ul>
 
@@ -199,7 +170,7 @@ export default function AssessmentsContentSection() {
 
           {/* Organic Blob Photo (Right) */}
           <div className="lg:col-span-6 flex justify-center relative order-1 lg:order-2">
-            <div className="relative w-full max-w-[460px] aspect-[1/0.95]">
+            <div className="relative w-full max-w-[460px] xl:max-w-[520px] aspect-[1/0.95]">
               
               {/* Orange Accent Backdrop Blob */}
               <div className="absolute inset-0 bg-[#f15b2a] rounded-[48%_52%_35%_65%/55%_42%_58%_45%] transform rotate-[8deg] translate-x-2 translate-y-2 opacity-95 scale-105" />
@@ -210,7 +181,7 @@ export default function AssessmentsContentSection() {
                   src="/images/4a2b046ed4a1f72a824727d6c49c19af56f4db3a.jpg"
                   alt="Team of professional clinicians reviewing assessment files with laptop"
                   fill
-                  sizes="(max-width: 1024px) 100vw, 460px"
+                  sizes="(max-width: 1024px) 100vw, 520px"
                   className="object-cover"
                 />
               </div>
@@ -227,7 +198,7 @@ export default function AssessmentsContentSection() {
           
           {/* Organic Blob Photo (Left) */}
           <div className="lg:col-span-6 flex justify-center relative">
-            <div className="relative w-full max-w-[460px] aspect-[1/0.95]">
+            <div className="relative w-full max-w-[460px] xl:max-w-[520px] aspect-[1/0.95]">
               
               {/* Orange Accent Backdrop Blob */}
               <div className="absolute inset-0 bg-[#f15b2a] rounded-[65%_35%_55%_45%/45%_60%_40%_55%] transform rotate-[-8deg] translate-x-2 translate-y-2 opacity-95 scale-105" />
@@ -238,7 +209,7 @@ export default function AssessmentsContentSection() {
                   src="/images/627c1593c9a79ff57fd4c858c35d4aaf9d381598.jpg"
                   alt="Girl placing colored wooden rings onto pegs during assessment"
                   fill
-                  sizes="(max-width: 1024px) 100vw, 460px"
+                  sizes="(max-width: 1024px) 100vw, 520px"
                   className="object-cover"
                 />
               </div>
@@ -250,7 +221,7 @@ export default function AssessmentsContentSection() {
           <div className="lg:col-span-6 flex flex-col justify-center">
             
             {/* Headline */}
-            <h2 className="text-[24px] sm:text-[28px] lg:text-[32px] font-extrabold text-[#0c3746] leading-[1.25] tracking-tight">
+            <h2 className="text-[26px] sm:text-[30px] lg:text-[42px] xl:text-[50px] 2xl:text-[56px] font-extrabold text-[#0c3746] leading-[1.25] tracking-tight">
               What parents can{" "}
               <span className="relative inline-block">
                 expect
@@ -272,7 +243,7 @@ export default function AssessmentsContentSection() {
             </h2>
 
             {/* Narrative Paragraph */}
-            <p className="mt-5 text-[13px] sm:text-[13.5px] text-[#566e7a] leading-[1.7] font-medium max-w-[540px]">
+            <p className="mt-5 text-[14px] sm:text-[15px] lg:text-[16.5px] xl:text-[18.5px] 2xl:text-[20px] text-[#334650] leading-[1.65] font-medium max-w-[580px]">
               The purpose of assessment is to provide clarity and recommendations, not to box a child into a label. Support recommendations are practical, clinically appropriate and set within the functional context of the child's life. Reports may support school admissions, regional service applications, IEP planning, therapeutic placement or provide guidance for home and school professionals, depending on the type and purpose of the assessment.
             </p>
 

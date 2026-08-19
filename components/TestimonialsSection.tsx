@@ -32,17 +32,17 @@ export default function TestimonialsSection() {
 
   return (
     <section className="relative w-full bg-white py-16 sm:py-20 overflow-hidden">
-      <div className="max-w-[1240px] mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+      <div className="max-w-[1240px] xl:max-w-[1360px] 2xl:max-w-[1480px] mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         
         {/* Header Badge */}
         <div className="flex justify-center">
-          <div className="inline-flex items-center justify-center px-4 py-1.5 rounded-full bg-[#584a93] text-white text-[11px] font-bold tracking-wider uppercase">
+          <div className="inline-flex items-center justify-center px-4 py-1.5 rounded-full bg-[#584a93] text-white text-[11px] sm:text-[12px] xl:text-[13px] font-extrabold tracking-wider uppercase">
             TESTIMONIALS
           </div>
         </div>
 
         {/* Headline */}
-        <h2 className="text-[28px] sm:text-[36px] lg:text-[40px] font-extrabold text-[#0c3746] leading-[1.2] tracking-tight text-center mt-4">
+        <h2 className="text-[28px] sm:text-[36px] lg:text-[42px] xl:text-[50px] 2xl:text-[56px] font-extrabold text-[#0c3746] leading-[1.2] tracking-tight text-center mt-4">
           What parents say about their{" "}
           <span className="relative inline-block">
             experience
@@ -83,23 +83,23 @@ export default function TestimonialsSection() {
             <button
               type="button"
               aria-label="Previous Testimonials"
-              className="w-10 h-10 rounded-full bg-[#584a93] hover:bg-[#483c7d] text-white flex items-center justify-center shadow-md transition-all cursor-pointer"
+              className="w-10 h-10 sm:w-11 sm:h-11 rounded-full bg-[#584a93] hover:bg-[#483c7d] text-white flex items-center justify-center shadow-md transition-all cursor-pointer"
             >
-              <ArrowLeft className="w-4 h-4 stroke-[2.5]" />
+              <ArrowLeft className="w-4 h-4 sm:w-5 sm:h-5 stroke-[2.5]" />
             </button>
           </div>
 
           {/* Cards Grid */}
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6 sm:gap-6 w-full max-w-[1100px] mx-auto">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-6 sm:gap-6 lg:gap-7 w-full max-w-[1100px] xl:max-w-[1220px] 2xl:max-w-[1340px] mx-auto">
             {testimonials.map((card) => (
               <div
                 key={card.id}
-                className="relative bg-white rounded-[24px] border border-[#3d4a52]/30 p-6 sm:p-7 flex flex-col justify-between shadow-xs hover:shadow-md transition-all min-h-[260px]"
+                className="relative bg-white rounded-[24px] border border-[#3d4a52]/30 p-6 sm:p-7 xl:p-8 flex flex-col justify-between shadow-xs hover:shadow-md transition-all min-h-[260px] xl:min-h-[290px]"
               >
                 <div>
                   {/* Avatar + 5 Stars Row */}
                   <div className="flex items-center gap-3">
-                    <div className="relative w-11 h-11 rounded-full overflow-hidden border border-gray-100 flex-shrink-0">
+                    <div className="relative w-11 h-11 xl:w-12 xl:h-12 rounded-full overflow-hidden border border-gray-100 flex-shrink-0">
                       <Image
                         src={card.avatar}
                         alt={card.author}
@@ -111,14 +111,14 @@ export default function TestimonialsSection() {
                       {[...Array(5)].map((_, i) => (
                         <Star
                           key={i}
-                          className="w-4 h-4 fill-[#f15b2a] text-[#f15b2a]"
+                          className="w-4 h-4 xl:w-4.5 xl:h-4.5 fill-[#f15b2a] text-[#f15b2a]"
                         />
                       ))}
                     </div>
                   </div>
 
                   {/* Testimonial Quote Content */}
-                  <p className="mt-4 text-[13px] sm:text-[13.5px] text-[#566e7a] leading-[1.6] font-medium">
+                  <p className="mt-4 text-[13.5px] sm:text-[14.5px] lg:text-[15.5px] xl:text-[17px] 2xl:text-[18.5px] text-[#334650] leading-[1.65] font-medium">
                     {card.text}
                   </p>
                 </div>
@@ -128,15 +128,15 @@ export default function TestimonialsSection() {
                   <div className="w-full border-b border-dashed border-[#e2e8f0] my-4" />
                   <div className="flex items-center justify-between">
                     <div>
-                      <h4 className="text-[13.5px] font-bold text-[#0c3746]">
+                      <h4 className="text-[14px] sm:text-[15px] lg:text-[16px] xl:text-[17.5px] 2xl:text-[19px] font-extrabold text-[#0c3746]">
                         {card.author}
                       </h4>
-                      <p className="text-[12px] text-[#718096] font-medium mt-0.5">
+                      <p className="text-[12.5px] sm:text-[13.5px] lg:text-[14.5px] xl:text-[15.5px] text-[#64748b] font-medium mt-0.5">
                         {card.role}
                       </p>
                     </div>
                     {/* Purple Quote Icon */}
-                    <div className="w-7 h-7 relative flex-shrink-0">
+                    <div className="w-7 h-7 xl:w-8 xl:h-8 relative flex-shrink-0">
                       <Image
                         src="/images/cf4c469b4d086931b8a3ff1738b5a6f74b408622.png"
                         alt="Quote Icon"

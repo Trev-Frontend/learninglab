@@ -58,3 +58,73 @@
 .font-figma-copy {
   font-family: var(--font-plus-jakarta), system-ui, sans-serif;
 }
+
+/* Laptop calibration: preserve the mobile and wide-desktop compositions while
+   preventing lg/xl utilities from overscaling page sections at 1024–1439px. */
+@media (min-width: 1024px) and (max-width: 1439px) {
+  main > section > div[class*="max-w-[1240px]"],
+  main > section > div[class*="max-w-[1280px]"],
+  main > section > div[class*="max-w-[1400px]"] {
+    max-width: 1060px !important;
+  }
+
+  main > section [class*="max-w-[460px]"] {
+    max-width: 390px !important;
+  }
+
+  main > section [class*="max-w-[520px]"] {
+    max-width: 420px !important;
+  }
+
+  main > section h2 {
+    font-size: clamp(1.8rem, 2.45vw, 2.35rem) !important;
+    line-height: 1.14 !important;
+  }
+
+  main > section h3 {
+    font-size: clamp(1rem, 1.35vw, 1.2rem) !important;
+    line-height: 1.25 !important;
+  }
+
+  main > section p,
+  main > section li {
+    font-size: clamp(0.72rem, 0.9vw, 0.88rem) !important;
+    line-height: 1.55 !important;
+  }
+
+  /* Make neutral card and accordion borders subtle instead of hard. */
+  main > section [class*="border-black/"],
+  main > section [class*="border-[#3d4a52]"] {
+    border-color: rgb(12 55 70 / 10%) !important;
+  }
+
+  main > section [class*="border-2"]:not(a):not(button) {
+    border-width: 1px !important;
+  }
+
+  /* FAQ has an h1 in its banner, so it needs its own laptop scale cap. */
+  .faq-hero {
+    padding-top: 3.25rem !important;
+    padding-bottom: 6.5rem !important;
+  }
+
+  .faq-hero h1 {
+    font-size: clamp(2rem, 3.1vw, 2.7rem) !important;
+    line-height: 1.12 !important;
+  }
+
+  .faq-content {
+    padding-top: 3.5rem !important;
+    padding-bottom: 3.5rem !important;
+  }
+
+  .faq-content button {
+    padding-top: 1rem !important;
+    padding-bottom: 1rem !important;
+    font-size: 1rem !important;
+  }
+
+  .faq-content [class*="border-black/"] {
+    border-color: rgb(12 55 70 / 8%) !important;
+  }
+}

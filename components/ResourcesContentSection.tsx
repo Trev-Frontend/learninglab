@@ -90,7 +90,7 @@ export default function ResourcesContentSection() {
 
   return (
     <section className="relative w-full bg-white py-12 sm:py-18 overflow-hidden">
-      <div className="max-w-[1240px] mx-auto px-4 sm:px-6 lg:px-8">
+      <div className="max-w-[1240px] xl:max-w-[1360px] 2xl:max-w-[1480px] mx-auto px-4 sm:px-6 lg:px-8">
         
         {/* Main Grid: Left Sidebar (Categories & Search) + Right Grid (Articles) */}
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-10">
@@ -107,18 +107,18 @@ export default function ResourcesContentSection() {
                 placeholder="Search"
                 value={searchQuery}
                 onChange={(e) => setSearchQuery(e.target.value)}
-                className="w-full bg-[#f4f5f0] border border-black/5 rounded-xl px-4 py-2.5 pr-10 text-[13px] text-[#0c3746] placeholder-[#829199] focus:outline-none focus:ring-2 focus:ring-[#5b4bbb]/30 transition-all font-medium"
+                className="w-full bg-[#f4f5f0] border border-black/5 rounded-xl px-4 py-2.5 sm:py-3 pr-10 text-[13.5px] sm:text-[14.5px] lg:text-[15.5px] text-[#0c3746] placeholder-[#829199] focus:outline-none focus:ring-2 focus:ring-[#5b4bbb]/30 transition-all font-medium"
               />
               <Search className="absolute right-3.5 top-1/2 -translate-y-1/2 w-4 h-4 text-[#829199] pointer-events-none" />
             </div>
 
             {/* Categories Card Box */}
-            <div className="bg-[#f4f5f0] border border-black/5 rounded-2xl p-6">
-              <h3 className="text-[16px] font-extrabold text-[#0c3746] tracking-tight mb-4">
+            <div className="bg-[#f4f5f0] border border-black/5 rounded-2xl p-5 sm:p-6">
+              <h3 className="text-[15px] sm:text-[16.5px] xl:text-[18.5px] font-extrabold text-[#0c3746] mb-4 tracking-tight">
                 Categories
               </h3>
               
-              <ul className="space-y-3">
+              <ul className="space-y-3.5">
                 {categoriesList.map((cat, idx) => {
                   const isActive = selectedCategory === cat;
                   return (
@@ -127,7 +127,7 @@ export default function ResourcesContentSection() {
                         onClick={() =>
                           setSelectedCategory(isActive ? null : cat)
                         }
-                        className={`text-left w-full text-[13px] font-medium transition-colors leading-snug ${
+                        className={`text-left w-full text-[13.5px] sm:text-[14.5px] lg:text-[15.5px] xl:text-[17px] 2xl:text-[18px] font-medium transition-colors leading-snug ${
                           isActive
                             ? "text-[#f15b2a] font-bold"
                             : "text-[#566e7a] hover:text-[#0c3746]"
@@ -143,7 +143,7 @@ export default function ResourcesContentSection() {
               {selectedCategory && (
                 <button
                   onClick={() => setSelectedCategory(null)}
-                  className="mt-4 text-[12px] font-bold text-[#f15b2a] underline hover:text-[#de4b1a]"
+                  className="mt-4 text-[13px] xl:text-[14.5px] font-bold text-[#f15b2a] underline hover:text-[#de4b1a]"
                 >
                   Show All Categories
                 </button>
@@ -158,11 +158,11 @@ export default function ResourcesContentSection() {
           <div className="lg:col-span-8 flex flex-col justify-between">
             
             {/* Cards Grid (2 Columns) */}
-            <div className="grid grid-cols-1 sm:grid-cols-2 gap-5 sm:gap-6">
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-5 sm:gap-6 lg:gap-7">
               {filteredArticles.map((article) => (
                 <div
                   key={article.id}
-                  className="bg-[#f4f7e1] border border-[#e4ebce] rounded-2xl p-3.5 sm:p-4 flex flex-col justify-between hover:shadow-md transition-shadow duration-200 group cursor-pointer"
+                  className="bg-[#f4f7e1] border border-[#e4ebce] rounded-2xl p-4 sm:p-5 lg:p-6 flex flex-col justify-between hover:shadow-md transition-shadow duration-200 group cursor-pointer"
                 >
                   <div>
                     {/* Card Photo Container */}
@@ -177,11 +177,11 @@ export default function ResourcesContentSection() {
                     </div>
 
                     {/* Card Content Title & Subtitle */}
-                    <h4 className="text-[14px] sm:text-[15px] font-extrabold text-[#0c3746] leading-[1.35] tracking-tight">
+                    <h4 className="text-[15px] sm:text-[16px] lg:text-[17.5px] xl:text-[19.5px] 2xl:text-[21px] font-extrabold text-[#0c3746] leading-[1.35] tracking-tight">
                       {article.title}
                     </h4>
                     {article.subtitle && (
-                      <p className="mt-1 text-[12.5px] sm:text-[13px] font-semibold text-[#566e7a] leading-[1.35]">
+                      <p className="mt-1 text-[13px] sm:text-[14px] lg:text-[15px] xl:text-[16.5px] 2xl:text-[18px] text-[#334650] font-semibold leading-[1.4]">
                         {article.subtitle}
                       </p>
                     )}
@@ -241,18 +241,18 @@ export default function ResourcesContentSection() {
         {/* ========================================================================= */}
         {/* PRE-FOOTER DISCLAIMER & KIDS ILLUSTRATION */}
         {/* ========================================================================= */}
-        <div className="mt-16 sm:mt-20 pt-8 text-center max-w-[760px] mx-auto">
-          <p className="text-[12.5px] sm:text-[13.5px] text-[#566e7a] font-medium leading-[1.65]">
+        <div className="mt-12 sm:mt-16 pt-6 text-center max-w-[800px] mx-auto">
+          <p className="text-[14px] sm:text-[15px] lg:text-[16px] xl:text-[17.5px] 2xl:text-[19px] text-[#334650] font-medium leading-[1.6]">
             Practical guidance for the questions parents and educators ask most. Browse articles on therapy, learning, development, school support and inclusive practice.
           </p>
 
           {/* Kids Dancing Under Sun Illustration */}
-          <div className="mt-8 sm:mt-10 w-full max-w-[620px] mx-auto">
+          <div className="mt-8 sm:mt-10 w-full max-w-[560px] sm:max-w-[680px] lg:max-w-[760px] xl:max-w-[840px] mx-auto relative px-2 sm:px-4">
             <Image
               src="/images/11788e7f12548c0e6ac681e5791080ab41c8437b.png"
               alt="Children playing under the sun illustration"
-              width={700}
-              height={240}
+              width={840}
+              height={300}
               className="w-full h-auto mx-auto object-contain"
             />
           </div>

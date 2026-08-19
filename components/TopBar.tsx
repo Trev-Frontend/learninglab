@@ -15,10 +15,10 @@ export default function TopBar({ variant = "purple" }: TopBarProps) {
         isCream ? "bg-[#f5f8df] text-[#0c3746]" : "bg-[#5b4bbb] text-white"
       }`}
     >
-      <div className="max-w-[1240px] mx-auto px-4 sm:px-6 lg:px-8 pt-2.5 pb-1 flex flex-col md:flex-row items-center justify-between gap-1.5 md:gap-4">
+      <div className="max-w-[1240px] xl:max-w-[1360px] 2xl:max-w-[1480px] mx-auto px-4 sm:px-6 lg:px-8 pt-2.5 pb-1 flex flex-col md:flex-row items-center justify-between gap-1.5 md:gap-4">
         {/* Left Side Announcement */}
         <div
-          className={`flex items-center text-center md:text-left font-medium tracking-normal text-[9px] sm:text-[10px] lg:text-[10.5px] ${
+          className={`flex items-center text-center md:text-left font-medium tracking-normal text-[10px] sm:text-[11px] lg:text-[12.5px] xl:text-[14.5px] 2xl:text-[16px] ${
             isCream ? "text-[#0c3746]" : "text-white/95"
           }`}
         >
@@ -29,7 +29,7 @@ export default function TopBar({ variant = "purple" }: TopBarProps) {
 
         {/* Right Side Contact & Working Hours */}
         <div
-          className={`flex flex-wrap items-center justify-center md:justify-end gap-x-5 gap-y-1 text-[9px] sm:text-[10px] lg:text-[10.5px] ${
+          className={`flex flex-wrap items-center justify-center md:justify-end gap-x-5 gap-y-1 text-[10px] sm:text-[11px] lg:text-[12.5px] xl:text-[14.5px] 2xl:text-[16px] ${
             isCream ? "text-[#3a4a52]" : "text-white/95"
           }`}
         >
@@ -56,7 +56,10 @@ export default function TopBar({ variant = "purple" }: TopBarProps) {
       </div>
 
       {/* Scallop wave under the bar */}
-      <TopBarWave color={isCream ? "#f5f8df" : "#5b4bbb"} />
+      <TopBarWave
+        color={isCream ? "#f5f8df" : "#5b4bbb"}
+        bottomColor={isCream ? "#5b4bbb" : "#f5f8df"}
+      />
     </div>
   );
 }

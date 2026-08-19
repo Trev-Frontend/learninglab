@@ -47,20 +47,20 @@ export default function AboutPage() {
 
       {/* About Us Hero Section (Vibrant Purple Banner) */}
       <section className="relative w-full bg-[#5b4bbb] pt-12 sm:pt-16 pb-28 sm:pb-36 text-white overflow-hidden">
-        <div className="max-w-[1280px] mx-auto px-4 sm:px-6 lg:px-8 text-center relative z-10">
+        <div className="max-w-[1240px] xl:max-w-[1360px] 2xl:max-w-[1480px] mx-auto px-4 sm:px-6 lg:px-8 text-center relative z-10">
           
           {/* Main Hero Headline */}
-          <h1 className="text-[32px] sm:text-[42px] lg:text-[48px] font-extrabold text-white leading-[1.18] tracking-tight max-w-[900px] mx-auto">
+          <h1 className="text-[32px] sm:text-[42px] lg:text-[52px] xl:text-[62px] 2xl:text-[70px] font-extrabold text-white leading-[1.18] tracking-tight max-w-[980px] mx-auto">
             A place built around possibility, not exclusion.
           </h1>
 
           {/* Hero Sub-Paragraph 1 */}
-          <p className="mt-5 text-[13.5px] sm:text-[14.5px] text-white/90 leading-[1.65] max-w-[820px] mx-auto font-medium">
+          <p className="mt-5 text-[14px] sm:text-[15px] lg:text-[16.5px] xl:text-[18.5px] 2xl:text-[20px] text-white/95 leading-[1.65] max-w-[880px] mx-auto font-medium">
             Learning Lab is an inclusive therapy, learning and training centre where children are welcomed as individuals. We support children up to 15 years old through therapy, assessments, remedial support, school readiness, enrichment programmes and personalised learning experiences.
           </p>
 
           {/* Hero Sub-Paragraph 2 */}
-          <p className="mt-4 text-[13.5px] sm:text-[14.5px] text-white/90 leading-[1.65] max-w-[820px] mx-auto font-medium">
+          <p className="mt-4 text-[14px] sm:text-[15px] lg:text-[16.5px] xl:text-[18.5px] 2xl:text-[20px] text-white/95 leading-[1.65] max-w-[880px] mx-auto font-medium">
             Our work also extends to parents, teachers and schools through consultation, professional training, classroom support and educational programmes.
           </p>
 
@@ -72,11 +72,11 @@ export default function AboutPage() {
 
       {/* "Why Learning Lab Was Created" Section */}
       <section className="relative w-full bg-white py-16 sm:py-20 overflow-hidden">
-        <div className="max-w-[1280px] mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="max-w-[1240px] xl:max-w-[1360px] 2xl:max-w-[1480px] mx-auto px-4 sm:px-6 lg:px-8">
           
           {/* Section Headline */}
           <div className="text-center">
-            <h2 className="text-[28px] sm:text-[36px] lg:text-[40px] font-extrabold text-[#0c3746] leading-[1.2] tracking-tight">
+            <h2 className="text-[28px] sm:text-[36px] lg:text-[42px] xl:text-[50px] 2xl:text-[56px] font-extrabold text-[#0c3746] leading-[1.2] tracking-tight">
               Why{" "}
               <span className="relative inline-block">
                 Learning Lab
@@ -99,12 +99,12 @@ export default function AboutPage() {
             </h2>
 
             {/* Intro Paragraph 1 */}
-            <p className="mt-5 text-[13.5px] sm:text-[14px] text-[#566e7a] max-w-[780px] mx-auto leading-[1.65] font-medium">
+            <p className="mt-5 text-[14px] sm:text-[15px] lg:text-[16.5px] xl:text-[18.5px] 2xl:text-[20px] text-[#334650] max-w-[840px] mx-auto leading-[1.65] font-medium">
               Learning Lab Global Facilitation Pvt. Ltd. was established in July 2024 with a clear purpose: to create a place where children with diverse needs can build skills, participate in meaningful activities and access opportunities that are too often closed to them.
             </p>
 
             {/* Intro Paragraph 2 */}
-            <p className="mt-3.5 text-[13.5px] sm:text-[14px] text-[#566e7a] max-w-[780px] mx-auto leading-[1.65] font-medium">
+            <p className="mt-3.5 text-[14px] sm:text-[15px] lg:text-[16.5px] xl:text-[18.5px] 2xl:text-[20px] text-[#334650] max-w-[840px] mx-auto leading-[1.65] font-medium">
               Families are frequently told that a child is not ready, does not fit or cannot be accommodated. Learning Lab was created to begin from a different question: what does this child need in order to participate, learn and grow?
             </p>
           </div>
@@ -115,7 +115,7 @@ export default function AboutPage() {
               <div key={pillar.id} className="flex flex-col items-center text-center group">
                 
                 {/* Organic Blob Photo Container with Purple Gradient Backdrop Accent */}
-                <div className="relative w-[240px] h-[240px] sm:w-[260px] sm:h-[260px] flex items-center justify-center">
+                <div className="relative w-[240px] h-[240px] sm:w-[260px] sm:h-[260px] xl:w-[280px] xl:h-[280px] flex items-center justify-center">
                   
                   {/* Purple Accent Backdrop Blob */}
                   <div
@@ -128,7 +128,7 @@ export default function AboutPage() {
                       src={pillar.image}
                       alt={pillar.title}
                       fill
-                      sizes="260px"
+                      sizes="280px"
                       className="object-cover group-hover:scale-105 transition-transform duration-500"
                     />
                   </div>
@@ -136,12 +136,12 @@ export default function AboutPage() {
                 </div>
 
                 {/* Title */}
-                <h3 className="text-[20px] sm:text-[22px] font-bold text-[#0c3746] mt-6 tracking-tight">
+                <h3 className="text-[20px] sm:text-[22px] lg:text-[24px] xl:text-[26px] 2xl:text-[28px] font-extrabold text-[#0c3746] mt-6 tracking-tight">
                   {pillar.title}
                 </h3>
 
                 {/* Description */}
-                <p className="mt-2.5 text-[13px] sm:text-[13.5px] text-[#566e7a] leading-[1.6] font-medium max-w-[340px]">
+                <p className="mt-2.5 text-[13px] sm:text-[14px] lg:text-[15px] xl:text-[16.5px] 2xl:text-[18px] text-[#334650] leading-[1.6] font-medium max-w-[360px]">
                   {pillar.description}
                 </p>
 

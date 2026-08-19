@@ -66,11 +66,11 @@ export default function TeamSection() {
 
   return (
     <section className="relative w-full bg-white py-16 sm:py-20 overflow-hidden">
-      <div className="max-w-[1240px] mx-auto px-4 sm:px-6 lg:px-8">
+      <div className="max-w-[1240px] xl:max-w-[1360px] 2xl:max-w-[1480px] mx-auto px-4 sm:px-6 lg:px-8">
         
         {/* Subsection 1: Leadership */}
         <div className="text-center">
-          <h2 className="text-[28px] sm:text-[34px] lg:text-[38px] font-extrabold text-[#0c3746] leading-[1.2] tracking-tight">
+          <h2 className="text-[28px] sm:text-[34px] lg:text-[42px] xl:text-[50px] 2xl:text-[56px] font-extrabold text-[#0c3746] leading-[1.2] tracking-tight">
             <span className="relative inline-block">
               Leadership
               {/* Hand-drawn Orange Underline */}
@@ -96,13 +96,13 @@ export default function TeamSection() {
           {leadership.map((member) => (
             <div key={member.id} className="flex flex-col items-center text-center group">
               {/* Portrait Card */}
-              <div className="relative w-full aspect-[4/4.5] max-w-[260px] rounded-[24px] overflow-hidden shadow-sm bg-[#e2e5e7] flex items-center justify-center">
+              <div className="relative w-full aspect-[4/4.5] max-w-[260px] xl:max-w-[290px] rounded-[24px] overflow-hidden shadow-sm bg-[#e2e5e7] flex items-center justify-center">
                 {member.image ? (
                   <Image
                     src={member.image}
                     alt={member.name}
                     fill
-                    sizes="260px"
+                    sizes="290px"
                     className="object-cover object-top group-hover:scale-105 transition-transform duration-500"
                   />
                 ) : (
@@ -111,13 +111,13 @@ export default function TeamSection() {
               </div>
 
               {/* Details */}
-              <h3 className="text-[15px] sm:text-[16px] font-bold text-[#0c3746] mt-4 tracking-tight">
+              <h3 className="text-[15px] sm:text-[16px] lg:text-[17.5px] xl:text-[19.5px] 2xl:text-[21px] font-extrabold text-[#0c3746] mt-4 tracking-tight">
                 {member.name}
               </h3>
-              <p className="text-[11.5px] sm:text-[12px] font-bold text-[#f15b2a] mt-0.5">
+              <p className="text-[12px] sm:text-[13px] lg:text-[14px] xl:text-[15.5px] 2xl:text-[16.5px] font-bold text-[#f15b2a] mt-0.5">
                 {member.role}
               </p>
-              <p className="mt-2 text-[11.5px] sm:text-[12px] text-[#566e7a] leading-[1.5] font-medium max-w-[250px]">
+              <p className="mt-2 text-[12px] sm:text-[13px] lg:text-[14px] xl:text-[15px] 2xl:text-[16px] text-[#334650] leading-[1.6] font-medium max-w-[280px]">
                 {member.bio}
               </p>
             </div>
@@ -138,7 +138,7 @@ export default function TeamSection() {
             />
           </div>
 
-          <h2 className="text-[28px] sm:text-[34px] lg:text-[38px] font-extrabold text-[#0c3746] leading-[1.2] tracking-tight">
+          <h2 className="text-[28px] sm:text-[34px] lg:text-[42px] xl:text-[50px] 2xl:text-[56px] font-extrabold text-[#0c3746] leading-[1.2] tracking-tight">
             Therapy and{" "}
             <span className="relative inline-block">
               Academic Team
@@ -165,13 +165,13 @@ export default function TeamSection() {
           {therapyTeam.map((member) => (
             <div key={member.id} className="flex flex-col items-center text-center group">
               {/* Portrait Card */}
-              <div className="relative w-full aspect-[4/4.5] max-w-[260px] rounded-[24px] overflow-hidden shadow-sm bg-[#e2e5e7] flex items-center justify-center">
+              <div className="relative w-full aspect-[4/4.5] max-w-[260px] xl:max-w-[290px] rounded-[24px] overflow-hidden shadow-sm bg-[#e2e5e7] flex items-center justify-center">
                 {member.image ? (
                   <Image
                     src={member.image}
                     alt={member.name}
                     fill
-                    sizes="260px"
+                    sizes="290px"
                     className="object-cover object-top group-hover:scale-105 transition-transform duration-500"
                   />
                 ) : (
@@ -180,13 +180,13 @@ export default function TeamSection() {
               </div>
 
               {/* Details */}
-              <h3 className="text-[15px] sm:text-[16px] font-bold text-[#0c3746] mt-4 tracking-tight">
+              <h3 className="text-[15px] sm:text-[16px] lg:text-[17.5px] xl:text-[19.5px] 2xl:text-[21px] font-extrabold text-[#0c3746] mt-4 tracking-tight">
                 {member.name}
               </h3>
-              <p className="text-[11.5px] sm:text-[12px] font-bold text-[#f15b2a] mt-0.5">
+              <p className="text-[12px] sm:text-[13px] lg:text-[14px] xl:text-[15.5px] 2xl:text-[16.5px] font-bold text-[#f15b2a] mt-0.5">
                 {member.role}
               </p>
-              <p className="mt-2 text-[11.5px] sm:text-[12px] text-[#566e7a] leading-[1.5] font-medium max-w-[250px]">
+              <p className="mt-2 text-[12.5px] sm:text-[13.5px] lg:text-[14.5px] xl:text-[16px] 2xl:text-[17.5px] text-[#334650] leading-[1.6] font-medium max-w-[280px]">
                 {member.bio}
               </p>
             </div>

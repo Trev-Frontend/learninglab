@@ -7,18 +7,18 @@ import { CrownDoodle, ScribbleDoodle, CloudBottomWave } from "./Doodles";
 export default function Hero() {
   return (
     <section className="relative w-full bg-[#f5f8df] pt-2 sm:pt-3 lg:pt-4 pb-0 overflow-hidden">
-      <div className="max-w-[1240px] mx-auto px-4 sm:px-6 lg:px-8">
+      <div className="max-w-[1240px] xl:max-w-[1360px] 2xl:max-w-[1480px] mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-0 items-center min-h-[520px] lg:min-h-[470px]">
 
           {/* Left Column: Heading, Description & CTAs */}
           <div className="lg:col-span-6 z-20 pt-4 pb-4 lg:py-6 flex flex-col justify-center items-center lg:items-start text-center lg:text-left">
-            <h1 className="text-[34px] sm:text-[44px] md:text-[48px] lg:text-[48px] xl:text-[54px] font-extrabold text-[#0c3746] leading-[1.1] tracking-[-0.035em] max-w-[540px]">
+            <h1 className="text-[34px] sm:text-[44px] md:text-[48px] lg:text-[52px] xl:text-[62px] 2xl:text-[72px] font-extrabold text-[#0c3746] leading-[1.1] tracking-[-0.035em] max-w-[540px] xl:max-w-[660px] 2xl:max-w-[760px]">
               A Place for Every<br className="hidden sm:inline" />{" "}
               Child to Learn,<br className="hidden sm:inline" />{" "}
               Grow and Belong.
             </h1>
 
-            <p className="mt-4 sm:mt-6 text-[13px] sm:text-[14px] lg:text-[13px] xl:text-[14px] text-[#61737b] leading-[1.65] max-w-[480px] font-normal mx-auto lg:mx-0">
+            <p className="mt-4 sm:mt-6 text-[14px] sm:text-[15px] lg:text-[16px] xl:text-[18px] 2xl:text-[20px] text-[#475b65] leading-[1.65] max-w-[480px] xl:max-w-[580px] 2xl:max-w-[640px] font-medium mx-auto lg:mx-0">
               Learning Lab supports children up to 15 years old through behavioural, ABA,
               speech and occupational therapies, assessments, learning programmes and
               enrichment activities. We help parents understand what their child may need,
@@ -29,7 +29,7 @@ export default function Hero() {
             <div className="mt-6 sm:mt-7 flex flex-wrap items-center justify-center lg:justify-start gap-3 w-full">
               <Link
                 href="/contact"
-                className="inline-flex items-center justify-center gap-2 bg-[#f15b2a] hover:bg-[#de4b1a] text-white px-5 sm:px-6 py-2.5 sm:py-3 rounded-full text-[11px] sm:text-[12px] font-bold shadow-xs hover:shadow-md hover:-translate-y-0.5 active:translate-y-0 transition-all duration-200 group"
+                className="inline-flex items-center justify-center gap-2 bg-[#f15b2a] hover:bg-[#de4b1a] text-white px-5 sm:px-6 lg:px-7 xl:px-8 py-2.5 sm:py-3 xl:py-3.5 rounded-full text-[12px] sm:text-[13px] lg:text-[14.5px] xl:text-[16.5px] 2xl:text-[18px] font-bold shadow-xs hover:shadow-md hover:-translate-y-0.5 active:translate-y-0 transition-all duration-200 group"
               >
                 <span>Contact Us</span>
                 <ArrowRight className="w-3.5 h-3.5 stroke-[2.5] transition-transform group-hover:translate-x-1" />
@@ -37,7 +37,7 @@ export default function Hero() {
 
               <Link
                 href="/services"
-                className="inline-flex items-center justify-center gap-2 bg-[#f5f8df] hover:bg-[#0c3746] text-[#0c3746] hover:text-white border-[1.5px] border-[#0c3746] px-5 sm:px-6 py-2.5 sm:py-3 rounded-full text-[11px] sm:text-[12px] font-bold transition-all duration-200 group"
+                className="inline-flex items-center justify-center gap-2 bg-[#f5f8df] hover:bg-[#0c3746] text-[#0c3746] hover:text-white border-[1.5px] border-[#0c3746] px-5 sm:px-6 lg:px-7 xl:px-8 py-2.5 sm:py-3 xl:py-3.5 rounded-full text-[12px] sm:text-[13px] lg:text-[14.5px] xl:text-[16.5px] 2xl:text-[18px] font-bold transition-all duration-200 group"
               >
                 <span>Explore Our Services</span>
                 <ArrowRight className="w-3.5 h-3.5 stroke-[2.5] transition-transform group-hover:translate-x-1" />
@@ -45,7 +45,7 @@ export default function Hero() {
             </div>
 
             {/* Micro reassurance note */}
-            <p className="mt-4 text-[9.5px] sm:text-[10px] text-[#78898d] font-medium text-center lg:text-left">
+            <p className="mt-4 text-[11.5px] sm:text-[12.5px] lg:text-[14px] xl:text-[15.5px] 2xl:text-[17px] text-[#2d424c] font-semibold text-center lg:text-left">
               You can contact us even when you only have a concern, not a diagnosis.
             </p>
           </div>

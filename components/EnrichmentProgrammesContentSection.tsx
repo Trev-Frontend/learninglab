@@ -5,7 +5,7 @@ import { Check } from "lucide-react";
 export default function EnrichmentProgrammesContentSection() {
   return (
     <section className="relative w-full bg-white py-16 sm:py-24 overflow-hidden">
-      <div className="max-w-[1240px] mx-auto px-4 sm:px-6 lg:px-8 space-y-20 sm:space-y-28">
+      <div className="max-w-[1240px] xl:max-w-[1360px] 2xl:max-w-[1480px] mx-auto px-4 sm:px-6 lg:px-8 space-y-20 sm:space-y-28">
         
         {/* ========================================================================= */}
         {/* ROW 1: Left Organic Photo + Right "Current enrichment areas" */}
@@ -14,7 +14,7 @@ export default function EnrichmentProgrammesContentSection() {
           
           {/* Organic Blob Photo (Left) */}
           <div className="lg:col-span-6 flex justify-center relative">
-            <div className="relative w-full max-w-[460px] aspect-[1/0.95]">
+            <div className="relative w-full max-w-[460px] xl:max-w-[520px] aspect-[1/0.95]">
               
               {/* Orange Accent Backdrop Blob */}
               <div className="absolute inset-0 bg-[#f15b2a] rounded-[52%_48%_68%_32%/45%_55%_45%_55%] transform rotate-[-6deg] translate-x-2 translate-y-2 opacity-95 scale-105" />
@@ -25,7 +25,7 @@ export default function EnrichmentProgrammesContentSection() {
                   src="/images/enrichment1.jpg"
                   alt="Child forming geometric shapes with rubber bands on wooden peg geoboard"
                   fill
-                  sizes="(max-width: 1024px) 100vw, 460px"
+                  sizes="(max-width: 1024px) 100vw, 520px"
                   className="object-cover"
                 />
               </div>
@@ -37,7 +37,7 @@ export default function EnrichmentProgrammesContentSection() {
           <div className="lg:col-span-6 flex flex-col justify-center">
             
             {/* Headline */}
-            <h2 className="text-[24px] sm:text-[28px] lg:text-[32px] font-extrabold text-[#0c3746] leading-[1.25] tracking-tight">
+            <h2 className="text-[26px] sm:text-[30px] lg:text-[42px] xl:text-[50px] 2xl:text-[56px] font-extrabold text-[#0c3746] leading-[1.25] tracking-tight">
               Current{" "}
               <span className="relative inline-block">
                 enrichment
@@ -60,42 +60,36 @@ export default function EnrichmentProgrammesContentSection() {
             </h2>
 
             {/* Checkmark Bullet Points */}
-            <ul className="mt-6 space-y-3 text-[12.5px] sm:text-[13.5px] text-[#566e7a] font-medium leading-[1.6]">
+            <ul className="mt-6 space-y-3.5 text-[13.5px] sm:text-[14.5px] lg:text-[16px] xl:text-[18px] 2xl:text-[19.5px] text-[#334650] font-medium leading-[1.65]">
               <li className="flex items-start gap-3">
-                <span className="flex-shrink-0 w-4 h-4 bg-[#5b4bbb] text-white rounded-full flex items-center justify-center text-[10px] mt-0.5">
-                  <Check className="w-2.5 h-2.5 stroke-[3]" />
+                <span className="flex-shrink-0 w-4.5 h-4.5 bg-[#5b4bbb] text-white rounded-full flex items-center justify-center text-[10px] mt-0.5">
+                  <Check className="w-3 h-3 stroke-[3]" />
                 </span>
-                <span>Music Enrichment</span>
+                <span>Social skills & peer interaction groups</span>
               </li>
               <li className="flex items-start gap-3">
-                <span className="flex-shrink-0 w-4 h-4 bg-[#5b4bbb] text-white rounded-full flex items-center justify-center text-[10px] mt-0.5">
-                  <Check className="w-2.5 h-2.5 stroke-[3]" />
+                <span className="flex-shrink-0 w-4.5 h-4.5 bg-[#5b4bbb] text-white rounded-full flex items-center justify-center text-[10px] mt-0.5">
+                  <Check className="w-3 h-3 stroke-[3]" />
                 </span>
-                <span>Reading Club</span>
+                <span>Emotional regulation & mindfulness workshops</span>
               </li>
               <li className="flex items-start gap-3">
-                <span className="flex-shrink-0 w-4 h-4 bg-[#5b4bbb] text-white rounded-full flex items-center justify-center text-[10px] mt-0.5">
-                  <Check className="w-2.5 h-2.5 stroke-[3]" />
+                <span className="flex-shrink-0 w-4.5 h-4.5 bg-[#5b4bbb] text-white rounded-full flex items-center justify-center text-[10px] mt-0.5">
+                  <Check className="w-3 h-3 stroke-[3]" />
                 </span>
-                <span>Art and Crafts</span>
+                <span>Sensory exploration & creative art activities</span>
               </li>
               <li className="flex items-start gap-3">
-                <span className="flex-shrink-0 w-4 h-4 bg-[#5b4bbb] text-white rounded-full flex items-center justify-center text-[10px] mt-0.5">
-                  <Check className="w-2.5 h-2.5 stroke-[3]" />
+                <span className="flex-shrink-0 w-4.5 h-4.5 bg-[#5b4bbb] text-white rounded-full flex items-center justify-center text-[10px] mt-0.5">
+                  <Check className="w-3 h-3 stroke-[3]" />
                 </span>
-                <span>Creative</span>
+                <span>Life skills & independence development</span>
               </li>
               <li className="flex items-start gap-3">
-                <span className="flex-shrink-0 w-4 h-4 bg-[#5b4bbb] text-white rounded-full flex items-center justify-center text-[10px] mt-0.5">
-                  <Check className="w-2.5 h-2.5 stroke-[3]" />
+                <span className="flex-shrink-0 w-4.5 h-4.5 bg-[#5b4bbb] text-white rounded-full flex items-center justify-center text-[10px] mt-0.5">
+                  <Check className="w-3 h-3 stroke-[3]" />
                 </span>
-                <span>Culinary Activities</span>
-              </li>
-              <li className="flex items-start gap-3">
-                <span className="flex-shrink-0 w-4 h-4 bg-[#5b4bbb] text-white rounded-full flex items-center justify-center text-[10px] mt-0.5">
-                  <Check className="w-2.5 h-2.5 stroke-[3]" />
-                </span>
-                <span>Other seasonal and interest-based activities</span>
+                <span>Holiday camps & seasonal skill-building programs</span>
               </li>
             </ul>
 
@@ -104,7 +98,7 @@ export default function EnrichmentProgrammesContentSection() {
         </div>
 
         {/* ========================================================================= */}
-        {/* ROW 2: Left "How programmes are offered" + Right Organic Photo */}
+        {/* ROW 2: Left "Why choose enrichment" + Right Organic Photo */}
         {/* ========================================================================= */}
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-10 lg:gap-14 items-center">
           
@@ -112,19 +106,19 @@ export default function EnrichmentProgrammesContentSection() {
           <div className="lg:col-span-6 flex flex-col justify-center order-2 lg:order-1">
             
             {/* Headline */}
-            <h2 className="text-[24px] sm:text-[28px] lg:text-[32px] font-extrabold text-[#0c3746] leading-[1.25] tracking-tight">
-              How programmes are{" "}
+            <h2 className="text-[26px] sm:text-[30px] lg:text-[42px] xl:text-[50px] 2xl:text-[56px] font-extrabold text-[#0c3746] leading-[1.25] tracking-tight">
+              Why choose{" "}
               <span className="relative inline-block">
-                offered
+                enrichment
                 {/* Hand-drawn Orange Underline */}
                 <svg
                   className="absolute left-0 -bottom-1.5 w-full h-[8px] overflow-visible pointer-events-none"
-                  viewBox="0 0 100 10"
+                  viewBox="0 0 160 10"
                   fill="none"
                   xmlns="http://www.w3.org/2000/svg"
                 >
                   <path
-                    d="M 2 5 C 30 9, 70 9, 98 3"
+                    d="M 2 5 C 50 9, 110 9, 158 3"
                     stroke="#f15b2a"
                     strokeWidth="4"
                     strokeLinecap="round"
@@ -133,16 +127,39 @@ export default function EnrichmentProgrammesContentSection() {
               </span>
             </h2>
 
-            {/* Narrative Paragraph */}
-            <p className="mt-5 text-[13px] sm:text-[13.5px] text-[#566e7a] leading-[1.7] font-medium max-w-[540px]">
-              Programmes may be scheduled individually or in groups, and are organized during announced periods. Activities are non-therapy, age-grouped and designed to support participation, creativity, communication, motor skills, confidence and enjoyment.
-            </p>
+            {/* Checkmark Bullet Points */}
+            <ul className="mt-6 space-y-3.5 text-[13.5px] sm:text-[14.5px] lg:text-[16px] xl:text-[18px] 2xl:text-[19.5px] text-[#334650] font-medium leading-[1.65]">
+              <li className="flex items-start gap-3">
+                <span className="flex-shrink-0 w-4.5 h-4.5 bg-[#5b4bbb] text-white rounded-full flex items-center justify-center text-[10px] mt-0.5">
+                  <Check className="w-3 h-3 stroke-[3]" />
+                </span>
+                <span>Small group sizes for individualized attention</span>
+              </li>
+              <li className="flex items-start gap-3">
+                <span className="flex-shrink-0 w-4.5 h-4.5 bg-[#5b4bbb] text-white rounded-full flex items-center justify-center text-[10px] mt-0.5">
+                  <Check className="w-3 h-3 stroke-[3]" />
+                </span>
+                <span>Therapist-guided activities fostering genuine growth</span>
+              </li>
+              <li className="flex items-start gap-3">
+                <span className="flex-shrink-0 w-4.5 h-4.5 bg-[#5b4bbb] text-white rounded-full flex items-center justify-center text-[10px] mt-0.5">
+                  <Check className="w-3 h-3 stroke-[3]" />
+                </span>
+                <span>Safe, structured, and fun social environment</span>
+              </li>
+              <li className="flex items-start gap-3">
+                <span className="flex-shrink-0 w-4.5 h-4.5 bg-[#5b4bbb] text-white rounded-full flex items-center justify-center text-[10px] mt-0.5">
+                  <Check className="w-3 h-3 stroke-[3]" />
+                </span>
+                <span>Helps generalize therapy goals in real-world settings</span>
+              </li>
+            </ul>
 
           </div>
 
           {/* Organic Blob Photo (Right) */}
           <div className="lg:col-span-6 flex justify-center relative order-1 lg:order-2">
-            <div className="relative w-full max-w-[460px] aspect-[1/0.95]">
+            <div className="relative w-full max-w-[460px] xl:max-w-[520px] aspect-[1/0.95]">
               
               {/* Orange Accent Backdrop Blob */}
               <div className="absolute inset-0 bg-[#f15b2a] rounded-[48%_52%_35%_65%/55%_42%_58%_45%] transform rotate-[8deg] translate-x-2 translate-y-2 opacity-95 scale-105" />
@@ -153,7 +170,7 @@ export default function EnrichmentProgrammesContentSection() {
                   src="/images/enrichment2.jpg"
                   alt="Young Asian girl smiling through wooden wire bead maze toy"
                   fill
-                  sizes="(max-width: 1024px) 100vw, 460px"
+                  sizes="(max-width: 1024px) 100vw, 520px"
                   className="object-cover"
                 />
               </div>
@@ -170,7 +187,7 @@ export default function EnrichmentProgrammesContentSection() {
           
           {/* Organic Blob Photo (Left) */}
           <div className="lg:col-span-6 flex justify-center relative">
-            <div className="relative w-full max-w-[460px] aspect-[1/0.95]">
+            <div className="relative w-full max-w-[460px] xl:max-w-[520px] aspect-[1/0.95]">
               
               {/* Orange Accent Backdrop Blob */}
               <div className="absolute inset-0 bg-[#f15b2a] rounded-[65%_35%_55%_45%/45%_60%_40%_55%] transform rotate-[-8deg] translate-x-2 translate-y-2 opacity-95 scale-105" />
@@ -181,7 +198,7 @@ export default function EnrichmentProgrammesContentSection() {
                   src="/images/enrichment3.jpg"
                   alt="Two young boys building tall tower out of yellow plastic cups"
                   fill
-                  sizes="(max-width: 1024px) 100vw, 460px"
+                  sizes="(max-width: 1024px) 100vw, 520px"
                   className="object-cover"
                 />
               </div>
@@ -193,7 +210,7 @@ export default function EnrichmentProgrammesContentSection() {
           <div className="lg:col-span-6 flex flex-col justify-center">
             
             {/* Headline */}
-            <h2 className="text-[24px] sm:text-[28px] lg:text-[32px] font-extrabold text-[#0c3746] leading-[1.25] tracking-tight">
+            <h2 className="text-[26px] sm:text-[30px] lg:text-[42px] xl:text-[50px] 2xl:text-[56px] font-extrabold text-[#0c3746] leading-[1.25] tracking-tight">
               A welcoming space for every{" "}
               <span className="relative inline-block">
                 learner
@@ -205,7 +222,7 @@ export default function EnrichmentProgrammesContentSection() {
                   xmlns="http://www.w3.org/2000/svg"
                 >
                   <path
-                    d="M 2 5 C 35 9, 75 9, 108 3"
+                    d="M 2 5 C 35 9, 70 9, 98 3"
                     stroke="#f15b2a"
                     strokeWidth="4"
                     strokeLinecap="round"
@@ -215,7 +232,7 @@ export default function EnrichmentProgrammesContentSection() {
             </h2>
 
             {/* Narrative Paragraph */}
-            <p className="mt-5 text-[13px] sm:text-[13.5px] text-[#566e7a] leading-[1.7] font-medium max-w-[540px]">
+            <p className="mt-5 text-[14px] sm:text-[15px] lg:text-[16.5px] xl:text-[18.5px] 2xl:text-[20px] text-[#334650] leading-[1.65] font-medium max-w-[580px]">
               Enrichment is open to all children. It is a wonderful opportunity for children to practice social skills, group participation, and everyday skills in an inclusive, relaxed environment.
             </p>
 

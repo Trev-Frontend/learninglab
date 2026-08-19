@@ -69,28 +69,40 @@ export function ScribbleDoodle({ className = "" }: { className?: string }) {
   );
 }
 
-export function TopBarWave({ color = "#654fe6" }: { color?: string }) {
+export function TopBarWave({
+  color = "#654fe6",
+  bottomColor = "#f5f8df",
+}: {
+  color?: string;
+  bottomColor?: string;
+}) {
   return (
-    <div className="w-full overflow-hidden leading-none z-20 block -mb-[1px]">
+    <div
+      className="relative w-full overflow-hidden leading-none z-20 hidden -mt-px -mb-px"
+      style={{ backgroundColor: bottomColor }}
+    >
       <svg
-        viewBox="-10 0 1460 28"
+        viewBox="-10 -2 1460 30"
         fill="none"
         xmlns="http://www.w3.org/2000/svg"
         preserveAspectRatio="none"
-        className="w-[101%] -ml-[0.5%] h-3 sm:h-3.5 md:h-4 block"
+        shapeRendering="geometricPrecision"
+        className="w-full h-3 sm:h-3.5 md:h-4 block -mt-px"
         style={{ color, fill: "currentColor" }}
       >
-        <path d="M-10,0 
-          C 50,26 110,26 170,0 
-          C 230,26 290,26 350,0 
-          C 410,26 470,26 530,0 
-          C 590,26 650,26 710,0 
-          C 770,26 830,26 890,0 
-          C 950,26 1010,26 1070,0 
-          C 1130,26 1190,26 1250,0 
-          C 1310,26 1370,26 1430,0 
-          C 1445,15 1455,0 1470,0
-          L1470,0 L-10,0 Z" />
+        <path d="M-10,-2 
+          L1470,-2 
+          L1470,0 
+          C 1445,15 1430,0 1430,0
+          C 1370,26 1310,26 1250,0 
+          C 1190,26 1130,26 1070,0 
+          C 1010,26 950,26 890,0 
+          C 830,26 770,26 710,0 
+          C 650,26 590,26 530,0 
+          C 470,26 410,26 350,0 
+          C 290,26 230,26 170,0 
+          C 110,26 50,26 -10,0 
+          Z" />
       </svg>
     </div>
   );
@@ -98,27 +110,28 @@ export function TopBarWave({ color = "#654fe6" }: { color?: string }) {
 
 export function HeroMultiWave() {
   return (
-    <div className="absolute bottom-0 left-0 w-full overflow-hidden leading-none pointer-events-none z-10">
+    <div className="absolute bottom-0 left-0 w-full overflow-hidden leading-none pointer-events-none z-10 hidden -mb-px">
       <svg
         className="relative block w-full h-[65px] sm:h-[85px] md:h-[105px]"
-        viewBox="0 0 1440 120"
+        viewBox="0 -2 1440 124"
         fill="none"
         xmlns="http://www.w3.org/2000/svg"
         preserveAspectRatio="none"
+        shapeRendering="geometricPrecision"
       >
         {/* Layer 1: Top Translucent White/Lavender Wave */}
         <path
-          d="M0,35 Q360,95 720,45 T1440,55 L1440,120 L0,120 Z"
+          d="M-10,35 Q360,95 720,45 T1450,55 L1450,124 L-10,124 Z"
           fill="rgba(255, 255, 255, 0.35)"
         />
         {/* Layer 2: Middle Soft White Wave */}
         <path
-          d="M0,55 Q360,15 720,65 T1440,35 L1440,120 L0,120 Z"
+          d="M-10,55 Q360,15 720,65 T1450,35 L1450,124 L-10,124 Z"
           fill="rgba(255, 255, 255, 0.65)"
         />
         {/* Layer 3: Foreground Solid White Wave */}
         <path
-          d="M0,72 Q360,110 720,60 T1440,80 L1440,120 L0,120 Z"
+          d="M-10,72 Q360,110 720,60 T1440,80 L1440,124 L-10,124 Z"
           fill="#ffffff"
         />
       </svg>
@@ -128,13 +141,14 @@ export function HeroMultiWave() {
 
 export function CloudBottomWave() {
   return (
-    <div className="w-full overflow-hidden leading-none pointer-events-none select-none">
+    <div className="w-full overflow-hidden leading-none pointer-events-none select-none block -mt-1 sm:-mt-2">
       <svg
         viewBox="0 0 1440 100"
         fill="none"
         xmlns="http://www.w3.org/2000/svg"
         preserveAspectRatio="none"
-        className="w-full h-16 sm:h-20 md:h-24 fill-white"
+        shapeRendering="geometricPrecision"
+        className="w-full h-16 sm:h-20 md:h-24 fill-white block"
       >
         <path d="M0,55 
           C 45,30 90,30 135,55 
@@ -146,7 +160,7 @@ export function CloudBottomWave() {
           C 1050,15 1130,15 1185,55 
           C 1240,25 1310,25 1365,55 
           C 1405,35 1425,35 1440,55 
-          L1440,100 L0,100 Z" />
+          L1440,102 L0,102 Z" />
       </svg>
     </div>
   );

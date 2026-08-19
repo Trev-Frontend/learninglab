@@ -5,7 +5,7 @@ import { Check } from "lucide-react";
 export default function OccupationalTherapyContentSection() {
   return (
     <section className="relative w-full bg-white py-16 sm:py-24 overflow-hidden">
-      <div className="max-w-[1240px] mx-auto px-4 sm:px-6 lg:px-8 space-y-20 sm:space-y-28">
+      <div className="max-w-[1240px] xl:max-w-[1360px] 2xl:max-w-[1480px] mx-auto px-4 sm:px-6 lg:px-8 space-y-20 sm:space-y-28">
         
         {/* ========================================================================= */}
         {/* ROW 1: Left Organic Photo + Right "This service may help..." */}
@@ -14,7 +14,7 @@ export default function OccupationalTherapyContentSection() {
           
           {/* Organic Blob Photo (Left) */}
           <div className="lg:col-span-6 flex justify-center relative">
-            <div className="relative w-full max-w-[460px] aspect-[1/0.95]">
+            <div className="relative w-full max-w-[460px] xl:max-w-[520px] aspect-[1/0.95]">
               
               {/* Orange Accent Backdrop Blob */}
               <div className="absolute inset-0 bg-[#f15b2a] rounded-[52%_48%_68%_32%/45%_55%_45%_55%] transform rotate-[-6deg] translate-x-2 translate-y-2 opacity-95 scale-105" />
@@ -25,7 +25,7 @@ export default function OccupationalTherapyContentSection() {
                   src="/images/88e3bf3154bb95d585aafc3a01dbc4e13fccca64.jpg"
                   alt="Young boy playing with shape sorter toy"
                   fill
-                  sizes="(max-width: 1024px) 100vw, 460px"
+                  sizes="(max-width: 1024px) 100vw, 520px"
                   className="object-cover"
                 />
               </div>
@@ -37,7 +37,7 @@ export default function OccupationalTherapyContentSection() {
           <div className="lg:col-span-6 flex flex-col justify-center">
             
             {/* Headline */}
-            <h2 className="text-[24px] sm:text-[28px] lg:text-[32px] font-extrabold text-[#0c3746] leading-[1.25] tracking-tight">
+            <h2 className="text-[26px] sm:text-[30px] lg:text-[42px] xl:text-[50px] 2xl:text-[56px] font-extrabold text-[#0c3746] leading-[1.25] tracking-tight">
               This service may help when a child is{" "}
               <span className="relative inline-block">
                 experiencing:
@@ -59,54 +59,48 @@ export default function OccupationalTherapyContentSection() {
             </h2>
 
             {/* Checkmark Bullet Points */}
-            <ul className="mt-6 space-y-3 text-[12.5px] sm:text-[13.5px] text-[#566e7a] font-medium leading-[1.6]">
+            <ul className="mt-6 space-y-3.5 text-[13.5px] sm:text-[14.5px] lg:text-[16px] xl:text-[18px] 2xl:text-[19.5px] text-[#334650] font-medium leading-[1.65]">
               <li className="flex items-start gap-3">
-                <span className="flex-shrink-0 w-4 h-4 bg-[#5b4bbb] text-white rounded-full flex items-center justify-center text-[10px] mt-0.5">
-                  <Check className="w-2.5 h-2.5 stroke-[3]" />
+                <span className="flex-shrink-0 w-4.5 h-4.5 bg-[#5b4bbb] text-white rounded-full flex items-center justify-center text-[10px] mt-0.5">
+                  <Check className="w-3 h-3 stroke-[3]" />
                 </span>
-                <span>Sensory over-reactions or under-reactions to sound, touch, movement or textures</span>
+                <span>Sensory sensitivity (over-reaction to sounds, textures, touch or lights)</span>
               </li>
               <li className="flex items-start gap-3">
-                <span className="flex-shrink-0 w-4 h-4 bg-[#5b4bbb] text-white rounded-full flex items-center justify-center text-[10px] mt-0.5">
-                  <Check className="w-2.5 h-2.5 stroke-[3]" />
+                <span className="flex-shrink-0 w-4.5 h-4.5 bg-[#5b4bbb] text-white rounded-full flex items-center justify-center text-[10px] mt-0.5">
+                  <Check className="w-3 h-3 stroke-[3]" />
                 </span>
-                <span>Difficulty staying regulated, calm or focused during daily activities</span>
+                <span>Sensory seeking (constant movement, spinning, crashing or seeking intense touch)</span>
               </li>
               <li className="flex items-start gap-3">
-                <span className="flex-shrink-0 w-4 h-4 bg-[#5b4bbb] text-white rounded-full flex items-center justify-center text-[10px] mt-0.5">
-                  <Check className="w-2.5 h-2.5 stroke-[3]" />
+                <span className="flex-shrink-0 w-4.5 h-4.5 bg-[#5b4bbb] text-white rounded-full flex items-center justify-center text-[10px] mt-0.5">
+                  <Check className="w-3 h-3 stroke-[3]" />
                 </span>
-                <span>Fine motor difficulties with writing, scissors, fasteners, tools or play</span>
+                <span>Fine motor challenges (pencil grip, cutting, buttoning, drawing or manipulation)</span>
               </li>
               <li className="flex items-start gap-3">
-                <span className="flex-shrink-0 w-4 h-4 bg-[#5b4bbb] text-white rounded-full flex items-center justify-center text-[10px] mt-0.5">
-                  <Check className="w-2.5 h-2.5 stroke-[3]" />
+                <span className="flex-shrink-0 w-4.5 h-4.5 bg-[#5b4bbb] text-white rounded-full flex items-center justify-center text-[10px] mt-0.5">
+                  <Check className="w-3 h-3 stroke-[3]" />
                 </span>
-                <span>Poor balance, coordination, posture or movement planning</span>
+                <span>Gross motor difficulty (coordination, balance, jumping, catching or posture)</span>
               </li>
               <li className="flex items-start gap-3">
-                <span className="flex-shrink-0 w-4 h-4 bg-[#5b4bbb] text-white rounded-full flex items-center justify-center text-[10px] mt-0.5">
-                  <Check className="w-2.5 h-2.5 stroke-[3]" />
+                <span className="flex-shrink-0 w-4.5 h-4.5 bg-[#5b4bbb] text-white rounded-full flex items-center justify-center text-[10px] mt-0.5">
+                  <Check className="w-3 h-3 stroke-[3]" />
                 </span>
-                <span>Difficulty with self-care or daily living skills</span>
+                <span>Self-regulation and focus difficulties</span>
               </li>
               <li className="flex items-start gap-3">
-                <span className="flex-shrink-0 w-4 h-4 bg-[#5b4bbb] text-white rounded-full flex items-center justify-center text-[10px] mt-0.5">
-                  <Check className="w-2.5 h-2.5 stroke-[3]" />
+                <span className="flex-shrink-0 w-4.5 h-4.5 bg-[#5b4bbb] text-white rounded-full flex items-center justify-center text-[10px] mt-0.5">
+                  <Check className="w-3 h-3 stroke-[3]" />
                 </span>
-                <span>Handwriting, seating posture, or classroom participation concerns</span>
+                <span>Self-care independence (dressing, feeding, hygiene or daily tasks)</span>
               </li>
               <li className="flex items-start gap-3">
-                <span className="flex-shrink-0 w-4 h-4 bg-[#5b4bbb] text-white rounded-full flex items-center justify-center text-[10px] mt-0.5">
-                  <Check className="w-2.5 h-2.5 stroke-[3]" />
+                <span className="flex-shrink-0 w-4.5 h-4.5 bg-[#5b4bbb] text-white rounded-full flex items-center justify-center text-[10px] mt-0.5">
+                  <Check className="w-3 h-3 stroke-[3]" />
                 </span>
-                <span>Avoidance of strenuous physical or motor tasks</span>
-              </li>
-              <li className="flex items-start gap-3">
-                <span className="flex-shrink-0 w-4 h-4 bg-[#5b4bbb] text-white rounded-full flex items-center justify-center text-[10px] mt-0.5">
-                  <Check className="w-2.5 h-2.5 stroke-[3]" />
-                </span>
-                <span>Difficulty organizing movement or manipulating small objects</span>
+                <span>Discomfort with change, transitions or daily environment setup</span>
               </li>
             </ul>
 
@@ -123,7 +117,7 @@ export default function OccupationalTherapyContentSection() {
           <div className="lg:col-span-6 flex flex-col justify-center order-2 lg:order-1">
             
             {/* Headline */}
-            <h2 className="text-[24px] sm:text-[28px] lg:text-[32px] font-extrabold text-[#0c3746] leading-[1.25] tracking-tight">
+            <h2 className="text-[26px] sm:text-[30px] lg:text-[42px] xl:text-[50px] 2xl:text-[56px] font-extrabold text-[#0c3746] leading-[1.25] tracking-tight">
               Areas we may{" "}
               <span className="relative inline-block">
                 work on
@@ -145,48 +139,48 @@ export default function OccupationalTherapyContentSection() {
             </h2>
 
             {/* Checkmark Bullet Points */}
-            <ul className="mt-6 space-y-3 text-[12.5px] sm:text-[13.5px] text-[#566e7a] font-medium leading-[1.6]">
+            <ul className="mt-6 space-y-3.5 text-[13.5px] sm:text-[14.5px] lg:text-[16px] xl:text-[18px] 2xl:text-[19.5px] text-[#334650] font-medium leading-[1.65]">
               <li className="flex items-start gap-3">
-                <span className="flex-shrink-0 w-4 h-4 bg-[#5b4bbb] text-white rounded-full flex items-center justify-center text-[10px] mt-0.5">
-                  <Check className="w-2.5 h-2.5 stroke-[3]" />
+                <span className="flex-shrink-0 w-4.5 h-4.5 bg-[#5b4bbb] text-white rounded-full flex items-center justify-center text-[10px] mt-0.5">
+                  <Check className="w-3 h-3 stroke-[3]" />
                 </span>
                 <span>Sensory processing and regulation</span>
               </li>
               <li className="flex items-start gap-3">
-                <span className="flex-shrink-0 w-4 h-4 bg-[#5b4bbb] text-white rounded-full flex items-center justify-center text-[10px] mt-0.5">
-                  <Check className="w-2.5 h-2.5 stroke-[3]" />
+                <span className="flex-shrink-0 w-4.5 h-4.5 bg-[#5b4bbb] text-white rounded-full flex items-center justify-center text-[10px] mt-0.5">
+                  <Check className="w-3 h-3 stroke-[3]" />
                 </span>
-                <span>Fine and gross motor development</span>
+                <span>Fine motor skills, pencil grasp and tool use</span>
               </li>
               <li className="flex items-start gap-3">
-                <span className="flex-shrink-0 w-4 h-4 bg-[#5b4bbb] text-white rounded-full flex items-center justify-center text-[10px] mt-0.5">
-                  <Check className="w-2.5 h-2.5 stroke-[3]" />
+                <span className="flex-shrink-0 w-4.5 h-4.5 bg-[#5b4bbb] text-white rounded-full flex items-center justify-center text-[10px] mt-0.5">
+                  <Check className="w-3 h-3 stroke-[3]" />
                 </span>
-                <span>Hand strength, coordination, and tool use</span>
+                <span>Gross motor skills, balance and physical confidence</span>
               </li>
               <li className="flex items-start gap-3">
-                <span className="flex-shrink-0 w-4 h-4 bg-[#5b4bbb] text-white rounded-full flex items-center justify-center text-[10px] mt-0.5">
-                  <Check className="w-2.5 h-2.5 stroke-[3]" />
+                <span className="flex-shrink-0 w-4.5 h-4.5 bg-[#5b4bbb] text-white rounded-full flex items-center justify-center text-[10px] mt-0.5">
+                  <Check className="w-3 h-3 stroke-[3]" />
                 </span>
-                <span>Pre-writing and classroom readiness</span>
+                <span>Visual-motor integration and eye-hand coordination</span>
               </li>
               <li className="flex items-start gap-3">
-                <span className="flex-shrink-0 w-4 h-4 bg-[#5b4bbb] text-white rounded-full flex items-center justify-center text-[10px] mt-0.5">
-                  <Check className="w-2.5 h-2.5 stroke-[3]" />
+                <span className="flex-shrink-0 w-4.5 h-4.5 bg-[#5b4bbb] text-white rounded-full flex items-center justify-center text-[10px] mt-0.5">
+                  <Check className="w-3 h-3 stroke-[3]" />
                 </span>
-                <span>Body awareness and motor planning</span>
+                <span>Self-care and independent daily routines</span>
               </li>
               <li className="flex items-start gap-3">
-                <span className="flex-shrink-0 w-4 h-4 bg-[#5b4bbb] text-white rounded-full flex items-center justify-center text-[10px] mt-0.5">
-                  <Check className="w-2.5 h-2.5 stroke-[3]" />
+                <span className="flex-shrink-0 w-4.5 h-4.5 bg-[#5b4bbb] text-white rounded-full flex items-center justify-center text-[10px] mt-0.5">
+                  <Check className="w-3 h-3 stroke-[3]" />
                 </span>
-                <span>Self-care and everyday independence</span>
+                <span>Play skills, exploration and engagement</span>
               </li>
               <li className="flex items-start gap-3">
-                <span className="flex-shrink-0 w-4 h-4 bg-[#5b4bbb] text-white rounded-full flex items-center justify-center text-[10px] mt-0.5">
-                  <Check className="w-2.5 h-2.5 stroke-[3]" />
+                <span className="flex-shrink-0 w-4.5 h-4.5 bg-[#5b4bbb] text-white rounded-full flex items-center justify-center text-[10px] mt-0.5">
+                  <Check className="w-3 h-3 stroke-[3]" />
                 </span>
-                <span>Attention and participation in meaningful activities</span>
+                <span>Environmental and home routine adjustments</span>
               </li>
             </ul>
 
@@ -194,7 +188,7 @@ export default function OccupationalTherapyContentSection() {
 
           {/* Organic Blob Photo (Right) */}
           <div className="lg:col-span-6 flex justify-center relative order-1 lg:order-2">
-            <div className="relative w-full max-w-[460px] aspect-[1/0.95]">
+            <div className="relative w-full max-w-[460px] xl:max-w-[520px] aspect-[1/0.95]">
               
               {/* Orange Accent Backdrop Blob */}
               <div className="absolute inset-0 bg-[#f15b2a] rounded-[48%_52%_35%_65%/55%_42%_58%_45%] transform rotate-[8deg] translate-x-2 translate-y-2 opacity-95 scale-105" />
@@ -205,7 +199,7 @@ export default function OccupationalTherapyContentSection() {
                   src="/images/95b9c6b433854bb5391f3af684affa8a0c901828.jpg"
                   alt="Child using wooden tongs to pick up colorful pom poms"
                   fill
-                  sizes="(max-width: 1024px) 100vw, 460px"
+                  sizes="(max-width: 1024px) 100vw, 520px"
                   className="object-cover"
                 />
               </div>
@@ -222,7 +216,7 @@ export default function OccupationalTherapyContentSection() {
           
           {/* Organic Blob Photo (Left) */}
           <div className="lg:col-span-6 flex justify-center relative">
-            <div className="relative w-full max-w-[460px] aspect-[1/0.95]">
+            <div className="relative w-full max-w-[460px] xl:max-w-[520px] aspect-[1/0.95]">
               
               {/* Orange Accent Backdrop Blob */}
               <div className="absolute inset-0 bg-[#f15b2a] rounded-[65%_35%_55%_45%/45%_60%_40%_55%] transform rotate-[-8deg] translate-x-2 translate-y-2 opacity-95 scale-105" />
@@ -233,7 +227,7 @@ export default function OccupationalTherapyContentSection() {
                   src="/images/85f42482596e326836a84d6042ad700f04f4d9a0.jpg"
                   alt="Child playing with wooden bead stacker on floor"
                   fill
-                  sizes="(max-width: 1024px) 100vw, 460px"
+                  sizes="(max-width: 1024px) 100vw, 520px"
                   className="object-cover"
                 />
               </div>
@@ -245,7 +239,7 @@ export default function OccupationalTherapyContentSection() {
           <div className="lg:col-span-6 flex flex-col justify-center">
             
             {/* Headline */}
-            <h2 className="text-[24px] sm:text-[28px] lg:text-[32px] font-extrabold text-[#0c3746] leading-[1.25] tracking-tight">
+            <h2 className="text-[26px] sm:text-[30px] lg:text-[42px] xl:text-[50px] 2xl:text-[56px] font-extrabold text-[#0c3746] leading-[1.25] tracking-tight">
               How support is{" "}
               <span className="relative inline-block">
                 planned
@@ -267,7 +261,7 @@ export default function OccupationalTherapyContentSection() {
             </h2>
 
             {/* Narrative Paragraph */}
-            <p className="mt-5 text-[13px] sm:text-[13.5px] text-[#566e7a] leading-[1.7] font-medium max-w-[540px]">
+            <p className="mt-5 text-[14px] sm:text-[15px] lg:text-[16.5px] xl:text-[18.5px] 2xl:text-[20px] text-[#334650] leading-[1.65] font-medium max-w-[580px]">
               The Occupational Therapist uses observation, sensory profiling and functional assessment to understand what is making participation difficult. Sessions are then planned around practical goals, using movement, play, sensory activities and task-based practice.
             </p>
 

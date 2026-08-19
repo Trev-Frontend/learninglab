@@ -138,8 +138,8 @@ export default function FAQContentSection() {
   };
 
   return (
-    <section className="relative w-full bg-white py-14 sm:py-20 overflow-hidden">
-      <div className="max-w-[860px] mx-auto px-4 sm:px-6 lg:px-8">
+    <section className="faq-content relative w-full bg-white py-14 sm:py-20 overflow-hidden">
+      <div className="max-w-[860px] xl:max-w-[1000px] 2xl:max-w-[1100px] mx-auto px-4 sm:px-6 lg:px-8">
         
         {/* FAQ Accordion Items */}
         <div className="space-y-3.5 sm:space-y-4">
@@ -153,21 +153,21 @@ export default function FAQContentSection() {
                 {/* Header Toggle Row */}
                 <button
                   onClick={() => toggleItem(faq.id)}
-                  className="w-full px-5 sm:px-6 py-4 flex items-center justify-between gap-4 text-left font-bold text-[#0c3746] text-[13.5px] sm:text-[14.5px] leading-snug hover:text-[#f15b2a] transition-colors"
+                  className="w-full px-5 sm:px-6 xl:px-7 py-4 sm:py-5 flex items-center justify-between gap-4 text-left font-extrabold text-[#0c3746] text-[14px] sm:text-[15.5px] lg:text-[17px] xl:text-[19px] 2xl:text-[20.5px] leading-snug hover:text-[#f15b2a] transition-colors"
                 >
                   <span>{faq.question}</span>
-                  <span className="flex-shrink-0 w-6 h-6 bg-[#0c3746] text-white rounded-full flex items-center justify-center transition-transform duration-200">
+                  <span className="flex-shrink-0 w-6 h-6 xl:w-7 xl:h-7 bg-[#0c3746] text-white rounded-full flex items-center justify-center transition-transform duration-200">
                     {isOpen ? (
-                      <Minus className="w-3.5 h-3.5 stroke-[2.5]" />
+                      <Minus className="w-3.5 h-3.5 xl:w-4 xl:h-4 stroke-[2.5]" />
                     ) : (
-                      <Plus className="w-3.5 h-3.5 stroke-[2.5]" />
+                      <Plus className="w-3.5 h-3.5 xl:w-4 xl:h-4 stroke-[2.5]" />
                     )}
                   </span>
                 </button>
 
                 {/* Answer Content Body */}
                 {isOpen && (
-                  <div className="px-5 sm:px-6 pb-5 pt-1 text-[13px] sm:text-[13.5px] text-[#566e7a] font-medium leading-[1.65] border-t border-black/5">
+                  <div className="px-5 sm:px-6 xl:px-7 pb-5 xl:pb-6 pt-1 text-[13.5px] sm:text-[14.5px] lg:text-[16px] xl:text-[18px] 2xl:text-[19.5px] text-[#334650] font-medium leading-[1.65] border-t border-black/5">
                     {faq.answer ? (
                       <p>{faq.answer}</p>
                     ) : (
@@ -186,7 +186,7 @@ export default function FAQContentSection() {
         <div className="mt-12 sm:mt-14 flex justify-center">
           <Link
             href="/contact"
-            className="inline-flex items-center gap-2 bg-[#f15b2a] hover:bg-[#de4b1a] text-white px-7 py-3 rounded-full text-[13px] font-bold shadow-xs hover:shadow-md hover:-translate-y-0.5 transition-all duration-200 group"
+            className="inline-flex items-center gap-2 bg-[#f15b2a] hover:bg-[#de4b1a] text-white px-7 sm:px-8 xl:px-10 py-3.5 xl:py-4 rounded-full text-[13px] sm:text-[14px] lg:text-[15.5px] xl:text-[17px] 2xl:text-[18.5px] font-bold shadow-xs hover:shadow-md hover:-translate-y-0.5 transition-all duration-200 group"
           >
             <span>Have Question? Contact us</span>
             <ArrowRight className="w-4 h-4 stroke-[2.5] transition-transform group-hover:translate-x-0.5" />

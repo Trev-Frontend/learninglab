@@ -38,14 +38,14 @@ export default function CareAndProgressSection() {
 
   return (
     <section className="relative w-full bg-white py-12 sm:py-16 overflow-hidden">
-      <div className="max-w-[1240px] mx-auto px-4 sm:px-6 lg:px-8">
+      <div className="max-w-[1240px] xl:max-w-[1360px] 2xl:max-w-[1480px] mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-10 lg:gap-12 items-center">
           
           {/* Left Column: Creative 3-Image Collage & Doodles */}
           <div className="lg:col-span-6 relative flex justify-center items-center">
             
             {/* Collage Container */}
-            <div className="relative w-full max-w-[440px] h-[380px] sm:h-[430px]">
+            <div className="relative w-full max-w-[440px] xl:max-w-[480px] h-[380px] sm:h-[430px] xl:h-[470px]">
               
               {/* Hot Air Balloon Doodle nicely positioned beside the bottom-left image */}
               <div className="absolute -left-12 sm:-left-16 top-[48%] -translate-y-1/2 w-[52px] sm:w-[62px] pointer-events-none z-20 animate-float -rotate-6">
@@ -110,7 +110,7 @@ export default function CareAndProgressSection() {
           <div className="lg:col-span-6 relative z-10">
             
             {/* Headline with curved orange underline */}
-            <h2 className="text-[28px] sm:text-[34px] lg:text-[38px] font-extrabold text-[#0c3746] leading-[1.2] tracking-tight">
+            <h2 className="text-[28px] sm:text-[34px] lg:text-[42px] xl:text-[50px] 2xl:text-[56px] font-extrabold text-[#0c3746] leading-[1.2] tracking-tight">
               Care parents can understand and<br className="hidden sm:inline" />{" "}
               <span className="relative inline-block">
                 progress they can follow.
@@ -132,17 +132,17 @@ export default function CareAndProgressSection() {
             </h2>
 
             {/* 6 Structured Feature Points */}
-            <div className="mt-7 sm:mt-8 space-y-4 sm:space-y-4.5">
+            <div className="mt-7 sm:mt-8 space-y-4 sm:space-y-5">
               {points.map((point, idx) => (
-                <div key={idx} className="flex items-start gap-3 group">
+                <div key={idx} className="flex items-start gap-3.5 group">
                   <div className="flex-shrink-0 w-4.5 h-4.5 rounded-full bg-[#584a93] text-white flex items-center justify-center mt-0.5">
                     <Check className="w-3 h-3 stroke-[2.8]" />
                   </div>
                   <div>
-                    <h3 className="text-[14px] sm:text-[14.5px] font-bold text-[#0c3746] leading-snug">
+                    <h3 className="text-[14.5px] sm:text-[15.5px] lg:text-[17px] xl:text-[19px] 2xl:text-[21px] font-extrabold text-[#0c3746] leading-snug">
                       {point.title}
                     </h3>
-                    <p className="mt-0.5 text-[12.5px] sm:text-[13px] text-[#566e7a] leading-[1.45] font-medium">
+                    <p className="mt-0.5 text-[13px] sm:text-[14px] lg:text-[15px] xl:text-[17px] 2xl:text-[18.5px] text-[#334650] leading-[1.6] font-medium">
                       {point.description}
                     </p>
                   </div>

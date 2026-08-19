@@ -21,12 +21,12 @@ export default function FiguredOutSection() {
 
   return (
     <section className="relative w-full bg-white py-10 sm:py-12 lg:py-14 overflow-hidden">
-      <div className="max-w-[1240px] mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="grid grid-cols-1 lg:grid-cols-[320px_minmax(0,1fr)] gap-8 lg:gap-x-20 items-center">
+      <div className="max-w-[1240px] xl:max-w-[1360px] 2xl:max-w-[1480px] mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="grid grid-cols-1 lg:grid-cols-[340px_minmax(0,1fr)] xl:grid-cols-[380px_minmax(0,1fr)] gap-8 lg:gap-x-16 xl:gap-x-20 items-center">
           
           {/* Left Column: Boy Photo, Badge & Doodles */}
           <div className="relative flex justify-center lg:justify-start items-center">
-            <div className="relative w-full max-w-[380px] sm:max-w-[420px] lg:max-w-[320px]">
+            <div className="relative w-full max-w-[380px] sm:max-w-[420px] lg:max-w-[340px] xl:max-w-[380px]">
               
               {/* Shining Lightbulb Doodle */}
               <div className="absolute right-[6%] -top-[5%] w-[48px] sm:w-[58px] z-20 pointer-events-none animate-pulse-subtle">
@@ -90,7 +90,7 @@ export default function FiguredOutSection() {
           <div className="relative z-10">
             
             {/* Main Headline with curved brush underline */}
-            <h2 className="text-[26px] sm:text-[32px] lg:text-[36px] font-extrabold text-[#0c3746] leading-[1.18] tracking-tight">
+            <h2 className="text-[26px] sm:text-[32px] lg:text-[42px] xl:text-[50px] 2xl:text-[56px] font-extrabold text-[#0c3746] leading-[1.18] tracking-tight">
               You do not need to have everything<br className="hidden sm:inline" />{" "}
               <span className="relative inline-block">
                 figured out.
@@ -112,7 +112,7 @@ export default function FiguredOutSection() {
             </h2>
 
             {/* Introductory copy */}
-            <div className="font-figma-copy mt-4 space-y-2 text-[11px] sm:text-[12px] lg:text-[12px] text-[#4b5563] leading-[1.5] font-normal max-w-[590px]">
+            <div className="font-figma-copy mt-4 space-y-2.5 text-[14px] sm:text-[15px] lg:text-[16px] xl:text-[18px] 2xl:text-[20px] text-[#3b4e57] leading-[1.65] font-medium max-w-[680px]">
               <p>
                 Parents often contact us after receiving different opinions from relatives,
                 schools, professionals or the internet. You may have been told to wait,
@@ -127,21 +127,21 @@ export default function FiguredOutSection() {
 
             {/* Checklist Section */}
             <div className="mt-5 relative">
-              <h3 className="font-figma-heading text-[11px] sm:text-[12px] font-bold text-[#070713] mb-3 tracking-tight">
+              <h3 className="font-figma-heading text-[13.5px] sm:text-[14.5px] lg:text-[16px] xl:text-[18px] 2xl:text-[19.5px] font-extrabold text-[#0c3746] mb-3.5 tracking-tight">
                 You may be here because your child is experiencing:
               </h3>
 
               {/* 2-Column Grid of Checkpoints */}
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-x-5 lg:gap-x-6 gap-y-2">
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-x-5 lg:gap-x-6 gap-y-2.5">
                 
                 {/* Column 1 */}
-                <div className="space-y-2">
+                <div className="space-y-2.5">
                   {leftColumnPoints.map((item, idx) => (
-                    <div key={idx} className="flex items-start gap-2 group">
+                    <div key={idx} className="flex items-start gap-2.5 group">
                       <div className="flex-shrink-0 w-4.5 h-4.5 rounded-full bg-[#584a93] text-white flex items-center justify-center mt-0.5">
                         <Check className="w-3 h-3 stroke-[2.8]" />
                       </div>
-                      <span className="font-figma-copy text-[10px] sm:text-[11px] text-[#4b5563] font-semibold leading-[1.35]">
+                      <span className="font-figma-copy text-[12.5px] sm:text-[13.5px] lg:text-[14.5px] xl:text-[16.5px] 2xl:text-[18px] text-[#2c3e47] font-semibold leading-[1.45]">
                         {item}
                       </span>
                     </div>
@@ -149,13 +149,13 @@ export default function FiguredOutSection() {
                 </div>
 
                 {/* Column 2 */}
-                <div className="space-y-2">
+                <div className="space-y-2.5">
                   {rightColumnPoints.map((item, idx) => (
-                    <div key={idx} className="flex items-start gap-2 group">
+                    <div key={idx} className="flex items-start gap-2.5 group">
                       <div className="flex-shrink-0 w-4.5 h-4.5 rounded-full bg-[#584a93] text-white flex items-center justify-center mt-0.5">
                         <Check className="w-3 h-3 stroke-[2.8]" />
                       </div>
-                      <span className="font-figma-copy text-[10px] sm:text-[11px] text-[#4b5563] font-semibold leading-[1.35]">
+                      <span className="font-figma-copy text-[12.5px] sm:text-[13.5px] lg:text-[14.5px] xl:text-[16.5px] 2xl:text-[18px] text-[#2c3e47] font-semibold leading-[1.45]">
                         {item}
                       </span>
                     </div>

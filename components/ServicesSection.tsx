@@ -50,12 +50,13 @@ export default function ServicesSection() {
     <section id="services" className="relative w-full bg-[#5b4bbb] text-white pt-6 pb-14 sm:pb-16 lg:pb-20 overflow-hidden">
       
       {/* Top Scallop Wave from White Section to Purple Section */}
-      <div className="w-full overflow-hidden leading-none z-10 block -mt-7 sm:-mt-8 mb-6 sm:mb-8 pointer-events-none select-none">
+      <div className="w-full overflow-hidden leading-none z-10 hidden -mt-7 sm:-mt-8 mb-6 sm:mb-8 pointer-events-none select-none">
         <svg
           viewBox="0 0 1440 32"
           fill="none"
           xmlns="http://www.w3.org/2000/svg"
           preserveAspectRatio="none"
+          shapeRendering="geometricPrecision"
           className="w-full h-5 sm:h-7 md:h-8 fill-white"
         >
           <path d="M0,0 
@@ -71,7 +72,7 @@ export default function ServicesSection() {
         </svg>
       </div>
 
-      <div className="max-w-[1240px] mx-auto px-4 sm:px-6 lg:px-8 relative">
+      <div className="max-w-[1240px] xl:max-w-[1360px] 2xl:max-w-[1480px] mx-auto px-4 sm:px-6 lg:px-8 relative">
         
         {/* Background Doodles */}
         {/* Hot Air Balloon (Top Left) */}
@@ -119,8 +120,8 @@ export default function ServicesSection() {
         </div>
 
         {/* Header Title & Subtitle */}
-        <div className="text-center max-w-[820px] mx-auto relative z-20">
-          <h2 className="text-[26px] sm:text-[32px] lg:text-[36px] font-extrabold text-white leading-[1.18] tracking-tight">
+        <div className="text-center max-w-[900px] mx-auto relative z-20">
+          <h2 className="text-[26px] sm:text-[32px] lg:text-[42px] xl:text-[50px] 2xl:text-[56px] font-extrabold text-white leading-[1.18] tracking-tight">
             Support designed around the child,<br className="hidden sm:inline" />{" "}
             not only the{" "}
             <span className="relative inline-block">
@@ -142,7 +143,7 @@ export default function ServicesSection() {
             </span>
           </h2>
 
-          <div className="mt-4 space-y-1 text-[13px] sm:text-[14px] text-white/85 leading-[1.6] max-w-[700px] mx-auto font-medium">
+          <div className="mt-4 sm:mt-5 space-y-1.5 text-[14px] sm:text-[15px] lg:text-[16.5px] xl:text-[18.5px] 2xl:text-[20px] text-white/95 leading-[1.65] max-w-[840px] mx-auto font-medium">
             <p>
               Some children need therapy. Some need help with learning, school participation, communication, regulation or confidence.
             </p>
@@ -171,11 +172,11 @@ export default function ServicesSection() {
           </button>
 
           {/* 3 Services Cards Grid */}
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-5 sm:gap-6">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-5 sm:gap-6 lg:gap-7">
             {services.map((service, idx) => (
               <div
                 key={idx}
-                className={`${service.bgColor} rounded-[22px] sm:rounded-[26px] p-4 sm:p-5 flex flex-col justify-between transition-all duration-300 hover:-translate-y-1.5 hover:shadow-xl group select-none`}
+                className={`${service.bgColor} rounded-[22px] sm:rounded-[26px] p-5 sm:p-6 lg:p-7 flex flex-col justify-between transition-all duration-300 hover:-translate-y-1.5 hover:shadow-xl group select-none`}
               >
                 <div>
                   {/* Card Thumbnail Image */}
@@ -190,12 +191,12 @@ export default function ServicesSection() {
                   </div>
 
                   {/* Title */}
-                  <h3 className={`text-[18px] sm:text-[20px] font-extrabold ${service.textColor} mb-2.5 tracking-tight leading-snug`}>
+                  <h3 className={`text-[18px] sm:text-[20px] lg:text-[22px] xl:text-[24px] 2xl:text-[26px] font-extrabold ${service.textColor} mb-2.5 tracking-tight leading-snug`}>
                     {service.title}
                   </h3>
 
                   {/* Description */}
-                  <p className={`text-[13px] sm:text-[13.5px] ${service.descColor} leading-[1.55] font-medium`}>
+                  <p className={`text-[13px] sm:text-[14px] lg:text-[15px] xl:text-[16.5px] 2xl:text-[18px] ${service.descColor} leading-[1.6] font-medium`}>
                     {service.description}
                   </p>
                 </div>
@@ -206,7 +207,7 @@ export default function ServicesSection() {
                     {service.tags.map((tag, tIdx) => (
                       <span
                         key={tIdx}
-                        className={`${service.tagBg} px-2.5 sm:px-3 py-1 rounded-full text-[10.5px] sm:text-[11.5px] font-bold tracking-tight whitespace-nowrap`}
+                        className={`${service.tagBg} px-2.5 sm:px-3 py-1 rounded-full text-[11px] sm:text-[12px] lg:text-[13px] xl:text-[14.5px] 2xl:text-[15.5px] font-bold tracking-tight whitespace-nowrap`}
                       >
                         {tag}
                       </span>

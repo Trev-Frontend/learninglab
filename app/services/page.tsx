@@ -18,20 +18,20 @@ export default function ServicesPage() {
 
       {/* Services Main Hero Section (Vibrant Purple Banner) */}
       <section className="relative w-full bg-[#5b4bbb] pt-12 sm:pt-16 pb-28 sm:pb-36 text-white overflow-hidden">
-        <div className="max-w-[1280px] mx-auto px-4 sm:px-6 lg:px-8 text-center relative z-10">
+        <div className="max-w-[1240px] xl:max-w-[1360px] 2xl:max-w-[1480px] mx-auto px-4 sm:px-6 lg:px-8 text-center relative z-10">
           
           {/* Main Hero Headline */}
-          <h1 className="text-[32px] sm:text-[42px] lg:text-[48px] font-extrabold text-white leading-[1.18] tracking-tight max-w-[900px] mx-auto">
+          <h1 className="text-[32px] sm:text-[42px] lg:text-[52px] xl:text-[62px] 2xl:text-[70px] font-extrabold text-white leading-[1.18] tracking-tight max-w-[1020px] mx-auto">
             Support built around what the child needs now.
           </h1>
 
           {/* Hero Sub-Paragraph 1 */}
-          <p className="mt-5 text-[13.5px] sm:text-[14.5px] text-white/90 leading-[1.65] max-w-[820px] mx-auto font-medium">
+          <p className="mt-5 text-[14px] sm:text-[15px] lg:text-[16.5px] xl:text-[18.5px] 2xl:text-[20px] text-white/95 leading-[1.65] max-w-[880px] mx-auto font-medium">
             A child may need help in one area or several. Some families begin with a clear recommendation, while others only know that something does not feel right. Our team helps parents choose an appropriate starting point through consultation and assessment.
           </p>
 
           {/* Hero Sub-Paragraph 2 */}
-          <p className="mt-4 text-[13.5px] sm:text-[14.5px] text-white/90 leading-[1.65] max-w-[820px] mx-auto font-medium">
+          <p className="mt-4 text-[14px] sm:text-[15px] lg:text-[16.5px] xl:text-[18.5px] 2xl:text-[20px] text-white/95 leading-[1.65] max-w-[880px] mx-auto font-medium">
             Services are mainly delivered individually. Group work is introduced when it supports specific goals or programme activities.
           </p>
 

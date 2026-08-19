@@ -4,14 +4,14 @@ import Image from "next/image";
 export default function ParentsProcessSection() {
   return (
     <section className="relative w-full bg-white py-10 sm:py-12 lg:py-14 overflow-hidden">
-      <div className="max-w-[1240px] mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="grid grid-cols-1 lg:grid-cols-[400px_minmax(0,1fr)] gap-8 lg:gap-x-16 items-center">
+      <div className="max-w-[1240px] xl:max-w-[1360px] 2xl:max-w-[1480px] mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="grid grid-cols-1 lg:grid-cols-[480px_minmax(0,1fr)] xl:grid-cols-[540px_minmax(0,1fr)] gap-8 lg:gap-x-16 items-center">
 
           {/* Left Column: Heading & 2 Narrative Paragraphs */}
-          <div className="relative z-10 flex flex-col justify-center max-w-[400px] lg:ml-7">
+          <div className="relative z-10 flex flex-col justify-center max-w-[480px] xl:max-w-[540px] lg:ml-4">
 
             {/* Headline with Orange Underline under "the process." */}
-            <h2 className="text-[26px] sm:text-[32px] lg:text-[36px] font-extrabold text-[#0c3746] leading-[1.18] tracking-tight">
+            <h2 className="text-[26px] sm:text-[32px] lg:text-[42px] xl:text-[50px] 2xl:text-[56px] font-extrabold text-[#0c3746] leading-[1.18] tracking-tight">
               Parents remain part of<br />
               <span className="relative inline-block">
                 the process.
@@ -33,7 +33,7 @@ export default function ParentsProcessSection() {
             </h2>
 
             {/* Paragraph 1 */}
-            <p className="font-figma-copy mt-4 text-[10px] sm:text-[11px] text-[#4b5563] leading-[1.5] font-normal">
+            <p className="font-figma-copy mt-4 sm:mt-5 text-[14px] sm:text-[15px] lg:text-[16.5px] xl:text-[18.5px] 2xl:text-[20px] text-[#334650] leading-[1.65] font-medium">
               Support does not end when the session finishes. Parents receive photographs or short
               videos through a dedicated WhatsApp group after each session, along with a verbal
               summary where appropriate. Progress is discussed every two weeks, and formal reviews
@@ -41,7 +41,7 @@ export default function ParentsProcessSection() {
             </p>
 
             {/* Paragraph 2 */}
-            <p className="font-figma-copy mt-3 text-[10px] sm:text-[11px] text-[#4b5563] leading-[1.5] font-normal">
+            <p className="font-figma-copy mt-3.5 text-[14px] sm:text-[15px] lg:text-[16.5px] xl:text-[18.5px] 2xl:text-[20px] text-[#334650] leading-[1.65] font-medium">
               Parents may observe from outside the therapy room and can request an earlier review
               whenever a concern needs attention.
             </p>

@@ -51,12 +51,12 @@ export default function ProcessSection() {
 
   return (
     <section className="relative w-full bg-white py-12 sm:py-16 overflow-hidden">
-      <div className="max-w-[1240px] mx-auto px-4 sm:px-6 lg:px-8">
+      <div className="max-w-[1240px] xl:max-w-[1360px] 2xl:max-w-[1480px] mx-auto px-4 sm:px-6 lg:px-8">
         
         {/* Header Title & Subtitle */}
-        <div className="text-center max-w-[800px] mx-auto">
-          <h2 className="text-[26px] sm:text-[32px] lg:text-[36px] font-extrabold text-[#0c3746] leading-[1.18] tracking-tight">
-            A clear{" "}
+        <div className="text-center max-w-[900px] mx-auto">
+          <h2 className="text-[26px] sm:text-[32px] lg:text-[42px] xl:text-[50px] 2xl:text-[56px] font-extrabold text-[#0c3746] leading-[1.18] tracking-tight">
+            A clear, thoughtful{" "}
             <span className="relative inline-block">
               process, so families do not
               {/* Hand-drawn Orange underline brush */}
@@ -78,32 +78,32 @@ export default function ProcessSection() {
             feel lost.
           </h2>
 
-          <p className="mt-4 text-[13.5px] sm:text-[14.5px] text-[#566e7a] leading-[1.6] max-w-[660px] mx-auto font-normal">
+          <p className="mt-4 sm:mt-5 text-[14px] sm:text-[15px] lg:text-[16.5px] xl:text-[18.5px] 2xl:text-[20px] text-[#475b65] leading-[1.65] max-w-[820px] mx-auto font-medium">
             Our work begins with listening. We then use consultation, observation and assessment to understand the child&apos;s current strengths and needs before recommending a personalised plan.
           </p>
         </div>
 
         {/* 4 Process Cards Grid without hard borders and balanced sizing */}
-        <div className="mt-10 sm:mt-12 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5 sm:gap-6">
+        <div className="mt-10 sm:mt-12 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5 sm:gap-6 lg:gap-7">
           {steps.map((step, idx) => (
             <div
               key={idx}
-              className={`relative ${step.bgColor} ${step.borderRadius} p-6 sm:p-7 flex flex-col items-center text-center transition-all duration-300 hover:-translate-y-1 hover:shadow-md min-h-[290px] sm:min-h-[320px] justify-start group`}
+              className={`relative ${step.bgColor} ${step.borderRadius} p-6 sm:p-7 xl:p-8 flex flex-col items-center text-center transition-all duration-300 hover:-translate-y-1 hover:shadow-md min-h-[290px] sm:min-h-[320px] xl:min-h-[350px] justify-start group`}
             >
               {/* Top Step Number Badge */}
-              <div className="w-11 h-7 rounded-full bg-white shadow-2xs flex items-center justify-center mb-6 sm:mb-8 transition-transform group-hover:scale-105">
-                <span className="text-[12.5px] sm:text-[13px] font-bold text-[#0c3746] tracking-wide">
+              <div className="w-11 h-7 xl:w-13 xl:h-8 rounded-full bg-white shadow-2xs flex items-center justify-center mb-6 sm:mb-8 transition-transform group-hover:scale-105">
+                <span className="text-[12.5px] sm:text-[13.5px] xl:text-[15px] font-extrabold text-[#0c3746] tracking-wide">
                   {step.number}
                 </span>
               </div>
 
               {/* Step Title */}
-              <h3 className="text-[18px] sm:text-[19px] font-extrabold text-[#0c3746] mb-3 tracking-tight leading-snug">
+              <h3 className="text-[18px] sm:text-[19.5px] lg:text-[21px] xl:text-[23px] 2xl:text-[25px] font-extrabold text-[#0c3746] mb-3 tracking-tight leading-snug">
                 {step.title}
               </h3>
 
               {/* Step Description */}
-              <p className="text-[13px] sm:text-[13.5px] text-[#475569] leading-[1.55] font-medium">
+              <p className="text-[13px] sm:text-[14px] lg:text-[15px] xl:text-[16.5px] 2xl:text-[18px] text-[#334155] leading-[1.6] font-medium">
                 {step.description}
               </p>
             </div>
