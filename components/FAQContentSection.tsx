@@ -138,7 +138,7 @@ export default function FAQContentSection() {
   };
 
   return (
-    <section className="faq-content relative w-full bg-white py-14 sm:py-20 overflow-hidden">
+    <section className="relative w-full bg-white py-14 sm:py-20 overflow-hidden">
       <div className="max-w-[860px] xl:max-w-[1000px] 2xl:max-w-[1100px] mx-auto px-4 sm:px-6 lg:px-8">
         
         {/* FAQ Accordion Items */}
@@ -153,7 +153,7 @@ export default function FAQContentSection() {
                 {/* Header Toggle Row */}
                 <button
                   onClick={() => toggleItem(faq.id)}
-                  className="w-full px-5 sm:px-6 xl:px-7 py-4 sm:py-5 flex items-center justify-between gap-4 text-left font-extrabold text-[#0c3746] text-[14px] sm:text-[15.5px] lg:text-[17px] xl:text-[19px] 2xl:text-[20.5px] leading-snug hover:text-[#f15b2a] transition-colors"
+                  className="w-full px-5 sm:px-6 xl:px-7 py-4 sm:py-5 flex items-center justify-between gap-4 text-left font-extrabold text-[#0c3746] text-[15px] sm:text-[16.5px] lg:text-[18px] xl:text-[20px] 2xl:text-[21.5px] leading-snug hover:text-[#f15b2a] transition-colors"
                 >
                   <span>{faq.question}</span>
                   <span className="flex-shrink-0 w-6 h-6 xl:w-7 xl:h-7 bg-[#0c3746] text-white rounded-full flex items-center justify-center transition-transform duration-200">
@@ -167,7 +167,7 @@ export default function FAQContentSection() {
 
                 {/* Answer Content Body */}
                 {isOpen && (
-                  <div className="px-5 sm:px-6 xl:px-7 pb-5 xl:pb-6 pt-1 text-[13.5px] sm:text-[14.5px] lg:text-[16px] xl:text-[18px] 2xl:text-[19.5px] text-[#334650] font-medium leading-[1.65] border-t border-black/5">
+                  <div className="px-5 sm:px-6 xl:px-7 pb-5 xl:pb-6 pt-1 text-[14px] sm:text-[15px] lg:text-[16.5px] xl:text-[18.5px] 2xl:text-[20px] text-[#1c333d] font-semibold leading-[1.65] border-t border-black/5">
                     {faq.answer ? (
                       <p>{faq.answer}</p>
                     ) : (

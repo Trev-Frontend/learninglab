@@ -18,7 +18,7 @@ export default function Hero() {
               Grow and Belong.
             </h1>
 
-            <p className="mt-4 sm:mt-6 text-[14px] sm:text-[15px] lg:text-[16px] xl:text-[18px] 2xl:text-[20px] text-[#475b65] leading-[1.65] max-w-[480px] xl:max-w-[580px] 2xl:max-w-[640px] font-medium mx-auto lg:mx-0">
+            <p className="mt-4 sm:mt-6 text-[15px] sm:text-[16px] lg:text-[18px] xl:text-[20.5px] 2xl:text-[22.5px] text-[#0c3746] leading-[1.7] max-w-[500px] xl:max-w-[620px] 2xl:max-w-[680px] font-bold mx-auto lg:mx-0">
               Learning Lab supports children up to 15 years old through behavioural, ABA,
               speech and occupational therapies, assessments, learning programmes and
               enrichment activities. We help parents understand what their child may need,
@@ -29,7 +29,7 @@ export default function Hero() {
             <div className="mt-6 sm:mt-7 flex flex-wrap items-center justify-center lg:justify-start gap-3 w-full">
               <Link
                 href="/contact"
-                className="inline-flex items-center justify-center gap-2 bg-[#f15b2a] hover:bg-[#de4b1a] text-white px-5 sm:px-6 lg:px-7 xl:px-8 py-2.5 sm:py-3 xl:py-3.5 rounded-full text-[12px] sm:text-[13px] lg:text-[14.5px] xl:text-[16.5px] 2xl:text-[18px] font-bold shadow-xs hover:shadow-md hover:-translate-y-0.5 active:translate-y-0 transition-all duration-200 group"
+                className="inline-flex items-center justify-center gap-2 bg-[#f15b2a] hover:bg-[#de4b1a] text-white px-5 sm:px-6 lg:px-7 xl:px-8 py-2.5 sm:py-3 xl:py-3.5 rounded-full text-[13px] sm:text-[14px] lg:text-[15.5px] xl:text-[17.5px] 2xl:text-[19px] font-extrabold shadow-xs hover:shadow-md hover:-translate-y-0.5 active:translate-y-0 transition-all duration-200 group"
               >
                 <span>Contact Us</span>
                 <ArrowRight className="w-3.5 h-3.5 stroke-[2.5] transition-transform group-hover:translate-x-1" />
@@ -37,7 +37,7 @@ export default function Hero() {
 
               <Link
                 href="/services"
-                className="inline-flex items-center justify-center gap-2 bg-[#f5f8df] hover:bg-[#0c3746] text-[#0c3746] hover:text-white border-[1.5px] border-[#0c3746] px-5 sm:px-6 lg:px-7 xl:px-8 py-2.5 sm:py-3 xl:py-3.5 rounded-full text-[12px] sm:text-[13px] lg:text-[14.5px] xl:text-[16.5px] 2xl:text-[18px] font-bold transition-all duration-200 group"
+                className="inline-flex items-center justify-center gap-2 bg-[#f5f8df] hover:bg-[#0c3746] text-[#0c3746] hover:text-white border-[1.5px] border-[#0c3746] px-5 sm:px-6 lg:px-7 xl:px-8 py-2.5 sm:py-3 xl:py-3.5 rounded-full text-[13px] sm:text-[14px] lg:text-[15.5px] xl:text-[17.5px] 2xl:text-[19px] font-extrabold transition-all duration-200 group"
               >
                 <span>Explore Our Services</span>
                 <ArrowRight className="w-3.5 h-3.5 stroke-[2.5] transition-transform group-hover:translate-x-1" />
@@ -45,7 +45,7 @@ export default function Hero() {
             </div>
 
             {/* Micro reassurance note */}
-            <p className="mt-4 text-[11.5px] sm:text-[12.5px] lg:text-[14px] xl:text-[15.5px] 2xl:text-[17px] text-[#2d424c] font-semibold text-center lg:text-left">
+            <p className="mt-4 text-[13px] sm:text-[14px] lg:text-[15.5px] xl:text-[18.5px] 2xl:text-[20px] text-[#0c3746] font-extrabold text-center lg:text-left">
               You can contact us even when you only have a concern, not a diagnosis.
             </p>
           </div>

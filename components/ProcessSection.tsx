@@ -78,7 +78,7 @@ export default function ProcessSection() {
             feel lost.
           </h2>
 
-          <p className="mt-4 sm:mt-5 text-[14px] sm:text-[15px] lg:text-[16.5px] xl:text-[18.5px] 2xl:text-[20px] text-[#475b65] leading-[1.65] max-w-[820px] mx-auto font-medium">
+          <p className="mt-4 sm:mt-5 text-[14.5px] sm:text-[16px] lg:text-[18px] xl:text-[20.5px] 2xl:text-[22px] text-[#0c3746] leading-[1.65] max-w-[840px] mx-auto font-bold">
             Our work begins with listening. We then use consultation, observation and assessment to understand the child&apos;s current strengths and needs before recommending a personalised plan.
           </p>
         </div>
@@ -103,7 +103,7 @@ export default function ProcessSection() {
               </h3>
 
               {/* Step Description */}
-              <p className="text-[13px] sm:text-[14px] lg:text-[15px] xl:text-[16.5px] 2xl:text-[18px] text-[#334155] leading-[1.6] font-medium">
+              <p className="text-[14px] sm:text-[15px] lg:text-[16.5px] xl:text-[18.5px] 2xl:text-[20px] text-[#0c3746] leading-[1.6] font-bold">
                 {step.description}
               </p>
             </div>

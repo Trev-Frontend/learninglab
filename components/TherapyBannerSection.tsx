@@ -35,7 +35,7 @@ export default function TherapyBannerSection() {
         </h2>
 
         {/* Description Paragraph */}
-        <p className="mt-5 text-[14px] sm:text-[15px] lg:text-[16.5px] xl:text-[18.5px] 2xl:text-[20px] text-[#334650] max-w-[820px] mx-auto leading-[1.65] font-medium">
+        <p className="mt-5 text-[14px] sm:text-[15px] lg:text-[16.5px] xl:text-[19.5px] 2xl:text-[21px] text-[#1c333d] max-w-[820px] mx-auto leading-[1.65] font-semibold">
           In-person therapy, assessments and learning support are available at our DHA Phase 8 centre in Karachi. Online parent consultations, teacher training and school consultancy are available to families and educators worldwide.
         </p>
 

@@ -59,7 +59,7 @@ export default function EarlyInterventionContentSection() {
             </h2>
 
             {/* Checkmark Bullet Points */}
-            <ul className="mt-6 space-y-3.5 text-[13.5px] sm:text-[14.5px] lg:text-[16px] xl:text-[18px] 2xl:text-[19.5px] text-[#334650] font-medium leading-[1.65]">
+            <ul className="mt-6 space-y-3.5 text-[14px] sm:text-[15px] lg:text-[17px] xl:text-[19.5px] 2xl:text-[21px] text-[#0c3746] font-bold leading-[1.65]">
               <li className="flex items-start gap-3">
                 <span className="flex-shrink-0 w-4.5 h-4.5 bg-[#5b4bbb] text-white rounded-full flex items-center justify-center text-[10px] mt-0.5">
                   <Check className="w-3 h-3 stroke-[3]" />

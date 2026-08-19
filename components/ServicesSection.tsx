@@ -143,7 +143,7 @@ export default function ServicesSection() {
             </span>
           </h2>
 
-          <div className="mt-4 sm:mt-5 space-y-1.5 text-[14px] sm:text-[15px] lg:text-[16.5px] xl:text-[18.5px] 2xl:text-[20px] text-white/95 leading-[1.65] max-w-[840px] mx-auto font-medium">
+          <div className="mt-4 sm:mt-5 space-y-1.5 text-[14.5px] sm:text-[16px] lg:text-[18px] xl:text-[20px] 2xl:text-[21.5px] text-white leading-[1.65] max-w-[840px] mx-auto font-bold">
             <p>
               Some children need therapy. Some need help with learning, school participation, communication, regulation or confidence.
             </p>
@@ -196,7 +196,7 @@ export default function ServicesSection() {
                   </h3>
 
                   {/* Description */}
-                  <p className={`text-[13px] sm:text-[14px] lg:text-[15px] xl:text-[16.5px] 2xl:text-[18px] ${service.descColor} leading-[1.6] font-medium`}>
+                  <p className={`text-[14px] sm:text-[15px] lg:text-[16.5px] xl:text-[18.5px] 2xl:text-[20px] ${service.descColor} leading-[1.6] font-bold`}>
                     {service.description}
                   </p>
                 </div>

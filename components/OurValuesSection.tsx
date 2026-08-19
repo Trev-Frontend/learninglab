@@ -142,7 +142,7 @@ export default function OurValuesSection() {
                     <h3 className="text-[14.5px] sm:text-[15.5px] lg:text-[17px] xl:text-[19px] 2xl:text-[21px] font-extrabold text-[#0c3746] leading-snug">
                       {val.title}
                     </h3>
-                    <p className="mt-0.5 text-[13px] sm:text-[14px] lg:text-[15px] xl:text-[17px] 2xl:text-[18.5px] text-[#334650] leading-[1.6] font-medium">
+                    <p className="mt-0.5 text-[13.5px] sm:text-[14.5px] lg:text-[16px] xl:text-[19px] 2xl:text-[20.5px] text-[#0c3746] leading-[1.6] font-bold">
                       {val.description}
                     </p>
                   </div>
