@@ -172,15 +172,15 @@ export default function ServicesSection() {
           </button>
 
           {/* 3 Services Cards Grid */}
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-5 sm:gap-6 lg:gap-7">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-5 sm:gap-6 lg:gap-7 items-stretch">
             {services.map((service, idx) => (
               <div
                 key={idx}
-                className={`${service.bgColor} rounded-[22px] sm:rounded-[26px] p-5 sm:p-6 lg:p-7 flex flex-col justify-between transition-all duration-300 hover:-translate-y-1.5 hover:shadow-xl group select-none`}
+                className={`${service.bgColor} rounded-[22px] sm:rounded-[26px] p-5 sm:p-6 xl:p-6 flex flex-col justify-between transition-all duration-300 hover:-translate-y-1.5 hover:shadow-xl group select-none`}
               >
                 <div>
                   {/* Card Thumbnail Image */}
-                  <div className="relative w-full aspect-[4/3] rounded-[16px] sm:rounded-[18px] overflow-hidden bg-black/5 mb-4 sm:mb-5">
+                  <div className="relative w-full aspect-[16/10.5] sm:aspect-[16/11] rounded-[16px] sm:rounded-[18px] overflow-hidden bg-black/5 mb-3.5 sm:mb-4">
                     <Image
                       src={service.image}
                       alt={service.title}
@@ -191,23 +191,23 @@ export default function ServicesSection() {
                   </div>
 
                   {/* Title */}
-                  <h3 className={`text-[18px] sm:text-[20px] lg:text-[22px] xl:text-[24px] 2xl:text-[26px] font-extrabold ${service.textColor} mb-2.5 tracking-tight leading-snug`}>
+                  <h3 className={`text-[18px] sm:text-[19.5px] lg:text-[21px] xl:text-[23px] 2xl:text-[25px] font-extrabold ${service.textColor} mb-2 tracking-tight leading-snug`}>
                     {service.title}
                   </h3>
 
                   {/* Description */}
-                  <p className={`text-[14px] sm:text-[15px] lg:text-[16.5px] xl:text-[18.5px] 2xl:text-[20px] ${service.descColor} leading-[1.6] font-bold`}>
+                  <p className={`text-[13.5px] sm:text-[14.5px] lg:text-[15.5px] xl:text-[17px] 2xl:text-[18px] ${service.descColor} leading-[1.58] font-bold`}>
                     {service.description}
                   </p>
                 </div>
 
                 {/* Dashed Separator & Tags */}
-                <div className="mt-5 pt-4 border-t border-dashed border-black/10">
-                  <div className="flex flex-wrap gap-2">
+                <div className="mt-4 pt-3.5 border-t border-dashed border-black/10">
+                  <div className="flex flex-wrap gap-1.5 sm:gap-2">
                     {service.tags.map((tag, tIdx) => (
                       <span
                         key={tIdx}
-                        className={`${service.tagBg} px-2.5 sm:px-3 py-1 rounded-full text-[11px] sm:text-[12px] lg:text-[13px] xl:text-[14.5px] 2xl:text-[15.5px] font-bold tracking-tight whitespace-nowrap`}
+                        className={`${service.tagBg} px-2.5 sm:px-3 py-1 rounded-full text-[11px] sm:text-[12px] lg:text-[12.5px] xl:text-[13.5px] font-bold tracking-tight whitespace-nowrap`}
                       >
                         {tag}
                       </span>

@@ -8,14 +8,14 @@ export default function FiguredOutSection() {
     "Sensory sensitivities, overload or difficulty regulating",
     "Difficulty sitting, focusing or following instructions",
     "Delays in play, independence, social interaction or everyday skills",
-    "School admission or school-readiness concerns",
+    "Concerns related to ASD, ADHD or global developmental delay",
   ];
 
   const rightColumnPoints = [
     "Frequent tantrums, refusal, aggression or emotional outbursts",
     "Repetitive behaviour or stimming that is affecting daily routines",
     "Challenges with reading, writing, communication or schoolwork",
-    "Concerns related to ASD, ADHD or global developmental delay",
+    "School admission or school-readiness concerns",
     "Confusion about a diagnosis, assessment or the next step",
   ];
 
@@ -126,22 +126,22 @@ export default function FiguredOutSection() {
             </div>
 
             {/* Checklist Section */}
-            <div className="mt-5 relative">
-              <h3 className="font-figma-heading text-[13.5px] sm:text-[14.5px] lg:text-[16px] xl:text-[18px] 2xl:text-[19.5px] font-extrabold text-[#0c3746] mb-3.5 tracking-tight">
+            <div className="mt-6 sm:mt-7 relative">
+              <h3 className="font-figma-heading text-[14px] sm:text-[15.5px] lg:text-[17px] xl:text-[19px] 2xl:text-[20.5px] font-extrabold text-[#0c3746] mb-4 sm:mb-4.5 tracking-tight">
                 You may be here because your child is experiencing:
               </h3>
 
               {/* 2-Column Grid of Checkpoints */}
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-x-5 lg:gap-x-6 gap-y-2.5">
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-x-6 lg:gap-x-8 gap-y-3 sm:gap-y-3.5">
                 
                 {/* Column 1 */}
-                <div className="space-y-2.5">
+                <div className="space-y-3 sm:space-y-3.5">
                   {leftColumnPoints.map((item, idx) => (
-                    <div key={idx} className="flex items-start gap-2.5 group">
-                      <div className="flex-shrink-0 w-4.5 h-4.5 rounded-full bg-[#584a93] text-white flex items-center justify-center mt-0.5">
+                    <div key={idx} className="flex items-start gap-3 sm:gap-3.5 group">
+                      <div className="flex-shrink-0 w-4.5 h-4.5 rounded-full bg-[#584a93] text-white flex items-center justify-center mt-0.5 shadow-2xs">
                         <Check className="w-3 h-3 stroke-[2.8]" />
                       </div>
-                      <span className="font-figma-copy text-[12.5px] sm:text-[13.5px] lg:text-[14.5px] xl:text-[16.5px] 2xl:text-[18px] text-[#2c3e47] font-semibold leading-[1.45]">
+                      <span className="font-figma-copy text-[12.5px] sm:text-[13.5px] lg:text-[14.5px] xl:text-[16.5px] 2xl:text-[18px] text-[#2c3e47] font-semibold leading-[1.48]">
                         {item}
                       </span>
                     </div>
@@ -149,13 +149,13 @@ export default function FiguredOutSection() {
                 </div>
 
                 {/* Column 2 */}
-                <div className="space-y-2.5">
+                <div className="space-y-3 sm:space-y-3.5">
                   {rightColumnPoints.map((item, idx) => (
-                    <div key={idx} className="flex items-start gap-2.5 group">
-                      <div className="flex-shrink-0 w-4.5 h-4.5 rounded-full bg-[#584a93] text-white flex items-center justify-center mt-0.5">
+                    <div key={idx} className="flex items-start gap-3 sm:gap-3.5 group">
+                      <div className="flex-shrink-0 w-4.5 h-4.5 rounded-full bg-[#584a93] text-white flex items-center justify-center mt-0.5 shadow-2xs">
                         <Check className="w-3 h-3 stroke-[2.8]" />
                       </div>
-                      <span className="font-figma-copy text-[12.5px] sm:text-[13.5px] lg:text-[14.5px] xl:text-[16.5px] 2xl:text-[18px] text-[#2c3e47] font-semibold leading-[1.45]">
+                      <span className="font-figma-copy text-[12.5px] sm:text-[13.5px] lg:text-[14.5px] xl:text-[16.5px] 2xl:text-[18px] text-[#2c3e47] font-semibold leading-[1.48]">
                         {item}
                       </span>
                     </div>
