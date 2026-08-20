@@ -76,7 +76,7 @@ export default function Hero() {
             </div>
 
             {/* Main Photo of the Two Girls with bottom tabletop bar cleanly clipped off */}
-            <div className="relative w-full h-full max-w-[680px] lg:max-w-[640px] xl:max-w-[680px] lg:origin-bottom lg:translate-x-[-9%] lg:translate-y-6 lg:scale-[1.45] [clip-path:inset(0_0_28px_0)]">
+            <div className="relative w-full h-full max-w-[680px] lg:max-w-[640px] xl:max-w-[680px] 2xl:max-w-[740px] translate-y-5 sm:translate-y-6 md:translate-y-7 lg:origin-bottom lg:translate-x-[-9%] lg:translate-y-7 xl:translate-y-14 2xl:translate-y-20 lg:scale-[1.45] xl:scale-[1.5] 2xl:scale-[1.55] [clip-path:inset(0_0_28px_0)]">
               <Image
                 src="/images/fa9b422673ef1cd4bd7ffc14e23f2f2551290a42.png"
                 alt="Two cheerful smiling children learning and holding books"
