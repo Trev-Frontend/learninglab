@@ -9,12 +9,11 @@ export default function Footer() {
       
       {/* Top Right Bunny Basket Illustration (Fully visible, no clipping) */}
       <div className="absolute right-[5%] sm:right-[8%] -top-16 sm:-top-24 w-[140px] sm:w-[180px] pointer-events-none z-30">
-        <Image
+        <img
           src="/images/30941b92a7cb19efbaa8e455138eed542128ac0b.png"
           alt="Bunny in Easter Basket"
           width={180}
           height={140}
-          style={{ width: "100%", height: "auto" }}
           className="w-full h-auto object-contain"
         />
       </div>
