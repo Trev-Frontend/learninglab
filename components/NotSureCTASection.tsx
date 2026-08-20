@@ -8,8 +8,8 @@ export default function NotSureCTASection() {
     <section className="relative w-full bg-white pt-10 sm:pt-14 pb-0 overflow-hidden">
       <div className="max-w-[1240px] xl:max-w-[1360px] 2xl:max-w-[1480px] mx-auto px-4 sm:px-6 lg:px-8 text-center relative z-10">
         
-        {/* Headline */}
-        <h2 className="text-[26px] sm:text-[32px] lg:text-[36px] xl:text-[44px] 2xl:text-[50px] font-extrabold text-[#0c3746] leading-[1.2] tracking-tight max-w-[780px] mx-auto">
+        {/* Headline (1 single line on monitor screens) */}
+        <h2 className="text-[24px] sm:text-[28px] lg:text-[34px] xl:text-[42px] 2xl:text-[48px] font-extrabold text-[#0c3746] leading-[1.2] tracking-tight text-center sm:whitespace-nowrap">
           Not sure what your child needs yet?
         </h2>
 
@@ -37,8 +37,8 @@ export default function NotSureCTASection() {
           </Link>
         </div>
 
-        {/* 4 Kids & Sun Line Illustration */}
-        <div className="mt-8 sm:mt-10 w-full max-w-[560px] sm:max-w-[680px] lg:max-w-[760px] xl:max-w-[840px] mx-auto relative px-2 sm:px-4">
+        {/* 4 Kids & Sun Line Illustration (Floating) */}
+        <div className="mt-8 sm:mt-10 w-full max-w-[560px] sm:max-w-[680px] lg:max-w-[760px] xl:max-w-[840px] mx-auto relative px-2 sm:px-4 animate-float-subtle">
           <Image
             src="/images/11788e7f12548c0e6ac681e5791080ab41c8437b.png"
             alt="Children jumping around the sun illustration"

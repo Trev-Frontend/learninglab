@@ -14,6 +14,7 @@ export default function Footer() {
           alt="Bunny in Easter Basket"
           width={180}
           height={140}
+          style={{ width: "100%", height: "auto" }}
           className="w-full h-auto object-contain"
         />
       </div>
@@ -101,14 +102,14 @@ export default function Footer() {
             <h4 className="font-extrabold text-[#070713] text-[13px] sm:text-[14px] lg:text-[15px] xl:text-[16.5px] 2xl:text-[18px] mb-2.5">
               Quick Links
             </h4>
-            <div className="grid grid-cols-2 gap-x-4 gap-y-2 text-[11.5px] sm:text-[12.5px] lg:text-[13.5px] xl:text-[15px] 2xl:text-[16.5px] text-[#334650] font-medium">
+            <div className="flex flex-col space-y-1.5 text-[11.5px] sm:text-[12.5px] lg:text-[13.5px] xl:text-[15px] 2xl:text-[16.5px] text-[#334650] font-medium">
               <Link href="/" className="hover:text-[#f15b2a] transition-colors">Home</Link>
-              <Link href="/schools-training" className="hover:text-[#f15b2a] transition-colors">Schools</Link>
               <Link href="/about" className="hover:text-[#f15b2a] transition-colors">About</Link>
-              <Link href="/resources" className="hover:text-[#f15b2a] transition-colors">Resources</Link>
               <Link href="/services" className="hover:text-[#f15b2a] transition-colors">Services</Link>
-              <Link href="/contact" className="hover:text-[#f15b2a] transition-colors">Contact</Link>
               <Link href="/parent-support" className="hover:text-[#f15b2a] transition-colors">Parent Support</Link>
+              <Link href="/schools-training" className="hover:text-[#f15b2a] transition-colors">Schools & Training</Link>
+              <Link href="/resources" className="hover:text-[#f15b2a] transition-colors">Resources</Link>
+              <Link href="/contact" className="hover:text-[#f15b2a] transition-colors">Contact</Link>
               <Link href="/faq" className="hover:text-[#f15b2a] transition-colors">FAQs</Link>
             </div>
           </div>

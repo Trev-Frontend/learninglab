@@ -202,8 +202,8 @@ export default function KinderCrateContentSection() {
             Products will be available for online purchase. Individual product pages should include recommended age, learning goals, contents, price, delivery information and safety guidance.
           </p>
 
-          {/* Kids Dancing Under Sun Illustration */}
-          <div className="mt-8 sm:mt-10 w-full max-w-[560px] sm:max-w-[680px] lg:max-w-[760px] xl:max-w-[840px] mx-auto relative px-2 sm:px-4">
+          {/* Kids Dancing Under Sun Illustration (Floating) */}
+          <div className="mt-8 sm:mt-10 w-full max-w-[560px] sm:max-w-[680px] lg:max-w-[760px] xl:max-w-[840px] mx-auto relative px-2 sm:px-4 animate-float-subtle">
             <Image
               src="/images/11788e7f12548c0e6ac681e5791080ab41c8437b.png"
               alt="Children playing under the sun line illustration"

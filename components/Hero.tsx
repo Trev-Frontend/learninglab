@@ -71,18 +71,18 @@ export default function Hero() {
             </div>
 
             {/* Hand-drawn Yellow Scribble Doodle (Right edge near girl's elbow) */}
-            <div className="absolute right-[1%] sm:right-[3%] bottom-[25%] sm:bottom-[30%] lg:right-[-15%] lg:bottom-[18%] w-[40px] sm:w-[54px] md:w-[70px] lg:w-[48px] z-30 pointer-events-none rotate-3">
+            <div className="absolute right-[1%] sm:right-[3%] bottom-[25%] sm:bottom-[30%] lg:right-[-15%] lg:bottom-[18%] w-[40px] sm:w-[54px] md:w-[70px] lg:w-[48px] z-30 pointer-events-none rotate-3 animate-pulse-subtle">
               <ScribbleDoodle className="w-full h-auto" />
             </div>
 
-            {/* Main Photo of the Two Girls */}
-            <div className="relative w-full h-full max-w-[680px] lg:max-w-[640px] xl:max-w-[680px] lg:origin-bottom lg:translate-x-[-9%] lg:translate-y-8 lg:scale-[1.45]">
+            {/* Main Photo of the Two Girls with bottom tabletop bar cleanly clipped off */}
+            <div className="relative w-full h-full max-w-[680px] lg:max-w-[640px] xl:max-w-[680px] lg:origin-bottom lg:translate-x-[-9%] lg:translate-y-6 lg:scale-[1.45] [clip-path:inset(0_0_28px_0)]">
               <Image
                 src="/images/fa9b422673ef1cd4bd7ffc14e23f2f2551290a42.png"
                 alt="Two cheerful smiling children learning and holding books"
                 fill
                 sizes="(max-width: 1024px) 100vw, 50vw"
-                className="object-contain object-bottom filter drop-shadow-sm"
+                className="object-contain object-bottom"
                 priority
               />
             </div>
@@ -92,8 +92,8 @@ export default function Hero() {
         </div>
       </div>
 
-      {/* Cloud / Scalloped Bottom Wave Divider */}
-      <div className="relative z-20 -mt-10 w-full leading-none">
+      {/* Cloud / Scalloped Bottom Wave Divider (Positioned cleanly below text) */}
+      <div className="relative z-20 -mt-8 sm:-mt-10 w-full leading-none">
         <CloudBottomWave />
       </div>
     </section>

@@ -11,8 +11,8 @@ export default function ParentsProcessSection() {
           <div className="relative z-10 flex flex-col justify-center max-w-[480px] xl:max-w-[540px] lg:ml-4">
 
             {/* Headline with Orange Underline under "the process." */}
-            <h2 className="text-[26px] sm:text-[32px] lg:text-[42px] xl:text-[50px] 2xl:text-[56px] font-extrabold text-[#0c3746] leading-[1.18] tracking-tight">
-              Parents remain part of<br />
+            <h2 className="text-[24px] sm:text-[28px] lg:text-[36px] xl:text-[44px] 2xl:text-[50px] font-extrabold text-[#0c3746] leading-[1.2] tracking-tight">
+              Parents remain part of<br className="hidden sm:inline" />{" "}
               <span className="relative inline-block">
                 the process.
                 {/* Hand-drawn Orange underline */}

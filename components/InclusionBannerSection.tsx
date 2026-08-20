@@ -17,9 +17,9 @@ export default function InclusionBannerSection() {
             <div className="lg:col-span-6 relative z-10 flex flex-col justify-between h-full min-h-[280px]">
               <div>
                 {/* Headline */}
-                <h2 className="text-[26px] sm:text-[32px] lg:text-[42px] xl:text-[50px] 2xl:text-[56px] font-extrabold text-white leading-[1.2] tracking-tight">
-                  A wider conversation about<br />
-                  inclusion
+                <h2 className="text-[24px] sm:text-[28px] lg:text-[36px] xl:text-[44px] 2xl:text-[50px] font-extrabold text-white leading-[1.2] tracking-tight">
+                  A wider conversation<br className="hidden sm:inline" />{" "}
+                  about inclusion
                 </h2>
 
                 {/* Paragraph Description */}
@@ -38,8 +38,8 @@ export default function InclusionBannerSection() {
                   <ArrowRight className="w-4 h-4 stroke-[2.5]" />
                 </Link>
 
-                {/* White Star Doodle */}
-                <div className="w-7 h-7 sm:w-8 sm:h-8 relative opacity-95">
+                {/* White Star Doodle (Pulsing) */}
+                <div className="w-7 h-7 sm:w-8 sm:h-8 relative opacity-95 animate-pulse-subtle">
                   <Image
                     src="/images/be42050e723a90220a193b7157b26b96bcadfcfc.png"
                     alt="Star Doodle"

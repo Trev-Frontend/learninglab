@@ -109,20 +109,20 @@ export default function CareAndProgressSection() {
           {/* Right Column: Heading & 6 Structured Bullet Points */}
           <div className="lg:col-span-6 relative z-10">
             
-            {/* Headline with curved orange underline */}
-            <h2 className="text-[28px] sm:text-[34px] lg:text-[42px] xl:text-[50px] 2xl:text-[56px] font-extrabold text-[#0c3746] leading-[1.2] tracking-tight">
-              Care parents can understand and<br className="hidden sm:inline" />{" "}
-              <span className="relative inline-block">
-                progress they can follow.
+            {/* Headline in 2 clean balanced rows with curved orange underline */}
+            <h2 className="text-[23px] sm:text-[28px] lg:text-[30px] xl:text-[38px] 2xl:text-[44px] font-extrabold text-[#0c3746] leading-[1.2] tracking-tight">
+              Care parents can understand<br className="hidden sm:inline" />{" "}
+              <span className="relative inline-block sm:whitespace-nowrap">
+                and progress they can follow.
                 {/* Hand-drawn Orange underline */}
                 <svg
                   className="absolute left-0 -bottom-1.5 sm:-bottom-2 w-full h-2.5 overflow-visible pointer-events-none"
-                  viewBox="0 0 320 12"
+                  viewBox="0 0 380 12"
                   fill="none"
                   xmlns="http://www.w3.org/2000/svg"
                 >
                   <path
-                    d="M 2 7 C 90 12, 230 12, 318 4"
+                    d="M 2 7 C 100 12, 280 12, 378 4"
                     stroke="#f15b2a"
                     strokeWidth="4.5"
                     strokeLinecap="round"

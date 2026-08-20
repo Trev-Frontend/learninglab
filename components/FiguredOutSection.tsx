@@ -89,22 +89,22 @@ export default function FiguredOutSection() {
           {/* Right Column: Heading, Paragraphs & 2-Column Checklist */}
           <div className="relative z-10">
             
-            {/* Main Headline with curved brush underline */}
-            <h2 className="text-[26px] sm:text-[32px] lg:text-[42px] xl:text-[50px] 2xl:text-[56px] font-extrabold text-[#0c3746] leading-[1.18] tracking-tight">
-              You do not need to have everything<br className="hidden sm:inline" />{" "}
+            {/* Main Headline in 2 clean rows with curved brush underline */}
+            <h2 className="text-[24px] sm:text-[28px] lg:text-[36px] xl:text-[44px] 2xl:text-[50px] font-extrabold text-[#0c3746] leading-[1.2] tracking-tight">
+              You do not need to have<br className="hidden sm:inline" />{" "}
               <span className="relative inline-block">
-                figured out.
+                everything figured out.
                 {/* Hand-drawn Orange underline brush */}
                 <svg
                   className="absolute left-0 -bottom-1.5 sm:-bottom-2 w-full h-2.5 overflow-visible pointer-events-none"
-                  viewBox="0 0 220 12"
+                  viewBox="0 0 320 12"
                   fill="none"
                   xmlns="http://www.w3.org/2000/svg"
                 >
                   <path
-                    d="M 2 7 C 60 11, 150 11, 218 5"
+                    d="M 2 7 C 100 12, 230 12, 318 5"
                     stroke="#f15b2a"
-                    strokeWidth="4"
+                    strokeWidth="4.5"
                     strokeLinecap="round"
                   />
                 </svg>

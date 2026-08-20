@@ -75,8 +75,8 @@ export default function ServicesSection() {
       <div className="max-w-[1240px] xl:max-w-[1360px] 2xl:max-w-[1480px] mx-auto px-4 sm:px-6 lg:px-8 relative">
         
         {/* Background Doodles */}
-        {/* Hot Air Balloon (Top Left) */}
-        <div className="absolute left-[2%] sm:left-[5%] top-[0%] w-[44px] sm:w-[54px] pointer-events-none opacity-60 z-10">
+        {/* Hot Air Balloon (Top Left - Floating) */}
+        <div className="absolute left-[2%] sm:left-[5%] top-[0%] w-[44px] sm:w-[54px] pointer-events-none opacity-80 z-10 animate-float">
           <Image
             src="/images/1241e545d4b20e3352d0671e66397a6616db0500.png"
             alt="Hot Air Balloon Doodle"
@@ -86,8 +86,8 @@ export default function ServicesSection() {
           />
         </div>
 
-        {/* Crown (Top Right) */}
-        <div className="absolute right-[5%] sm:right-[9%] top-[3%] w-[44px] sm:w-[52px] pointer-events-none z-10 rotate-6">
+        {/* Crown (Top Right - Floating Crown) */}
+        <div className="hidden sm:block absolute right-[5%] sm:right-[9%] top-[1%] sm:top-[3%] w-[44px] sm:w-[52px] pointer-events-none z-10 animate-crown">
           <Image
             src="/images/9f341c555c650e166e0887ba08b7c129a313678d.png"
             alt="Crown Doodle"
@@ -97,8 +97,8 @@ export default function ServicesSection() {
           />
         </div>
 
-        {/* Star (Bottom Left) */}
-        <div className="absolute left-[1%] sm:left-[3%] bottom-[18%] sm:bottom-[22%] w-[32px] sm:w-[38px] pointer-events-none z-10 animate-pulse-subtle">
+        {/* Star (Top Left Header Area - Pulsing) */}
+        <div className="absolute left-[3%] sm:left-[6%] top-[12%] sm:top-[8%] w-[34px] sm:w-[42px] pointer-events-none z-20 animate-pulse-subtle">
           <Image
             src="/images/be42050e723a90220a193b7157b26b96bcadfcfc.png"
             alt="Star Doodle"
@@ -108,8 +108,8 @@ export default function ServicesSection() {
           />
         </div>
 
-        {/* Paper Airplane (Bottom Right) */}
-        <div className="absolute -right-2 sm:right-[1%] bottom-[4%] sm:bottom-[8%] w-[60px] sm:w-[80px] pointer-events-none opacity-80 z-10">
+        {/* Paper Airplane (Bottom Right - Subtle Float) */}
+        <div className="absolute -right-2 sm:right-[1%] bottom-[4%] sm:bottom-[8%] w-[60px] sm:w-[80px] pointer-events-none opacity-80 z-10 animate-float-subtle">
           <Image
             src="/images/eafa199f841323b88e5690e54e8a5adc0652f40f.png"
             alt="Paper Airplane Doodle"
@@ -121,7 +121,7 @@ export default function ServicesSection() {
 
         {/* Header Title & Subtitle */}
         <div className="text-center max-w-[900px] mx-auto relative z-20">
-          <h2 className="text-[26px] sm:text-[32px] lg:text-[42px] xl:text-[50px] 2xl:text-[56px] font-extrabold text-white leading-[1.18] tracking-tight">
+          <h2 className="text-[24px] sm:text-[30px] lg:text-[38px] xl:text-[46px] 2xl:text-[52px] font-extrabold text-white leading-[1.2] tracking-tight">
             Support designed around the child,<br className="hidden sm:inline" />{" "}
             not only the{" "}
             <span className="relative inline-block">
@@ -154,19 +154,19 @@ export default function ServicesSection() {
         </div>
 
         {/* Carousel & Cards Section with comfortable space for arrows */}
-        <div className="mt-10 sm:mt-12 relative z-20 px-8 sm:px-12 md:px-14">
+        <div className="mt-10 sm:mt-12 relative z-20 px-0 sm:px-12 md:px-14">
           
-          {/* Navigation Arrows with spacing from cards */}
+          {/* Navigation Arrows (Hidden on small mobile screens) */}
           <button
             aria-label="Previous service"
-            className="absolute left-0 sm:left-1 top-1/2 -translate-y-1/2 w-9 h-9 sm:w-10 sm:h-10 rounded-full bg-white/20 hover:bg-white/30 text-white flex items-center justify-center backdrop-blur-xs transition-all z-30 shadow-md cursor-pointer"
+            className="hidden sm:flex absolute left-0 sm:left-1 top-1/2 -translate-y-1/2 w-9 h-9 sm:w-10 sm:h-10 rounded-full bg-white/20 hover:bg-white/30 text-white items-center justify-center backdrop-blur-xs transition-all z-30 shadow-md cursor-pointer"
           >
             <ArrowLeft className="w-4 h-4 stroke-[2.5]" />
           </button>
 
           <button
             aria-label="Next service"
-            className="absolute right-0 sm:right-1 top-1/2 -translate-y-1/2 w-9 h-9 sm:w-10 sm:h-10 rounded-full bg-white/20 hover:bg-white/30 text-white flex items-center justify-center backdrop-blur-xs transition-all z-30 shadow-md cursor-pointer"
+            className="hidden sm:flex absolute right-0 sm:right-1 top-1/2 -translate-y-1/2 w-9 h-9 sm:w-10 sm:h-10 rounded-full bg-white/20 hover:bg-white/30 text-white items-center justify-center backdrop-blur-xs transition-all z-30 shadow-md cursor-pointer"
           >
             <ArrowRight className="w-4 h-4 stroke-[2.5]" />
           </button>

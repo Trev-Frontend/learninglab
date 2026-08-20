@@ -45,10 +45,63 @@
 
 .animate-float {
   animation: float-slow 4.5s ease-in-out infinite;
+  will-change: transform;
+  backface-visibility: hidden;
+  transform: translateZ(0);
 }
 
 .animate-crown {
   animation: crown-bob 3.5s ease-in-out infinite;
+  will-change: transform;
+  backface-visibility: hidden;
+  transform: translateZ(0);
+}
+
+@keyframes pulse-subtle {
+  0%, 100% {
+    transform: scale(1) translateZ(0);
+    opacity: 1;
+  }
+  50% {
+    transform: scale(1.08) translateZ(0);
+    opacity: 0.88;
+  }
+}
+
+@keyframes spin-slow {
+  0% {
+    transform: rotate(0deg) translateZ(0);
+  }
+  100% {
+    transform: rotate(360deg) translateZ(0);
+  }
+}
+
+@keyframes float-subtle {
+  0%, 100% {
+    transform: translateY(0px) translateZ(0);
+  }
+  50% {
+    transform: translateY(-8px) translateZ(0);
+  }
+}
+
+.animate-pulse-subtle {
+  animation: pulse-subtle 3.5s ease-in-out infinite;
+  will-change: transform;
+  backface-visibility: hidden;
+}
+
+.animate-spin-slow {
+  animation: spin-slow 22s linear infinite;
+  will-change: transform;
+  backface-visibility: hidden;
+}
+
+.animate-float-subtle {
+  animation: float-subtle 4s ease-in-out infinite;
+  will-change: transform;
+  backface-visibility: hidden;
 }
 
 .font-figma-heading {

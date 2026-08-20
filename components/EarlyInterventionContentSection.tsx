@@ -37,8 +37,8 @@ export default function EarlyInterventionContentSection() {
           <div className="lg:col-span-6 flex flex-col justify-center">
             
             {/* Headline */}
-            <h2 className="text-[26px] sm:text-[30px] lg:text-[42px] xl:text-[50px] 2xl:text-[56px] font-extrabold text-[#0c3746] leading-[1.25] tracking-tight">
-              This service may help when a child is{" "}
+            <h2 className="text-[24px] sm:text-[30px] lg:text-[34px] xl:text-[42px] 2xl:text-[48px] font-extrabold text-[#0c3746] leading-[1.25] tracking-tight">
+              This service may help when a child is<br />
               <span className="relative inline-block">
                 experiencing:
                 {/* Hand-drawn Orange Underline */}

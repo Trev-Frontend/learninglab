@@ -13,7 +13,7 @@ export default function TherapyBannerSection() {
         </div>
 
         {/* Main Headline */}
-        <h2 className="text-[28px] sm:text-[36px] lg:text-[42px] xl:text-[50px] 2xl:text-[56px] font-extrabold text-[#0c3746] leading-[1.2] tracking-tight max-w-[900px] mx-auto">
+        <h2 className="text-[24px] sm:text-[28px] lg:text-[36px] xl:text-[44px] 2xl:text-[50px] font-extrabold text-[#0c3746] leading-[1.2] tracking-tight max-w-[900px] mx-auto">
           Therapy in Karachi. Guidance and<br className="hidden sm:inline" />{" "}
           <span className="relative inline-block">
             training worldwide.
