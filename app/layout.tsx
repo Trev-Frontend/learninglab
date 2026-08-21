@@ -19,7 +19,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en" className={plusJakartaSans.variable}>
+    <html lang="en" data-scroll-behavior="smooth" className={plusJakartaSans.variable}>
       <body className={`${plusJakartaSans.className} min-h-screen bg-[#f4f6e1] font-sans antialiased text-[#1c2c34] selection:bg-[#f15b2a] selection:text-white`}>
         {children}
       </body>

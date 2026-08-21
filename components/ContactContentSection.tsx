@@ -302,7 +302,7 @@ export default function ContactContentSection() {
                 Visit Learning Lab
               </h2>
               <p className="mt-3.5 text-[14.5px] sm:text-[15.5px] lg:text-[16.5px] xl:text-[18px] text-white/95 font-medium leading-[1.6]">
-                Find us at Prime Tower in DHA Phase 8, Karachi. Use the map below for directions or contact our team if you need help locating the centre.
+                Find us at Prime Tower in DHA Phase 8, Karachi. Use the map for directions or contact our team if you need help locating the centre.
               </p>
             </div>
 
