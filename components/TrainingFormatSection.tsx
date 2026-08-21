@@ -61,8 +61,8 @@ export default function TrainingFormatSection() {
           </Link>
         </div>
 
-        {/* 4 Kids & Sun Line Art Illustration */}
-        <div className="mt-8 sm:mt-10 w-full max-w-[560px] sm:max-w-[680px] lg:max-w-[760px] xl:max-w-[840px] mx-auto relative px-2 sm:px-4">
+        {/* 4 Kids & Sun Line Art Illustration (Floating) */}
+        <div className="mt-8 sm:mt-10 w-full max-w-[560px] sm:max-w-[680px] lg:max-w-[760px] xl:max-w-[840px] mx-auto relative px-2 sm:px-4 animate-float-subtle">
           <Image
             src="/images/11788e7f12548c0e6ac681e5791080ab41c8437b.png"
             alt="Children playing under the sun line illustration"
