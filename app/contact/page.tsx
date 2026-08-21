@@ -7,7 +7,7 @@ import ContactContentSection from "@/components/ContactContentSection";
 
 export default function ContactPage() {
   return (
-    <main className="min-h-screen bg-white flex flex-col w-full overflow-x-hidden">
+    <main className="min-h-screen bg-white flex flex-col w-full overflow-x-clip">
       
       {/* Top Announcement Bar */}
       <TopBar variant="cream" />

@@ -8,7 +8,7 @@ import NotSureWhereToBeginSection from "@/components/NotSureWhereToBeginSection"
 
 export default function ServicesPage() {
   return (
-    <main className="min-h-screen bg-white flex flex-col w-full overflow-x-hidden">
+    <main className="min-h-screen bg-white flex flex-col w-full overflow-x-clip">
       
       {/* Top Announcement Bar (Cream with dark text & scalloped bottom wave) */}
       <TopBar variant="cream" />

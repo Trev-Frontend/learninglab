@@ -7,7 +7,7 @@ import KinderCrateContentSection from "@/components/KinderCrateContentSection";
 
 export default function KinderCratePage() {
   return (
-    <main className="min-h-screen bg-white flex flex-col w-full overflow-x-hidden">
+    <main className="min-h-screen bg-white flex flex-col w-full overflow-x-clip">
       
       {/* Top Announcement Bar */}
       <TopBar variant="cream" />

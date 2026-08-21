@@ -14,7 +14,7 @@ import Footer from "@/components/Footer";
 
 export default function Home() {
   return (
-    <main className="min-h-screen bg-white flex flex-col w-full overflow-x-hidden">
+    <main className="min-h-screen bg-white flex flex-col w-full overflow-x-clip">
       {/* Top Notification Announcement Bar */}
       <TopBar variant="purple" />
 

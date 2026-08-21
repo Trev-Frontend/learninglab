@@ -31,7 +31,7 @@ export default function Navbar({ variant = "cream", activeNav }: NavbarProps) {
   ];
 
   return (
-    <header className={`w-full relative z-50 transition-colors ${isPurple ? "bg-[#5b4bbb] text-white" : "bg-[#f5f8df] text-[#0c3746]"}`}>
+    <header className={`w-full sticky top-0 z-50 transition-all shadow-xs ${isPurple ? "bg-[#5b4bbb]/95 backdrop-blur-md text-white" : "bg-[#f5f8df]/95 backdrop-blur-md text-[#0c3746]"}`}>
       <div className="max-w-[1240px] xl:max-w-[1360px] 2xl:max-w-[1480px] mx-auto px-4 sm:px-6 lg:px-8 py-3.5 flex items-center justify-between">
         
         {/* Brand Logo & Name */}
