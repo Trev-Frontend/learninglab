@@ -22,7 +22,7 @@ export default function ABATherapyContentSection() {
               {/* Main Image Blob */}
               <div className="relative w-full h-full rounded-[52%_48%_68%_32%/45%_55%_45%_55%] overflow-hidden shadow-lg">
                 <Image
-                  src="/images/07f24b07c4f12c733912ddd2cc9c59a31253f30d.jpg"
+                  src="/newimages/aba1.jpg"
                   alt="Therapist and child stacking colorful cups"
                   fill
                   sizes="(max-width: 1024px) 100vw, 500px"
@@ -37,7 +37,7 @@ export default function ABATherapyContentSection() {
           <div className="lg:col-span-6 flex flex-col justify-center">
             
             {/* Headline */}
-            <h2 className="text-[24px] sm:text-[30px] lg:text-[34px] xl:text-[42px] 2xl:text-[48px] font-extrabold text-[#0c3746] leading-[1.25] tracking-tight">
+            <h2 className="text-[20px] sm:text-[26px] lg:text-[34px] xl:text-[42px] 2xl:text-[48px] font-extrabold text-[#0c3746] leading-[1.25] tracking-tight">
               This service may help when a child is<br />
               <span className="relative inline-block">
                 experiencing:
@@ -117,7 +117,7 @@ export default function ABATherapyContentSection() {
           <div className="lg:col-span-6 flex flex-col justify-center order-2 lg:order-1">
             
             {/* Headline */}
-            <h2 className="text-[26px] sm:text-[30px] lg:text-[42px] xl:text-[50px] 2xl:text-[56px] font-extrabold text-[#0c3746] leading-[1.25] tracking-tight">
+            <h2 className="text-[21px] sm:text-[27px] lg:text-[38px] xl:text-[46px] 2xl:text-[52px] font-extrabold text-[#0c3746] leading-[1.25] tracking-tight">
               Areas we may{" "}
               <span className="relative inline-block">
                 work on
@@ -202,7 +202,7 @@ export default function ABATherapyContentSection() {
               {/* Main Image Blob */}
               <div className="relative w-full h-full rounded-[48%_52%_35%_65%/55%_42%_58%_45%] overflow-hidden border-4 border-white shadow-lg">
                 <Image
-                  src="/images/eeac278acb06664871abc7f3db82995012559953 (1).jpg"
+                  src="/newimages/aba2.jpg"
                   alt="Children sitting on floor raising hands in classroom"
                   fill
                   sizes="(max-width: 1024px) 100vw, 520px"
@@ -230,7 +230,7 @@ export default function ABATherapyContentSection() {
               {/* Main Image Blob */}
               <div className="relative w-full h-full rounded-[65%_35%_55%_45%/45%_60%_40%_55%] overflow-hidden border-4 border-white shadow-lg">
                 <Image
-                  src="/images/a5862f82a08b5e8e348cf44d2a1cb6f5665981c2 (1).jpg"
+                  src="/newimages/aba3.png"
                   alt="Therapist working with girl at white curved table"
                   fill
                   sizes="(max-width: 1024px) 100vw, 520px"
@@ -245,7 +245,7 @@ export default function ABATherapyContentSection() {
           <div className="lg:col-span-6 flex flex-col justify-center">
             
             {/* Headline */}
-            <h2 className="text-[26px] sm:text-[30px] lg:text-[42px] xl:text-[50px] 2xl:text-[56px] font-extrabold text-[#0c3746] leading-[1.25] tracking-tight">
+            <h2 className="text-[21px] sm:text-[27px] lg:text-[38px] xl:text-[46px] 2xl:text-[52px] font-extrabold text-[#0c3746] leading-[1.25] tracking-tight">
               How support is{" "}
               <span className="relative inline-block">
                 planned

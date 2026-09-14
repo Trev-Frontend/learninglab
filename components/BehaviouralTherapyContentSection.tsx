@@ -21,7 +21,7 @@ export default function BehaviouralTherapyContentSection() {
               {/* Main Image Blob */}
               <div className="relative w-full h-full rounded-[52%_48%_68%_32%/45%_55%_45%_55%] overflow-hidden shadow-md">
                 <Image
-                  src="/images/7cb00f40c2e5008440b6da61110a81489afc990c.jpg"
+                  src="/newimages/behaviourtherapy1.jpg"
                   alt="Therapist working with child on floor"
                   fill
                   sizes="(max-width: 1024px) 100vw, 500px"
@@ -36,7 +36,7 @@ export default function BehaviouralTherapyContentSection() {
           <div className="lg:col-span-6 flex flex-col justify-center">
             
             {/* Headline */}
-            <h2 className="text-[24px] sm:text-[30px] lg:text-[34px] xl:text-[42px] 2xl:text-[48px] font-extrabold text-[#0c3746] leading-[1.25] tracking-tight">
+            <h2 className="text-[20px] sm:text-[26px] lg:text-[34px] xl:text-[42px] 2xl:text-[48px] font-extrabold text-[#0c3746] leading-[1.25] tracking-tight">
               This service may help when a child is<br />
               <span className="relative inline-block">
                 experiencing:
@@ -106,7 +106,7 @@ export default function BehaviouralTherapyContentSection() {
           <div className="lg:col-span-6 flex flex-col justify-center order-2 lg:order-1">
             
             {/* Headline */}
-            <h2 className="text-[26px] sm:text-[30px] lg:text-[42px] xl:text-[50px] 2xl:text-[56px] font-extrabold text-[#0c3746] leading-[1.25] tracking-tight">
+            <h2 className="text-[21px] sm:text-[27px] lg:text-[38px] xl:text-[46px] 2xl:text-[52px] font-extrabold text-[#0c3746] leading-[1.25] tracking-tight">
               Areas we may{" "}
               <span className="relative inline-block">
                 work on
@@ -171,7 +171,7 @@ export default function BehaviouralTherapyContentSection() {
               {/* Main Image Blob */}
               <div className="relative w-full h-full rounded-[48%_52%_35%_65%/55%_42%_58%_45%] overflow-hidden shadow-md">
                 <Image
-                  src="/images/79e0c6b8a2db9cff9fcb888d207e737a7639d6a7.jpg"
+                  src="/newimages/behaviourtherapy2.jpg"
                   alt="Child raising hand in classroom"
                   fill
                   sizes="(max-width: 1024px) 100vw, 500px"
@@ -199,7 +199,7 @@ export default function BehaviouralTherapyContentSection() {
               {/* Main Image Blob */}
               <div className="relative w-full h-full rounded-[65%_35%_55%_45%/45%_60%_40%_55%] overflow-hidden shadow-md">
                 <Image
-                  src="/images/cf837cadf615949b7c3fda73376b06348b44240e.jpg"
+                  src="/newimages/behaviourtherapy3.png"
                   alt="Therapist sitting with child playing drum"
                   fill
                   sizes="(max-width: 1024px) 100vw, 500px"
@@ -214,7 +214,7 @@ export default function BehaviouralTherapyContentSection() {
           <div className="lg:col-span-6 flex flex-col justify-center">
             
             {/* Headline */}
-            <h2 className="text-[26px] sm:text-[30px] lg:text-[42px] xl:text-[50px] 2xl:text-[56px] font-extrabold text-[#0c3746] leading-[1.25] tracking-tight">
+            <h2 className="text-[21px] sm:text-[27px] lg:text-[38px] xl:text-[46px] 2xl:text-[52px] font-extrabold text-[#0c3746] leading-[1.25] tracking-tight">
               How support is{" "}
               <span className="relative inline-block">
                 planned

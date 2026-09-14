@@ -22,7 +22,7 @@ export default function SpeechTherapyContentSection() {
               {/* Main Image Blob */}
               <div className="relative w-full h-full rounded-[52%_48%_68%_32%/45%_55%_45%_55%] overflow-hidden border-4 border-white shadow-lg">
                 <Image
-                  src="/images/1a016462b4d8af6b82dcc041b03afade61254c1b.jpg"
+                  src="/newimages/speech1.png"
                   alt="Speech therapist working with boy in mirror"
                   fill
                   sizes="(max-width: 1024px) 100vw, 520px"
@@ -37,7 +37,7 @@ export default function SpeechTherapyContentSection() {
           <div className="lg:col-span-6 flex flex-col justify-center">
             
             {/* Headline */}
-            <h2 className="text-[24px] sm:text-[30px] lg:text-[34px] xl:text-[42px] 2xl:text-[48px] font-extrabold text-[#0c3746] leading-[1.25] tracking-tight">
+            <h2 className="text-[20px] sm:text-[26px] lg:text-[34px] xl:text-[42px] 2xl:text-[48px] font-extrabold text-[#0c3746] leading-[1.25] tracking-tight">
               This service may help when a child is<br />
               <span className="relative inline-block">
                 experiencing:
@@ -117,7 +117,7 @@ export default function SpeechTherapyContentSection() {
           <div className="lg:col-span-6 flex flex-col justify-center order-2 lg:order-1">
             
             {/* Headline */}
-            <h2 className="text-[26px] sm:text-[30px] lg:text-[42px] xl:text-[50px] 2xl:text-[56px] font-extrabold text-[#0c3746] leading-[1.25] tracking-tight">
+            <h2 className="text-[21px] sm:text-[27px] lg:text-[38px] xl:text-[46px] 2xl:text-[52px] font-extrabold text-[#0c3746] leading-[1.25] tracking-tight">
               Areas we may{" "}
               <span className="relative inline-block">
                 work on
@@ -190,7 +190,7 @@ export default function SpeechTherapyContentSection() {
               {/* Main Image Blob */}
               <div className="relative w-full h-full rounded-[48%_52%_35%_65%/55%_42%_58%_45%] overflow-hidden border-4 border-white shadow-lg">
                 <Image
-                  src="/images/1725a489b7011c3e04000b11c912b8a93348ea07.jpg"
+                  src="/newimages/speech2.png"
                   alt="Speech therapist doing mouth exercises with child"
                   fill
                   sizes="(max-width: 1024px) 100vw, 520px"
@@ -218,7 +218,7 @@ export default function SpeechTherapyContentSection() {
               {/* Main Image Blob */}
               <div className="relative w-full h-full rounded-[65%_35%_55%_45%/45%_60%_40%_55%] overflow-hidden border-4 border-white shadow-lg">
                 <Image
-                  src="/images/77ddd76aad6eba4eaab1c7ca0893eb6164cad342.png"
+                  src="/newimages/speech3.png"
                   alt="Child with glasses holding letter A card during speech therapy"
                   fill
                   sizes="(max-width: 1024px) 100vw, 520px"
@@ -233,7 +233,7 @@ export default function SpeechTherapyContentSection() {
           <div className="lg:col-span-6 flex flex-col justify-center">
             
             {/* Headline */}
-            <h2 className="text-[26px] sm:text-[30px] lg:text-[42px] xl:text-[50px] 2xl:text-[56px] font-extrabold text-[#0c3746] leading-[1.25] tracking-tight">
+            <h2 className="text-[21px] sm:text-[27px] lg:text-[38px] xl:text-[46px] 2xl:text-[52px] font-extrabold text-[#0c3746] leading-[1.25] tracking-tight">
               How support is{" "}
               <span className="relative inline-block">
                 planned

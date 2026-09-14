@@ -11,7 +11,7 @@ export default function TopBar({ variant = "purple" }: TopBarProps) {
 
   return (
     <div
-      className={`w-full text-[10px] sm:text-[11px] font-normal tracking-wide relative z-40 select-none -mt-[2px] pt-[2px] ${
+      className={`w-full text-[10px] sm:text-[11px] font-normal tracking-wide relative z-40 select-none ${
         isCream ? "bg-[#f5f8df] text-[#0c3746]" : "bg-[#5b4bbb] text-white"
       }`}
     >
@@ -56,10 +56,7 @@ export default function TopBar({ variant = "purple" }: TopBarProps) {
       </div>
 
       {/* Scallop wave under the bar */}
-      <TopBarWave
-        color={isCream ? "#f5f8df" : "#5b4bbb"}
-        bottomColor={isCream ? "#5b4bbb" : "#f5f8df"}
-      />
+      <TopBarWave color={isCream ? "#5b4bbb" : "#f5f8df"} />
     </div>
   );
 }

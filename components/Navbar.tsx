@@ -31,7 +31,7 @@ export default function Navbar({ variant = "cream", activeNav }: NavbarProps) {
   ];
 
   return (
-    <header className={`w-full sticky top-0 z-50 transition-all shadow-xs ${isPurple ? "bg-[#5b4bbb]/95 backdrop-blur-md text-white" : "bg-[#f5f8df]/95 backdrop-blur-md text-[#0c3746]"}`}>
+    <header className={`w-full sticky top-0 z-50 transition-all ${isPurple ? "bg-[#5b4bbb] text-white" : "bg-[#f5f8df]/95 backdrop-blur-md text-[#0c3746]"}`}>
       <div className="max-w-[1240px] xl:max-w-[1360px] 2xl:max-w-[1480px] mx-auto px-4 sm:px-6 lg:px-8 py-3.5 flex items-center justify-between">
         
         {/* Brand Logo & Name */}
@@ -109,9 +109,10 @@ export default function Navbar({ variant = "cream", activeNav }: NavbarProps) {
           </Link>
           <Link
             href="/resources"
-            className={`transition-colors ${activeNav === "Resources" ? (isPurple ? "text-white font-bold" : "text-[#0c3746] font-bold") : (isPurple ? "text-white/90 hover:text-white" : "text-[#324f5e] hover:text-[#f15b2a]")}`}
+            className={`flex items-center gap-1 transition-colors ${activeNav === "Resources" ? (isPurple ? "text-white font-bold" : "text-[#0c3746] font-bold") : (isPurple ? "text-white/90 hover:text-white" : "text-[#324f5e] hover:text-[#f15b2a]")}`}
           >
-            Resources
+            <span>Resources</span>
+            <ChevronDown className="w-3.5 h-3.5 opacity-80 stroke-[2.2]" />
           </Link>
         </nav>
 

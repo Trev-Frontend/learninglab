@@ -22,7 +22,7 @@ export default function OccupationalTherapyContentSection() {
               {/* Main Image Blob */}
               <div className="relative w-full h-full rounded-[52%_48%_68%_32%/45%_55%_45%_55%] overflow-hidden border-4 border-white shadow-lg">
                 <Image
-                  src="/images/88e3bf3154bb95d585aafc3a01dbc4e13fccca64.jpg"
+                  src="/newimages/occupational1.jpg"
                   alt="Young boy playing with shape sorter toy"
                   fill
                   sizes="(max-width: 1024px) 100vw, 520px"
@@ -37,7 +37,7 @@ export default function OccupationalTherapyContentSection() {
           <div className="lg:col-span-6 flex flex-col justify-center">
             
             {/* Headline */}
-            <h2 className="text-[24px] sm:text-[30px] lg:text-[34px] xl:text-[42px] 2xl:text-[48px] font-extrabold text-[#0c3746] leading-[1.25] tracking-tight">
+            <h2 className="text-[20px] sm:text-[26px] lg:text-[34px] xl:text-[42px] 2xl:text-[48px] font-extrabold text-[#0c3746] leading-[1.25] tracking-tight">
               This service may help when a child is<br />
               <span className="relative inline-block">
                 experiencing:
@@ -117,7 +117,7 @@ export default function OccupationalTherapyContentSection() {
           <div className="lg:col-span-6 flex flex-col justify-center order-2 lg:order-1">
             
             {/* Headline */}
-            <h2 className="text-[26px] sm:text-[30px] lg:text-[42px] xl:text-[50px] 2xl:text-[56px] font-extrabold text-[#0c3746] leading-[1.25] tracking-tight">
+            <h2 className="text-[21px] sm:text-[27px] lg:text-[38px] xl:text-[46px] 2xl:text-[52px] font-extrabold text-[#0c3746] leading-[1.25] tracking-tight">
               Areas we may{" "}
               <span className="relative inline-block">
                 work on
@@ -196,7 +196,7 @@ export default function OccupationalTherapyContentSection() {
               {/* Main Image Blob */}
               <div className="relative w-full h-full rounded-[48%_52%_35%_65%/55%_42%_58%_45%] overflow-hidden border-4 border-white shadow-lg">
                 <Image
-                  src="/images/95b9c6b433854bb5391f3af684affa8a0c901828.jpg"
+                  src="/newimages/occupational2.jpg"
                   alt="Child using wooden tongs to pick up colorful pom poms"
                   fill
                   sizes="(max-width: 1024px) 100vw, 520px"
@@ -224,7 +224,7 @@ export default function OccupationalTherapyContentSection() {
               {/* Main Image Blob */}
               <div className="relative w-full h-full rounded-[65%_35%_55%_45%/45%_60%_40%_55%] overflow-hidden border-4 border-white shadow-lg">
                 <Image
-                  src="/images/85f42482596e326836a84d6042ad700f04f4d9a0.jpg"
+                  src="/newimages/occupational3.jpg"
                   alt="Child playing with wooden bead stacker on floor"
                   fill
                   sizes="(max-width: 1024px) 100vw, 520px"
@@ -239,7 +239,7 @@ export default function OccupationalTherapyContentSection() {
           <div className="lg:col-span-6 flex flex-col justify-center">
             
             {/* Headline */}
-            <h2 className="text-[26px] sm:text-[30px] lg:text-[42px] xl:text-[50px] 2xl:text-[56px] font-extrabold text-[#0c3746] leading-[1.25] tracking-tight">
+            <h2 className="text-[21px] sm:text-[27px] lg:text-[38px] xl:text-[46px] 2xl:text-[52px] font-extrabold text-[#0c3746] leading-[1.25] tracking-tight">
               How support is{" "}
               <span className="relative inline-block">
                 planned

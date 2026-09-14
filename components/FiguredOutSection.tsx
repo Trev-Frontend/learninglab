@@ -3,80 +3,107 @@ import Image from "next/image";
 import { Check } from "lucide-react";
 
 export default function FiguredOutSection() {
-  const leftColumnPoints = [
-    "Delayed speech or difficulty expressing needs",
-    "Sensory sensitivities, overload or difficulty regulating",
-    "Difficulty sitting, focusing or following instructions",
-    "Delays in play, independence, social interaction or everyday skills",
-    "Concerns related to ASD, ADHD or global developmental delay",
-  ];
-
-  const rightColumnPoints = [
-    "Frequent tantrums, refusal, aggression or emotional outbursts",
-    "Repetitive behaviour or stimming that is affecting daily routines",
-    "Challenges with reading, writing, communication or schoolwork",
-    "School admission or school-readiness concerns",
-    "Confusion about a diagnosis, assessment or the next step",
+  const checklistRows = [
+    {
+      left: "Delayed speech or difficulty expressing needs",
+      right: "Frequent tantrums, refusal, aggression or emotional outbursts",
+    },
+    {
+      left: "Sensory sensitivities, overload or difficulty regulating",
+      right: "Repetitive behaviour or stimming that is affecting daily routines",
+    },
+    {
+      left: "Difficulty sitting, focusing or following instructions",
+      right: "Challenges with reading, writing, communication or schoolwork",
+    },
+    {
+      left: "Delays in play, independence, social interaction or everyday skills",
+      right: "Concerns related to ASD, ADHD or global developmental delay",
+    },
+    {
+      left: "School admission or school-readiness concerns",
+      right: "Confusion about a diagnosis, assessment or the next step",
+    },
   ];
 
   return (
-    <section className="relative w-full bg-white py-10 sm:py-12 lg:py-14 overflow-hidden">
+    <section className="relative w-full bg-white py-12 sm:py-14 lg:py-16 overflow-hidden">
       <div className="max-w-[1240px] xl:max-w-[1360px] 2xl:max-w-[1480px] mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="grid grid-cols-1 lg:grid-cols-[340px_minmax(0,1fr)] xl:grid-cols-[380px_minmax(0,1fr)] gap-8 lg:gap-x-16 xl:gap-x-20 items-center">
+        <div className="grid grid-cols-1 lg:grid-cols-[380px_minmax(0,1fr)] xl:grid-cols-[430px_minmax(0,1fr)] gap-10 lg:gap-x-14 xl:gap-x-18 items-center">
           
-          {/* Left Column: Boy Photo, Badge & Doodles */}
+          {/* Left Column: Girl Photo with Orange Blob Backdrop, Badges & Doodles */}
           <div className="relative flex justify-center lg:justify-start items-center">
-            <div className="relative w-full max-w-[380px] sm:max-w-[420px] lg:max-w-[340px] xl:max-w-[380px]">
+            <div className="relative w-full max-w-[340px] sm:max-w-[380px] lg:max-w-[370px] xl:max-w-[410px]">
               
-              {/* Shining Lightbulb Doodle */}
-              <div className="absolute right-[6%] -top-[5%] w-[48px] sm:w-[58px] z-20 pointer-events-none animate-pulse-subtle">
+              {/* Organic Golden-Orange Blob Shape Behind the Girl */}
+              <div className="absolute inset-0 -left-4 -right-4 -top-3 -bottom-2 -z-10 flex items-center justify-center pointer-events-none">
+                <svg
+                  viewBox="0 0 380 460"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                  className="w-full h-full drop-shadow-xs"
+                >
+                  <path
+                    d="M 55 420 
+                       C 15 350, 10 200, 48 135 
+                       C 82 65, 155 12, 235 28 
+                       C 315 44, 355 120, 355 220 
+                       C 355 320, 320 405, 250 430 
+                       C 180 450, 95 450, 55 420 Z"
+                    fill="#f7a41d"
+                  />
+                </svg>
+              </div>
+
+              {/* Shining Lightbulb Doodle (Upper Right of Girl) */}
+              <div className="absolute right-[4%] -top-[4%] sm:-top-[6%] w-[46px] sm:w-[54px] z-20 pointer-events-none animate-pulse-subtle">
                 <Image
                   src="/images/e73f5f1daa0ba93b33aa76ea2a4843fa2391a2e7.png"
                   alt="Lightbulb Doodle"
                   width={65}
                   height={85}
-                  className="w-full h-auto"
+                  className="w-full h-auto drop-shadow-xs"
                 />
               </div>
 
-              {/* Smiling Sun Doodle */}
-              <div className="absolute left-1 sm:-left-[10%] lg:-left-[20%] bottom-[11%] w-[52px] sm:w-[68px] z-20 pointer-events-none animate-float">
+              {/* Smiling Sun Doodle (Lower Left) */}
+              <div className="absolute -left-6 sm:-left-8 lg:-left-10 bottom-[18%] sm:bottom-[20%] w-[58px] sm:w-[70px] z-20 pointer-events-none animate-float">
                 <Image
                   src="/images/097e754c18f0ef0ee95022e3eaa2c5b6cd6e1f7f.png"
                   alt="Smiling Sun Doodle"
                   width={75}
                   height={75}
-                  className="w-full h-auto"
+                  className="w-full h-auto drop-shadow-xs"
                 />
               </div>
 
-              {/* Main Photo of Boy with Backpack */}
-              <div className="relative w-full aspect-[400/540]">
+              {/* Main Photo of Girl with Floral Backpack from /newimages/ */}
+              <div className="relative w-full aspect-[360/490]">
                 <Image
-                  src="/images/331c70886aafe2423f0038664473c101726efda2.png"
-                  alt="Smiling boy with glasses and orange backpack"
+                  src="/newimages/dffa6bcd1e89e4ef6a61b2c15133d19a1e024d39.png"
+                  alt="Young student with floral backpack smiling over her shoulder"
                   fill
                   sizes="(max-width: 1024px) 100vw, 38vw"
-                  className="object-contain object-center filter drop-shadow-sm"
+                  className="object-contain object-bottom filter drop-shadow-sm relative z-10"
                   priority
                 />
               </div>
 
-              {/* 38+ Experience Badge */}
-              <div className="absolute right-[-2%] bottom-[12%] w-[115px] sm:w-[135px] aspect-[1/1] z-20 flex items-center justify-center pointer-events-none drop-shadow-md">
+              {/* 38+ Experience Badge (Lower Right, overlapping backpack) */}
+              <div className="absolute -right-3 sm:-right-5 bottom-[16%] sm:bottom-[18%] w-[110px] sm:w-[130px] aspect-[1/1] z-20 flex items-center justify-center pointer-events-none drop-shadow-md">
                 <div className="relative w-full h-full">
                   <Image
                     src="/images/e6073202e0325e1758f0ad1a4d4c6c5d9482f279.png"
                     alt="38+ Experience Badge"
                     fill
-                    sizes="135px"
+                    sizes="130px"
                     className="object-contain"
                   />
                   <div className="absolute inset-0 flex flex-col items-center justify-center text-center text-white pb-2 pr-1 select-none">
                     <span className="text-[24px] sm:text-[28px] font-black tracking-tight leading-none">
                       38+
                     </span>
-                    <span className="text-[10px] sm:text-[11.5px] font-semibold tracking-wide text-white/95 mt-0.5">
+                    <span className="text-[10.5px] sm:text-[12px] font-semibold tracking-wide text-white/95 mt-0.5">
                       Experience
                     </span>
                   </div>
@@ -89,20 +116,20 @@ export default function FiguredOutSection() {
           {/* Right Column: Heading, Paragraphs & 2-Column Checklist */}
           <div className="relative z-10">
             
-            {/* Main Headline in 2 clean rows with curved brush underline */}
-            <h2 className="text-[24px] sm:text-[28px] lg:text-[36px] xl:text-[44px] 2xl:text-[50px] font-extrabold text-[#0c3746] leading-[1.2] tracking-tight">
-              You do not need to have<br className="hidden sm:inline" />{" "}
+            {/* Main Headline: Row 1 "You do not need to have everything", Row 2 "figured out." */}
+            <h2 className="text-[26px] sm:text-[32px] lg:text-[38px] xl:text-[46px] 2xl:text-[52px] font-extrabold text-[#0c3746] leading-[1.18] tracking-tight">
+              You do not need to have everything<br className="hidden sm:inline" />{" "}
               <span className="relative inline-block">
-                everything figured out.
+                figured out.
                 {/* Hand-drawn Orange underline brush */}
                 <svg
                   className="absolute left-0 -bottom-1.5 sm:-bottom-2 w-full h-2.5 overflow-visible pointer-events-none"
-                  viewBox="0 0 320 12"
+                  viewBox="0 0 170 12"
                   fill="none"
                   xmlns="http://www.w3.org/2000/svg"
                 >
                   <path
-                    d="M 2 7 C 100 12, 230 12, 318 5"
+                    d="M 2 7 C 50 12, 120 12, 168 5"
                     stroke="#f15b2a"
                     strokeWidth="4.5"
                     strokeLinecap="round"
@@ -112,7 +139,7 @@ export default function FiguredOutSection() {
             </h2>
 
             {/* Introductory copy */}
-            <div className="font-figma-copy mt-4 space-y-2.5 text-[14px] sm:text-[15px] lg:text-[16px] xl:text-[18px] 2xl:text-[20px] text-[#3b4e57] leading-[1.65] font-medium max-w-[680px]">
+            <div className="mt-4 sm:mt-5 space-y-2.5 text-[14px] sm:text-[15px] lg:text-[16px] xl:text-[17.5px] 2xl:text-[19px] text-[#3b4e57] leading-[1.65] font-normal max-w-[680px]">
               <p>
                 Parents often contact us after receiving different opinions from relatives,
                 schools, professionals or the internet. You may have been told to wait,
@@ -127,51 +154,45 @@ export default function FiguredOutSection() {
 
             {/* Checklist Section */}
             <div className="mt-6 sm:mt-7 relative">
-              <h3 className="font-figma-heading text-[14px] sm:text-[15.5px] lg:text-[17px] xl:text-[19px] 2xl:text-[20.5px] font-extrabold text-[#0c3746] mb-4 sm:mb-4.5 tracking-tight">
+              <h3 className="text-[14.5px] sm:text-[16px] lg:text-[17.5px] xl:text-[19.5px] font-bold text-[#0c3746] mb-4 sm:mb-4.5 tracking-tight">
                 You may be here because your child is experiencing:
               </h3>
 
-              {/* 2-Column Grid of Checkpoints */}
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-x-6 lg:gap-x-8 gap-y-3 sm:gap-y-3.5">
-                
-                {/* Column 1 */}
-                <div className="space-y-3 sm:space-y-3.5">
-                  {leftColumnPoints.map((item, idx) => (
-                    <div key={idx} className="flex items-start gap-3 sm:gap-3.5 group">
-                      <div className="flex-shrink-0 w-4.5 h-4.5 rounded-full bg-[#584a93] text-white flex items-center justify-center mt-0.5 shadow-2xs">
-                        <Check className="w-3 h-3 stroke-[2.8]" />
+              {/* 2-Column Grid of Checkpoints - Row-by-Row Aligned */}
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-x-6 lg:gap-x-8 gap-y-3.5 sm:gap-y-4">
+                {checklistRows.map((row, idx) => (
+                  <React.Fragment key={idx}>
+                    {/* Left Point */}
+                    <div className="flex items-start gap-3 sm:gap-3.5">
+                      <div className="flex-shrink-0 w-4.5 h-4.5 rounded-full bg-[#5b4bbb] text-white flex items-center justify-center mt-0.5 shadow-2xs">
+                        <Check className="w-3 h-3 stroke-[3]" />
                       </div>
-                      <span className="font-figma-copy text-[12.5px] sm:text-[13.5px] lg:text-[14.5px] xl:text-[16.5px] 2xl:text-[18px] text-[#2c3e47] font-semibold leading-[1.48]">
-                        {item}
+                      <span className="text-[12.5px] sm:text-[13.5px] lg:text-[14.5px] xl:text-[16px] text-[#334650] font-medium leading-[1.48]">
+                        {row.left}
                       </span>
                     </div>
-                  ))}
-                </div>
 
-                {/* Column 2 */}
-                <div className="space-y-3 sm:space-y-3.5">
-                  {rightColumnPoints.map((item, idx) => (
-                    <div key={idx} className="flex items-start gap-3 sm:gap-3.5 group">
-                      <div className="flex-shrink-0 w-4.5 h-4.5 rounded-full bg-[#584a93] text-white flex items-center justify-center mt-0.5 shadow-2xs">
-                        <Check className="w-3 h-3 stroke-[2.8]" />
+                    {/* Right Point */}
+                    <div className="flex items-start gap-3 sm:gap-3.5">
+                      <div className="flex-shrink-0 w-4.5 h-4.5 rounded-full bg-[#5b4bbb] text-white flex items-center justify-center mt-0.5 shadow-2xs">
+                        <Check className="w-3 h-3 stroke-[3]" />
                       </div>
-                      <span className="font-figma-copy text-[12.5px] sm:text-[13.5px] lg:text-[14.5px] xl:text-[16.5px] 2xl:text-[18px] text-[#2c3e47] font-semibold leading-[1.48]">
-                        {item}
+                      <span className="text-[12.5px] sm:text-[13.5px] lg:text-[14.5px] xl:text-[16px] text-[#334650] font-medium leading-[1.48]">
+                        {row.right}
                       </span>
                     </div>
-                  ))}
-                </div>
-
+                  </React.Fragment>
+                ))}
               </div>
 
-              {/* Lightning Bolt Doodle */}
-              <div className="absolute right-0 top-full mt-2 w-[26px] sm:w-[30px] pointer-events-none z-20 rotate-6 animate-pulse-subtle">
+              {/* Lightning Bolt Doodle (Bottom Right Corner) */}
+              <div className="absolute right-0 top-full mt-2 w-[24px] sm:w-[28px] pointer-events-none z-20 rotate-6 animate-pulse-subtle">
                 <Image
                   src="/images/a2a71a253dbb9da8c3c7069bb0f7fc05945bc49d.png"
                   alt="Lightning Bolt Doodle"
                   width={40}
                   height={80}
-                  className="w-full h-auto"
+                  className="w-full h-auto drop-shadow-xs"
                 />
               </div>
 

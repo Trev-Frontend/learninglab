@@ -10,7 +10,8 @@ export default function ServicesGridSection() {
       title: "Behavioural Therapy",
       description:
         "Support for tantrums, refusal, emotional regulation, routines, communication, social participation and everyday behaviour.",
-      image: "/images/64cc31d70620c84412a1e2938e293e28e672fa75.jpg",
+      image: "/newimages/service1.png",
+      objectPosition: "center 75%",
     },
     {
       id: 2,
@@ -18,7 +19,8 @@ export default function ServicesGridSection() {
       title: "ABA Therapy",
       description:
         "Structured, goal-based intervention using evidence-based teaching strategies and ongoing data to build functional skills.",
-      image: "/images/07f24b07c4f12c733912ddd2cc9c59a31253f30d.jpg",
+      image: "/newimages/service3.png",
+      objectPosition: "center 60%",
     },
     {
       id: 3,
@@ -26,7 +28,8 @@ export default function ServicesGridSection() {
       title: "Speech Therapy",
       description:
         "Support for speech development, language understanding, expression, communication and social interaction.",
-      image: "/images/5400922f336eb9b1867b861c1c320672809f2492.jpg",
+      image: "/newimages/service2.png",
+      objectPosition: "center 50%",
     },
     {
       id: 4,
@@ -34,7 +37,8 @@ export default function ServicesGridSection() {
       title: "Occupational Therapy",
       description:
         "Support for sensory processing, movement, fine motor skills, handwriting, self-care, regulation and independence.",
-      image: "/images/cc96c9e4b77ac942ded12448b5960f78d2622ab5.jpg",
+      image: "/newimages/service4.png",
+      objectPosition: "center 45%",
     },
     {
       id: 5,
@@ -42,7 +46,8 @@ export default function ServicesGridSection() {
       title: "Remedial Support & Therapy",
       description:
         "Individualised academic support for reading, writing, numeracy, comprehension and learning gaps.",
-      image: "/images/8f91b3d527ffa5ef8c84e538e217d2c86c08df18.jpg",
+      image: "/newimages/service5.png",
+      objectPosition: "center 45%",
     },
     {
       id: 6,
@@ -50,7 +55,8 @@ export default function ServicesGridSection() {
       title: "School Readiness",
       description:
         "Preparation for classroom routines, communication, attention, social participation and early academic learning.",
-      image: "/images/91b3ac3538c5226eaaa0e2755d957b4eab38f81f.jpg",
+      image: "/newimages/service7.png",
+      objectPosition: "center 65%",
     },
     {
       id: 7,
@@ -58,7 +64,8 @@ export default function ServicesGridSection() {
       title: "Early Intervention",
       description:
         "Timely support for younger children showing emerging developmental, communication, behavioural or sensory concerns.",
-      image: "/images/061058ce938785f7f2a1d1ae3e221d374e4954ea.jpg",
+      image: "/newimages/service6.png",
+      objectPosition: "center center",
     },
     {
       id: 8,
@@ -66,7 +73,8 @@ export default function ServicesGridSection() {
       title: "Assessments",
       description:
         "Formal and informal assessment for psychological, developmental, speech, sensory, academic and cognitive concerns.",
-      image: "/images/452c101bdf2446c0b1317faf868439d37d4c766c.jpg",
+      image: "/newimages/service8.png",
+      objectPosition: "center 40%",
     },
     {
       id: 9,
@@ -74,7 +82,8 @@ export default function ServicesGridSection() {
       title: "Enrichment Programmes",
       description:
         "Music, reading, arts and crafts, crochet, culinary and other purposeful programmes open to all children.",
-      image: "/images/d02e445d1f6d1f0d2bd0bc1b7bdfd8a232908a77.jpg",
+      image: "/newimages/service9.jpg",
+      objectPosition: "center center",
     },
   ];
 
@@ -91,12 +100,13 @@ export default function ServicesGridSection() {
               className="bg-[#f7fae2] rounded-[28px] sm:rounded-[32px] p-5 sm:p-6 lg:p-7 flex flex-col transition-transform duration-300 hover:-translate-y-1 hover:shadow-md group cursor-pointer"
             >
               {/* Card Image Frame */}
-              <div className="relative w-full aspect-[4/2.7] rounded-[20px] overflow-hidden shadow-xs mb-5">
+              <div className="relative w-full aspect-[4/2.7] rounded-[20px] overflow-hidden shadow-xs mb-5 bg-[#e8eed0]">
                 <Image
                   src={service.image}
                   alt={service.title}
                   fill
                   sizes="(max-width: 768px) 100vw, 380px"
+                  style={{ objectPosition: service.objectPosition }}
                   className="object-cover group-hover:scale-105 transition-transform duration-500"
                 />
               </div>

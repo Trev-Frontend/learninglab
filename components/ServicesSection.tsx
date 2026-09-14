@@ -9,66 +9,67 @@ export default function ServicesSection() {
       title: "Behavioral Therapy",
       description:
         "Practical support for behaviour, routines, communication, emotional regulation and everyday participation.",
-      image: "/images/0dd514193e0e2ede6e8dbf530e38f7bee6600173.jpg",
-      isHighlighted: false,
+      image: "/newimages/39c1297226695860583f7da705ea5af372ed0f8c.png",
       bgColor: "bg-white",
       textColor: "text-[#0c3746]",
       descColor: "text-[#566e7a]",
-      tags: ["Behavior", "Communication", "Routines"],
+      tags: ["Behavior", "Communication", "Daily Routines"],
       tagBg: "bg-[#fff1eb] text-[#e05324]",
-      dividerBorder: "border-[#f0ece9]",
+      dashedBorder: "border-[#f15b2a]/30",
     },
     {
       title: "Speech Therapy",
       description:
         "Support for understanding language, expressing needs, speech development and social communication.",
-      image: "/images/c748fb700e005d98ac4af35f1ba41f9a00b2d378.jpg",
-      isHighlighted: true,
+      image: "/newimages/2cdb5553d1a208fae7baf731f10e1638985d5ee6.png",
       bgColor: "bg-[#fae738]",
       textColor: "text-[#0c3746]",
       descColor: "text-[#284350]",
       tags: ["Speech", "Language", "Understanding"],
       tagBg: "bg-[#eedb2c] text-[#0c3746]",
-      dividerBorder: "border-[#edd820]",
+      dashedBorder: "border-black/20",
     },
     {
       title: "Remedial Support & Therapy",
       description:
         "Individualised academic support that strengthens foundational skills and responds to how the child learns.",
-      image: "/images/0a64b02b2a7e5f81b9d4fe2e4549797b672ccf4f.jpg",
-      isHighlighted: false,
+      image: "/newimages/99e474553615adac6f65e17d00d7eb1f6c216bff.png",
       bgColor: "bg-white",
       textColor: "text-[#0c3746]",
       descColor: "text-[#566e7a]",
-      tags: ["Support", "Foundational Skill", "Learning"],
+      tags: ["Support", "Foundational Skill", "Child Learn"],
       tagBg: "bg-[#fff1eb] text-[#e05324]",
-      dividerBorder: "border-[#f0ece9]",
+      dashedBorder: "border-[#f15b2a]/30",
     },
   ];
 
   return (
-    <section id="services" className="relative w-full bg-[#5b4bbb] text-white pt-6 pb-14 sm:pb-16 lg:pb-20 overflow-hidden">
+    <section id="services" className="relative w-full bg-[#5b4bbb] text-white pt-0 pb-14 sm:pb-16 lg:pb-20 overflow-hidden">
       
-      {/* Top Scallop Wave from White Section to Purple Section */}
-      <div className="w-full overflow-hidden leading-none z-10 hidden -mt-7 sm:-mt-8 mb-6 sm:mb-8 pointer-events-none select-none">
+      {/* Top Scallop Wave from White Section into Purple Section (Matching Figma Screenshot) */}
+      <div className="w-full overflow-hidden leading-none z-10 block pointer-events-none select-none -mt-px mb-6 sm:mb-8">
         <svg
-          viewBox="0 0 1440 32"
+          viewBox="0 0 1440 28"
           fill="none"
           xmlns="http://www.w3.org/2000/svg"
           preserveAspectRatio="none"
           shapeRendering="geometricPrecision"
-          className="w-full h-5 sm:h-7 md:h-8 fill-white"
+          className="w-full h-4 sm:h-5 md:h-6 fill-white block"
         >
-          <path d="M0,0 
-            C 60,30 120,30 180,0 
-            C 240,30 300,30 360,0 
-            C 420,30 480,30 540,0 
-            C 600,30 660,30 720,0 
-            C 780,30 840,30 900,0 
-            C 960,30 1020,30 1080,0 
-            C 1140,30 1200,30 1260,0 
-            C 1320,30 1380,30 1440,0 
-            L1440,0 L0,0 Z" />
+          <path d="M 0,0 
+            L 1440,0 
+            L 1440,0 
+            C 1395,22 1335,22 1290,0 
+            C 1245,22 1185,22 1140,0 
+            C 1095,22 1035,22 990,0 
+            C 945,22 885,22 840,0 
+            C 795,22 735,22 690,0 
+            C 645,22 585,22 540,0 
+            C 495,22 435,22 390,0 
+            C 345,22 285,22 240,0 
+            C 195,22 135,22 90,0 
+            C 60,15 30,15 0,0 
+            Z" />
         </svg>
       </div>
 
@@ -97,8 +98,8 @@ export default function ServicesSection() {
           />
         </div>
 
-        {/* Star (Top Left Header Area - Pulsing) */}
-        <div className="absolute left-[3%] sm:left-[6%] top-[12%] sm:top-[8%] w-[34px] sm:w-[42px] pointer-events-none z-20 animate-pulse-subtle">
+        {/* Yellow Star Doodle (Bottom Left Area - Pulsing) */}
+        <div className="absolute -left-1 sm:left-[2%] bottom-[12%] sm:bottom-[15%] w-[32px] sm:w-[40px] pointer-events-none z-20 animate-pulse-subtle">
           <Image
             src="/images/be42050e723a90220a193b7157b26b96bcadfcfc.png"
             alt="Star Doodle"
@@ -108,8 +109,8 @@ export default function ServicesSection() {
           />
         </div>
 
-        {/* Paper Airplane (Bottom Right - Subtle Float) */}
-        <div className="absolute -right-2 sm:right-[1%] bottom-[4%] sm:bottom-[8%] w-[60px] sm:w-[80px] pointer-events-none opacity-80 z-10 animate-float-subtle">
+        {/* Paper Airplane (Bottom Right - Subtle Float with Trail) */}
+        <div className="absolute -right-2 sm:right-[1%] bottom-[4%] sm:bottom-[8%] w-[68px] sm:w-[88px] pointer-events-none opacity-80 z-10 animate-float-subtle">
           <Image
             src="/images/eafa199f841323b88e5690e54e8a5adc0652f40f.png"
             alt="Paper Airplane Doodle"
@@ -143,7 +144,7 @@ export default function ServicesSection() {
             </span>
           </h2>
 
-          <div className="mt-4 sm:mt-5 space-y-1.5 text-[14.5px] sm:text-[16px] lg:text-[18px] xl:text-[20px] 2xl:text-[21.5px] text-white leading-[1.65] max-w-[840px] mx-auto font-bold">
+          <div className="mt-4 sm:mt-5 space-y-1.5 text-[14px] sm:text-[15px] lg:text-[16.5px] xl:text-[18px] 2xl:text-[19.5px] text-white/95 leading-[1.65] max-w-[840px] mx-auto font-medium">
             <p>
               Some children need therapy. Some need help with learning, school participation, communication, regulation or confidence.
             </p>
@@ -156,7 +157,7 @@ export default function ServicesSection() {
         {/* Carousel & Cards Section with comfortable space for arrows */}
         <div className="mt-10 sm:mt-12 relative z-20 px-0 sm:px-12 md:px-14">
           
-          {/* Navigation Arrows (Hidden on small mobile screens) */}
+          {/* Navigation Arrows */}
           <button
             aria-label="Previous service"
             className="hidden sm:flex absolute left-0 sm:left-1 top-1/2 -translate-y-1/2 w-9 h-9 sm:w-10 sm:h-10 rounded-full bg-white/20 hover:bg-white/30 text-white items-center justify-center backdrop-blur-xs transition-all z-30 shadow-md cursor-pointer"
@@ -191,23 +192,23 @@ export default function ServicesSection() {
                   </div>
 
                   {/* Title */}
-                  <h3 className={`text-[18px] sm:text-[19.5px] lg:text-[21px] xl:text-[23px] 2xl:text-[25px] font-extrabold ${service.textColor} mb-2 tracking-tight leading-snug`}>
+                  <h3 className={`text-[18px] sm:text-[19.5px] lg:text-[21px] xl:text-[23px] font-extrabold ${service.textColor} mb-2 tracking-tight leading-snug`}>
                     {service.title}
                   </h3>
 
                   {/* Description */}
-                  <p className={`text-[13.5px] sm:text-[14.5px] lg:text-[15.5px] xl:text-[17px] 2xl:text-[18px] ${service.descColor} leading-[1.58] font-bold`}>
+                  <p className={`text-[13px] sm:text-[14px] lg:text-[14.5px] xl:text-[15.5px] ${service.descColor} leading-[1.58] font-medium`}>
                     {service.description}
                   </p>
                 </div>
 
                 {/* Dashed Separator & Tags */}
-                <div className="mt-4 pt-3.5 border-t border-dashed border-black/10">
+                <div className={`mt-5 pt-3.5 border-t border-dashed ${service.dashedBorder}`}>
                   <div className="flex flex-wrap gap-1.5 sm:gap-2">
                     {service.tags.map((tag, tIdx) => (
                       <span
                         key={tIdx}
-                        className={`${service.tagBg} px-2.5 sm:px-3 py-1 rounded-full text-[11px] sm:text-[12px] lg:text-[12.5px] xl:text-[13.5px] font-bold tracking-tight whitespace-nowrap`}
+                        className={`${service.tagBg} px-2.5 sm:px-3 py-1 rounded-full text-[11px] sm:text-[12px] font-bold tracking-tight whitespace-nowrap`}
                       >
                         {tag}
                       </span>

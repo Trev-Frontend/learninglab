@@ -22,7 +22,7 @@ export default function EnrichmentProgrammesContentSection() {
               {/* Main Image Blob */}
               <div className="relative w-full h-full rounded-[52%_48%_68%_32%/45%_55%_45%_55%] overflow-hidden border-4 border-white shadow-lg">
                 <Image
-                  src="/images/enrichment1.jpg"
+                  src="/newimages/enrichement1.jpg"
                   alt="Child forming geometric shapes with rubber bands on wooden peg geoboard"
                   fill
                   sizes="(max-width: 1024px) 100vw, 520px"
@@ -167,7 +167,7 @@ export default function EnrichmentProgrammesContentSection() {
               {/* Main Image Blob */}
               <div className="relative w-full h-full rounded-[48%_52%_35%_65%/55%_42%_58%_45%] overflow-hidden border-4 border-white shadow-lg">
                 <Image
-                  src="/images/enrichment2.jpg"
+                  src="/newimages/enrichement2.png"
                   alt="Young Asian girl smiling through wooden wire bead maze toy"
                   fill
                   sizes="(max-width: 1024px) 100vw, 520px"
@@ -195,7 +195,7 @@ export default function EnrichmentProgrammesContentSection() {
               {/* Main Image Blob */}
               <div className="relative w-full h-full rounded-[65%_35%_55%_45%/45%_60%_40%_55%] overflow-hidden border-4 border-white shadow-lg">
                 <Image
-                  src="/images/enrichment3.jpg"
+                  src="/newimages/enrichement3.jpg"
                   alt="Two young boys building tall tower out of yellow plastic cups"
                   fill
                   sizes="(max-width: 1024px) 100vw, 520px"

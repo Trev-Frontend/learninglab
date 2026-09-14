@@ -22,7 +22,7 @@ export default function ParentSupportContentSection() {
               {/* Main Image Blob */}
               <div className="relative w-full h-full rounded-[52%_48%_68%_32%/45%_55%_45%_55%] overflow-hidden border-4 border-white shadow-lg">
                 <Image
-                  src="/images/60c06e490f30fd1346bb5f104e5f7c9eba18104c.jpg"
+                  src="/newimages/parent1.png"
                   alt="Mother and daughter in consultation with Learning Lab therapist"
                   fill
                   sizes="(max-width: 1024px) 100vw, 520px"
@@ -173,7 +173,7 @@ export default function ParentSupportContentSection() {
               {/* Main Image Blob */}
               <div className="relative w-full h-full rounded-[48%_52%_35%_65%/55%_42%_58%_45%] overflow-hidden border-4 border-white shadow-lg">
                 <Image
-                  src="/images/4766d132858346d210bac9f49bb197da05ad063f.jpg"
+                  src="/newimages/parent2.png"
                   alt="Mother observing child during play therapy session with wooden blocks"
                   fill
                   sizes="(max-width: 1024px) 100vw, 520px"
@@ -201,7 +201,7 @@ export default function ParentSupportContentSection() {
               {/* Main Image Blob */}
               <div className="relative w-full h-full rounded-[65%_35%_55%_45%/45%_60%_40%_55%] overflow-hidden border-4 border-white shadow-lg">
                 <Image
-                  src="/images/ed53fde0d0338f4f16313eac36c715e3453e0b44.jpg"
+                  src="/newimages/parent3.png"
                   alt="Mother and daughter playing together happily at home with wooden blocks"
                   fill
                   sizes="(max-width: 1024px) 100vw, 520px"

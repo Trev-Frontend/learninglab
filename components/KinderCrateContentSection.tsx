@@ -22,7 +22,7 @@ export default function KinderCrateContentSection() {
               {/* Main Image Blob */}
               <div className="relative w-full h-full rounded-[52%_48%_68%_32%/45%_55%_45%_55%] overflow-hidden border-4 border-white shadow-lg">
                 <Image
-                  src="/images/kindercrate1.jpg"
+                  src="/newimages/kinder1.jpg"
                   alt="Child interacting with learning activity guided by teacher"
                   fill
                   sizes="(max-width: 1024px) 100vw, 520px"
@@ -157,7 +157,7 @@ export default function KinderCrateContentSection() {
               {/* Main Image Blob */}
               <div className="relative w-full h-full rounded-[48%_52%_35%_65%/55%_42%_58%_45%] overflow-hidden border-4 border-white shadow-lg">
                 <Image
-                  src="/images/kindercrate2.jpg"
+                  src="/newimages/kinder2.png"
                   alt="Colorful educational wooden toys, stacking pyramids and activity packs"
                   fill
                   sizes="(max-width: 1024px) 100vw, 460px"

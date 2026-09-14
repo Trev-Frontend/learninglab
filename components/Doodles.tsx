@@ -70,39 +70,38 @@ export function ScribbleDoodle({ className = "" }: { className?: string }) {
 }
 
 export function TopBarWave({
-  color = "#654fe6",
-  bottomColor = "#f5f8df",
+  color = "#f5f8df",
 }: {
   color?: string;
   bottomColor?: string;
 }) {
   return (
-    <div
-      className="relative w-full overflow-hidden leading-none z-20 hidden -mt-px -mb-px"
-      style={{ backgroundColor: bottomColor }}
-    >
+    <div className="relative w-full overflow-hidden leading-none z-20 block pointer-events-none -mb-1">
       <svg
-        viewBox="-10 -2 1460 30"
+        viewBox="0 0 1440 28"
         fill="none"
         xmlns="http://www.w3.org/2000/svg"
         preserveAspectRatio="none"
         shapeRendering="geometricPrecision"
-        className="w-full h-3 sm:h-3.5 md:h-4 block -mt-px"
-        style={{ color, fill: "currentColor" }}
+        className="w-full h-3 sm:h-4 md:h-5 block"
       >
-        <path d="M-10,-2 
-          L1470,-2 
-          L1470,0 
-          C 1445,15 1430,0 1430,0
-          C 1370,26 1310,26 1250,0 
-          C 1190,26 1130,26 1070,0 
-          C 1010,26 950,26 890,0 
-          C 830,26 770,26 710,0 
-          C 650,26 590,26 530,0 
-          C 470,26 410,26 350,0 
-          C 290,26 230,26 170,0 
-          C 110,26 50,26 -10,0 
-          Z" />
+        <path
+          d="M 0,0 
+             C 36,20 108,20 144,0 
+             C 180,20 252,20 288,0 
+             C 324,20 396,20 432,0 
+             C 468,20 540,20 576,0 
+             C 612,20 684,20 720,0 
+             C 756,20 828,20 864,0 
+             C 900,20 972,20 1008,0 
+             C 1044,20 1116,20 1152,0 
+             C 1188,20 1260,20 1296,0 
+             C 1332,20 1404,20 1440,0 
+             L 1440,30 
+             L 0,30 
+             Z"
+          fill={color}
+        />
       </svg>
     </div>
   );
