@@ -31,7 +31,7 @@ export default function AboutPage() {
       title: "Our Approach",
       image: "/images/824ba16d6b08a37885eac2b71ef9e1b8f39d488b.jpg",
       description:
-        "No single method suits every child. Our team combines clinical observation, assessment findings, evidence-based practice, play-based learning, ABA principles where appropriate, EYFS guidance and academic milestones to create meaningful goals.",
+        " Our team combines clinical observation, assessment findings, evidence-based practice, play-based learning, ABA principles where appropriate, EYFS guidance and academic milestones to create meaningful goals.",
       bgAccent: "from-[#8c6eff] to-[#6543ed]",
     },
   ];

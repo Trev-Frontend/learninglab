@@ -2,6 +2,7 @@ import React from "react";
 import Image from "next/image";
 
 export default function BehaviouralTherapyContentSection() {
+  
   return (
     <section className="relative w-full bg-white py-12 sm:py-16 lg:py-20 overflow-hidden">
       <div className="max-w-[1240px] xl:max-w-[1360px] 2xl:max-w-[1480px] mx-auto px-4 sm:px-6 lg:px-8 space-y-16 sm:space-y-20 lg:space-y-24">
@@ -36,7 +37,7 @@ export default function BehaviouralTherapyContentSection() {
           <div className="lg:col-span-6 flex flex-col justify-center">
             
             {/* Headline */}
-            <h2 className="text-[20px] sm:text-[26px] lg:text-[34px] xl:text-[42px] 2xl:text-[48px] font-extrabold text-[#0c3746] leading-[1.25] tracking-tight">
+            <h2 className="text-[24px] sm:text-[30px] lg:text-[34px] xl:text-[42px] 2xl:text-[48px] font-extrabold text-[#0c3746] leading-[1.25] tracking-tight">
               This service may help when a child is<br />
               <span className="relative inline-block">
                 experiencing:
@@ -106,7 +107,7 @@ export default function BehaviouralTherapyContentSection() {
           <div className="lg:col-span-6 flex flex-col justify-center order-2 lg:order-1">
             
             {/* Headline */}
-            <h2 className="text-[21px] sm:text-[27px] lg:text-[38px] xl:text-[46px] 2xl:text-[52px] font-extrabold text-[#0c3746] leading-[1.25] tracking-tight">
+            <h2 className="text-[26px] sm:text-[30px] lg:text-[42px] xl:text-[50px] 2xl:text-[56px] font-extrabold text-[#0c3746] leading-[1.25] tracking-tight">
               Areas we may{" "}
               <span className="relative inline-block">
                 work on
@@ -214,7 +215,7 @@ export default function BehaviouralTherapyContentSection() {
           <div className="lg:col-span-6 flex flex-col justify-center">
             
             {/* Headline */}
-            <h2 className="text-[21px] sm:text-[27px] lg:text-[38px] xl:text-[46px] 2xl:text-[52px] font-extrabold text-[#0c3746] leading-[1.25] tracking-tight">
+            <h2 className="text-[26px] sm:text-[30px] lg:text-[42px] xl:text-[50px] 2xl:text-[56px] font-extrabold text-[#0c3746] leading-[1.25] tracking-tight">
               How support is{" "}
               <span className="relative inline-block">
                 planned

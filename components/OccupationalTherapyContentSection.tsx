@@ -22,7 +22,7 @@ export default function OccupationalTherapyContentSection() {
               {/* Main Image Blob */}
               <div className="relative w-full h-full rounded-[52%_48%_68%_32%/45%_55%_45%_55%] overflow-hidden border-4 border-white shadow-lg">
                 <Image
-                  src="/newimages/occupational1.jpg"
+                  src="/newimages/occupationa-image1.jpg"
                   alt="Young boy playing with shape sorter toy"
                   fill
                   sizes="(max-width: 1024px) 100vw, 520px"
@@ -196,7 +196,7 @@ export default function OccupationalTherapyContentSection() {
               {/* Main Image Blob */}
               <div className="relative w-full h-full rounded-[48%_52%_35%_65%/55%_42%_58%_45%] overflow-hidden border-4 border-white shadow-lg">
                 <Image
-                  src="/newimages/occupational2.jpg"
+                  src="/newimages/occupationa-image2.png"
                   alt="Child using wooden tongs to pick up colorful pom poms"
                   fill
                   sizes="(max-width: 1024px) 100vw, 520px"
@@ -224,7 +224,7 @@ export default function OccupationalTherapyContentSection() {
               {/* Main Image Blob */}
               <div className="relative w-full h-full rounded-[65%_35%_55%_45%/45%_60%_40%_55%] overflow-hidden border-4 border-white shadow-lg">
                 <Image
-                  src="/newimages/occupational3.jpg"
+                  src="/newimages/occupationa-image3.png"
                   alt="Child playing with wooden bead stacker on floor"
                   fill
                   sizes="(max-width: 1024px) 100vw, 520px"
